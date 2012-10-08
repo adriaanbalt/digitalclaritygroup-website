@@ -1,411 +1,77 @@
-/* ==========================================================================
-   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
-   ========================================================================== */
-/* line 9, ../sass/main.scss */
-html,
-button,
-input,
-select,
-textarea {
-  color: #222;
-}
+/*
+Syntax error: Undefined variable: "$gray".
+        on line 16 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss
 
-/* line 13, ../sass/main.scss */
-body {
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/* line 18, ../sass/main.scss */
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/* line 23, ../sass/main.scss */
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/* line 28, ../sass/main.scss */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/* line 37, ../sass/main.scss */
-img {
-  vertical-align: middle;
-}
-
-/* line 41, ../sass/main.scss */
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 47, ../sass/main.scss */
-textarea {
-  resize: vertical;
-}
-
-/* line 51, ../sass/main.scss */
-.chromeframe {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-/* line 63, ../sass/main.scss */
-body {
-  font: 16px/26px Helvetica, Helvetica Neue, Arial;
-}
-
-/* line 67, ../sass/main.scss */
-.wrapper {
-  width: 90%;
-  margin: 0 5%;
-}
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
-/* line 76, ../sass/main.scss */
-.header-container {
-  border-bottom: 20px solid #e44d26;
-  background: #fff;
-}
-
-/* line 82, ../sass/main.scss */
-.footer-container,
-.main aside {
-  border-top: 20px solid #e44d26;
-}
-
-/* line 91, ../sass/main.scss */
-.title {
-  background: url("../img/dcg-logo.jpg") 0 0 no-repeat;
-  width: 102px;
-  height: 102px;
-}
-
-/* ==============
-    MOBILE: Menu
-   ============== */
-/* line 101, ../sass/main.scss */
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 106, ../sass/main.scss */
-nav a {
-  display: block;
-  margin-bottom: 10px;
-  padding: 15px 0;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-  background: #e44d26;
-}
-
-/* line 120, ../sass/main.scss */
-nav a:hover,
-nav a:visited {
-  color: white;
-}
-
-/* line 124, ../sass/main.scss */
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* ==============
-    MOBILE: Main
-   ============== */
-/* line 132, ../sass/main.scss */
-.main {
-  padding: 30px 0;
-}
-
-/* line 136, ../sass/main.scss */
-.main article h1 {
-  font-size: 2em;
-}
-
-/* line 140, ../sass/main.scss */
-.main aside {
-  color: white;
-  padding: 0px 5% 10px;
-}
-
-/* line 145, ../sass/main.scss */
-.footer-container footer {
-  color: white;
-  padding: 20px 0;
-}
-
-/* ===============
-    ALL: IE Fixes
-   =============== */
-/* line 154, ../sass/main.scss */
-.ie7 .title {
-  padding-top: 20px;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-@media only screen and (min-width: 480px) {
-  /* ====================
-      INTERMEDIATE: Menu
-     ==================== */
-  /* line 186, ../sass/main.scss */
-  nav a {
-    float: left;
-    width: 27%;
-    margin: 0 1.7%;
-    padding: 25px 2%;
-    margin-bottom: 0;
-  }
-
-  /* line 194, ../sass/main.scss */
-  nav li:first-child a {
-    margin-left: 0;
-  }
-
-  /* line 198, ../sass/main.scss */
-  nav li:last-child a {
-    margin-right: 0;
-  }
-
-  /* ========================
-      INTERMEDIATE: IE Fixes
-     ======================== */
-  /* line 206, ../sass/main.scss */
-  nav ul li {
-    display: inline;
-  }
-
-  /* line 210, ../sass/main.scss */
-  .oldie nav a {
-    margin: 0 0.7%;
-  }
-}
-@media only screen and (min-width: 768px) {
-  /* ====================
-      WIDE: CSS3 Effects
-     ==================== */
-  /* line 222, ../sass/main.scss */
-  .header-container,
-  .main aside {
-    -webkit-box-shadow: 0 5px 10px #aaa;
-    -moz-box-shadow: 0 5px 10px #aaa;
-    box-shadow: 0 5px 10px #aaa;
-  }
-
-  /* ============
-      WIDE: Menu
-     ============ */
-  /* line 232, ../sass/main.scss */
-  .title {
-    float: left;
-  }
-
-  /* line 236, ../sass/main.scss */
-  nav {
-    float: right;
-    width: 38%;
-  }
-
-  /* ============
-      WIDE: Main
-     ============ */
-  /* line 245, ../sass/main.scss */
-  .main article {
-    float: left;
-    width: 57%;
-  }
-
-  /* line 250, ../sass/main.scss */
-  .main aside {
-    float: right;
-    width: 28%;
-  }
-}
-@media only screen and (min-width: 1140px) {
-  /* ===============
-      Maximal Width
-     =============== */
-  /* line 262, ../sass/main.scss */
-  .wrapper {
-    width: 1026px;
-    /* 1140px - 10% for margins */
-    margin: 0 auto;
-  }
-}
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-/* line 272, ../sass/main.scss */
-.ir {
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  *text-indent: -9999px;
-}
-
-/* line 279, ../sass/main.scss */
-.ir:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 100%;
-}
-
-/* line 286, ../sass/main.scss */
-.hidden {
-  display: none !important;
-  visibility: hidden;
-}
-
-/* line 291, ../sass/main.scss */
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-/* line 303, ../sass/main.scss */
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-}
-
-/* line 312, ../sass/main.scss */
-.invisible {
-  visibility: hidden;
-}
-
-/* line 317, ../sass/main.scss */
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-/* line 322, ../sass/main.scss */
-.clearfix:after {
-  clear: both;
-}
-
-/* line 326, ../sass/main.scss */
-.clearfix {
-  *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-@media print {
-  /* line 335, ../sass/main.scss */
-  * {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster: h5bp.com/s */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  /* line 343, ../sass/main.scss */
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  /* line 347, ../sass/main.scss */
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-
-  /* line 351, ../sass/main.scss */
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-
-  /*
-   * Don't show links for images, or javascript/internal links
-   */
-  /* line 361, ../sass/main.scss */
-  .ir a:after,
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
-    content: "";
-  }
-
-  /* line 366, ../sass/main.scss */
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  /* line 371, ../sass/main.scss */
-  thead {
-    display: table-header-group;
-    /* h5bp.com/t */
-  }
-
-  /* line 376, ../sass/main.scss */
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  /* line 380, ../sass/main.scss */
-  img {
-    max-width: 100% !important;
-  }
-
-  @page {
-    margin: 0.5cm;
-}
-
-  /* line 390, ../sass/main.scss */
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  /* line 396, ../sass/main.scss */
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-}
+Backtrace:
+/Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss:16
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/script/variable.rb:49:in `_perform'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/script/node.rb:40:in `perform'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:216:in `visit_prop'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:238:in `visit_rule'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/root_node.rb:20:in `render'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/engine.rb:299:in `_render'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/engine.rb:246:in `render'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:126:in `timed'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:139:in `block in compile'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/logger.rb:45:in `red'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:138:in `compile'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:101:in `each'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:101:in `block in run'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:126:in `timed'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:100:in `run'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `block in modified'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `each'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block in run'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `loop'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/watch_project.rb:87:in `perform'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/base.rb:18:in `execute'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/bin/compass:29:in `block in <top (required)>'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/bin/compass:43:in `call'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/bin/compass:43:in `<top (required)>'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/bin/compass:19:in `load'
+/Users/BALT/.rvm/gems/ruby-1.9.2-p290/bin/compass:19:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 16 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss"; }

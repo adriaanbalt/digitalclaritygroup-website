@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  /* ====================
+      INTERMEDIATE: Menu
+     ==================== */
+  /* line 13, ../sass/mediaqueries.scss */
+  nav ul {
+    width: 59%;
+  }
+
+  /* line 16, ../sass/mediaqueries.scss */
+  nav a {
+    float: left;
+    margin: 0 1.7%;
+    padding: 25px 2%;
+    margin-bottom: 0;
+  }
+
+  /* line 23, ../sass/mediaqueries.scss */
+  nav li:first-child a {
+    margin-left: 0;
+  }
+
+  /* line 27, ../sass/mediaqueries.scss */
+  nav li:last-child a {
+    margin-right: 0;
+  }
+
+  /* ========================
+      INTERMEDIATE: IE Fixes
+     ======================== */
+  /* line 35, ../sass/mediaqueries.scss */
+  nav ul li {
+    display: inline;
+  }
+
+  /* line 39, ../sass/mediaqueries.scss */
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+      WIDE: CSS3 Effects
+     ==================== */
+  /* ============
+      WIDE: Menu
+     ============ */
+  /* line 54, ../sass/mediaqueries.scss */
+  .title {
+    float: left;
+    min-width: 15%;
+    width: 15%;
+  }
+
+  /* line 60, ../sass/mediaqueries.scss */
+  .slogan {
+    float: right;
+    min-width: 80%;
+    width: 80%;
+  }
+
+  /* ============
+      WIDE: Main
+     ============ */
+}
+@media only screen and (min-width: 1140px) {
+  /* ===============
+      Maximal Width
+     =============== */
+  /* line 78, ../sass/mediaqueries.scss */
+  .wrapper {
+    width: 1026px;
+    /* 1140px - 10% for margins */
+    margin: 0 auto;
+  }
+}

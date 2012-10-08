@@ -1,0 +1,441 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+/* line 9, ../sass/boilerplate.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 13, ../sass/boilerplate.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 18, ../sass/boilerplate.scss */
+::-moz-selection {
+  background: #B3D500;
+  text-shadow: none;
+}
+
+/* line 23, ../sass/boilerplate.scss */
+::selection {
+  background: #B3D500;
+  text-shadow: none;
+}
+
+/* line 28, ../sass/boilerplate.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 37, ../sass/boilerplate.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 41, ../sass/boilerplate.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 47, ../sass/boilerplate.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 51, ../sass/boilerplate.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 8, ../sass/ie.scss */
+.ie7 .title {
+  padding-top: 20px;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  /* ====================
+      INTERMEDIATE: Menu
+     ==================== */
+  /* line 13, ../sass/mediaqueries.scss */
+  nav ul {
+    width: 59%;
+  }
+
+  /* line 16, ../sass/mediaqueries.scss */
+  nav a {
+    float: left;
+    margin: 0 1.7%;
+    padding: 25px 2%;
+    margin-bottom: 0;
+  }
+
+  /* line 23, ../sass/mediaqueries.scss */
+  nav li:first-child a {
+    margin-left: 0;
+  }
+
+  /* line 27, ../sass/mediaqueries.scss */
+  nav li:last-child a {
+    margin-right: 0;
+  }
+
+  /* ========================
+      INTERMEDIATE: IE Fixes
+     ======================== */
+  /* line 35, ../sass/mediaqueries.scss */
+  nav ul li {
+    display: inline;
+  }
+
+  /* line 39, ../sass/mediaqueries.scss */
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+      WIDE: CSS3 Effects
+     ==================== */
+  /* ============
+      WIDE: Menu
+     ============ */
+  /* line 54, ../sass/mediaqueries.scss */
+  .title {
+    float: left;
+    min-width: 15%;
+    width: 15%;
+  }
+
+  /* line 60, ../sass/mediaqueries.scss */
+  .slogan {
+    float: right;
+    min-width: 80%;
+    width: 80%;
+  }
+
+  /* ============
+      WIDE: Main
+     ============ */
+}
+@media only screen and (min-width: 1140px) {
+  /* ===============
+      Maximal Width
+     =============== */
+  /* line 78, ../sass/mediaqueries.scss */
+  .wrapper {
+    width: 1026px;
+    /* 1140px - 10% for margins */
+    margin: 0 auto;
+  }
+}
+/* line 1, ../sass/main.scss */
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+/* line 5, ../sass/main.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 5%;
+}
+
+/* line 10, ../sass/main.scss */
+.warpper-small {
+  width: 50%;
+  margin: 0 5%;
+}
+
+/* line 15, ../sass/main.scss */
+.gray-bg {
+  background: #515151;
+}
+
+/* ===================
+	ALL: Orange Theme
+   =================== */
+/* line 27, ../sass/main.scss */
+.footer-container,
+.main aside {
+  border-top: 20px solid #e44d26;
+}
+
+/* line 36, ../sass/main.scss */
+.title {
+  background: url("../img/dcg-logo.jpg") 0 0 no-repeat;
+  width: 102px;
+  height: 102px;
+}
+
+/* line 42, ../sass/main.scss */
+.slogan {
+  font-size: 24px;
+}
+
+/* ==============
+	MOBILE: Menu
+   ============== */
+/* line 54, ../sass/main.scss */
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 60, ../sass/main.scss */
+nav a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  color: #e35225;
+  background: #fff;
+}
+
+/* line 76, ../sass/main.scss */
+nav a:hover,
+nav a:visited {
+  color: #e35225;
+}
+
+/* line 80, ../sass/main.scss */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==============
+	MOBILE: Main
+   ============== */
+/* line 88, ../sass/main.scss */
+.main-container {
+  width: 100%;
+}
+
+/* line 91, ../sass/main.scss */
+.main {
+  padding: 30px 0;
+}
+
+/* line 95, ../sass/main.scss */
+.main article h1 {
+  font-size: 2em;
+}
+
+/* line 99, ../sass/main.scss */
+.main aside {
+  color: white;
+  padding: 0px 5% 10px;
+}
+
+/* line 104, ../sass/main.scss */
+.footer-container footer {
+  color: white;
+  padding: 20px 0;
+}
+
+/* ==================
+	SECTIONS
+    ================== */
+/* line 114, ../sass/main.scss */
+#steps {
+  color: #fff;
+}
+/* line 116, ../sass/main.scss */
+#steps section {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+/* line 121, ../sass/main.scss */
+#steps section h2 {
+  text-align: center;
+  color: #bde9f2;
+}
+/* line 125, ../sass/main.scss */
+#steps section img {
+  text-align: center;
+}
+
+/* line 132, ../sass/main.scss */
+#definition {
+  text-align: center;
+}
+/* line 136, ../sass/main.scss */
+#definition header h1 {
+  color: #e35225;
+}
+
+/* line 1, ../sass/helper.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+/* line 8, ../sass/helper.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+/* line 15, ../sass/helper.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 20, ../sass/helper.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 32, ../sass/helper.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 41, ../sass/helper.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 46, ../sass/helper.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 51, ../sass/helper.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 55, ../sass/helper.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 7, ../sass/print.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 15, ../sass/print.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 19, ../sass/print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 23, ../sass/print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 33, ../sass/print.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 38, ../sass/print.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 43, ../sass/print.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 48, ../sass/print.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 52, ../sass/print.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 62, ../sass/print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 68, ../sass/print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
