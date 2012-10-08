@@ -7,9 +7,9 @@ body {
 	margin: 0 5%;
 }
 
-.warpper-small {
-	width: 50%;
-	margin: 0 5%;
+.wrapper-small {
+	width: 60%;
+	margin: 0 20%;
 }
 
 .gray-bg {
@@ -23,14 +23,13 @@ body {
 .header-container {
 }
 
-.footer-container,
-.main aside {
-	border-top: 20px solid #e44d26;
-}
-
-.header-container,
-.footer-container,
-.main aside {
+.footer-container {
+	background: $gray;
+	height: 30px;
+	footer {
+		color: white;
+		font-weight: normal;
+	}
 }
 
 .title {
@@ -101,11 +100,6 @@ nav a:hover {
 	padding: 0px 5% 10px;
 }
 
-.footer-container footer {
-	color: white;
-	padding: 20px 0;
-}
-
 
 /* ==================
 	SECTIONS
@@ -115,8 +109,9 @@ nav a:hover {
 	color : #fff;
 	section {
 		float: left;
-		width: 25%;
+		width: 20%;
 		height: 100%;
+		margin: 0px 5% 0px 0px;
 
 		h2 {
 			text-align: center;
@@ -124,6 +119,9 @@ nav a:hover {
 		}
 		img {
 			text-align: center;
+		}
+		p {
+			color: $light-gray;
 		}
 
 	}
@@ -136,5 +134,42 @@ nav a:hover {
 		h1 {
 			color : $orange;
 		}
+	}
+}
+
+#latest {
+	background: $light-tan;
+	border-top: 5px solid $orange;
+	section{
+		float: left;
+		width: 15%;
+		margin: 0px 1px 0px 0px;
+		border-right: 1px dotted $gray;
+	}
+}
+
+#team {
+	section {
+		float: left;
+		width: 15%;
+		margin: 0px 1px 0px 0px;
+	}
+}
+
+#contact {
+	section {
+		float: left;
+		width: 30%;
+		border-right: 1px dotted $gray;
+		padding: 0px 20px;
+	}
+	.links {
+
+	}
+	.newsletter {
+
+	}
+	.contact {
+
 	}
 }
