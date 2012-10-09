@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$gray".
-        on line 16 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss
+        on line 17 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss
 
 Backtrace:
-/Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss:16
+/Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss:17
 /Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/script/variable.rb:49:in `_perform'
 /Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/script/node.rb:40:in `perform'
 /Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:216:in `visit_prop'
@@ -74,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 16 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss"; }
+  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 17 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss"; }
