@@ -1,3 +1,7 @@
+<?php
+	include("rss.php");
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -155,36 +159,22 @@
 						<header>
 							<h1>OUR THOUGHTS</h1>
 						</header>
-						<section>
-							<div class='inner'>
-								<h2>article section h2</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<h2>article section h2</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<h3>article footer h3</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-							</div>
-						</section>
+						<div>
+							<?php getRSS( 'http://digitalclaritygroup.com/feed/', 'thoughtsLoaded' ); ?>
+						</div>
 					</article>
 				</div>
 
 				<div id='social'>
-					<article class='wrapper'>
-						<article>
+					<article class='wrapper clearfix'>
+						<section id='video'>
 							<iframe width="560" height="315" src="http://www.youtube.com/embed/videoseries?list=PLI0CjHTl84BwYc3wF7lRASZyE0_htgHnk&amp;hl=en_US" frameborder="0" allowfullscreen></iframe>
-						</article>
+						</section>
+						<section id='twitter'>
+							<div class='cathymcknight'></div>
+							<div class='justclarity'></div>								
+						</section>
 					</article>
-					<aside>
-						<h3>TWITTER</h3>
-					</aside>
 				</div>
 
 				<div id='story' class='gray-bg'>
@@ -205,7 +195,7 @@
 						<section>
 							<div class='inner'>
 								<h3>Scott</h3>
-								<img src='' alt=''/>
+								<img src='img/person.jpg' alt='Scott'/>
 								<p class='position'>President</p>
 								<p class='sub-position'>Principle Analyst</p>
 							</div>
@@ -213,7 +203,7 @@
 						<section>
 							<div class='inner'>
 								<h3>Cathy</h3>
-								<img src='' alt=''/>
+								<img src='img/person.jpg' alt='Scott'/>
 								<p class='position'>President</p>
 								<p class='sub-position'>Principle Analyst</p>
 							</div>
@@ -221,7 +211,7 @@
 						<section>
 							<div class='inner'>
 								<h3>Tim</h3>
-								<img src='' alt=''/>
+								<img src='img/person.jpg' alt='Scott'/>
 								<p class='position'>President</p>
 								<p class='sub-position'>Principle Analyst</p>
 							</div>
@@ -229,7 +219,7 @@
 						<section>
 							<div class='inner'>
 								<h3>Elise</h3>
-								<img src='' alt=''/>
+								<img src='img/person.jpg' alt='Scott'/>
 								<p class='position'>President</p>
 								<p class='sub-position'>Principle Analyst</p>
 							</div>
@@ -237,7 +227,7 @@
 						<section>
 							<div class='inner'>
 								<h3>Robert</h3>
-								<img src='' alt=''/>
+								<img src='img/person.jpg' alt='Scott'/>
 								<p class='position'>President</p>
 								<p class='sub-position'>Principle Analyst</p>
 							</div>
@@ -245,12 +235,17 @@
 						<section>
 							<div class='inner'>
 								<h3>Kyle</h3>
-								<img src='' alt=''/>
+								<img src='img/person.jpg' alt='Scott'/>
 								<p class='position'>President</p>
 								<p class='sub-position'>Principle Analyst</p>
 							</div>
 						</section>
 					</article>
+					<div class='edge'>
+						<div class='top'></div>
+						<div class='mid'></div>
+						<div class='btm'></div>
+					</div>
 				</div>
 
 				<div id='contact'>
@@ -261,11 +256,13 @@
 						<section class='links'>
 							<div class='inner'>
 								<h2>Links</h2>
-								<a href='' target='_blank'><img src='img/twitter.jpg' alt='Twitter'/>Twitter</a>
-								<a href='' target='_blank'><img src='img/facebook.jpg' alt='Facebook'/>Facebook</a>
-								<a href='' target='_blank'><img src='img/blogger.jpg' alt='Blogs'/>Blogs</a>
-								<a href='' target='_blank'><img src='img/rss.jpg' alt='RSS Feed'/>RSS Feed</a>
-								<a href='' target='_blank'><img src='img/slideshare.jpg' alt='Slideshare'/>Slideshare</a>
+								<ul>
+									<li><a href='' target='_blank'><img src='img/twitter.jpg' alt='Twitter'/>Twitter</a></li>
+									<li><a href='' target='_blank'><img src='img/facebook.jpg' alt='Facebook'/>Facebook</a></li>
+									<li><a href='' target='_blank'><img src='img/blogger.jpg' alt='Blogs'/>Blogs</a></li>
+									<li><a href='' target='_blank'><img src='img/rss.jpg' alt='RSS Feed'/>RSS Feed</a></li>
+									<li><a href='' target='_blank'><img src='img/slideshare.jpg' alt='Slideshare'/>Slideshare</a></li>
+								</ul>
 							</div>
 						</section>
 						<section class='newsletter'>
@@ -305,6 +302,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
+		<script src="js/jquery.tweet.js"></script>
 		<script src="js/main.js"></script>
 
 		<script>

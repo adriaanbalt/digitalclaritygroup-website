@@ -1,11 +1,18 @@
+@import "constants";
+
 body {
 	font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+ul, li {
+	list-style-type : none;
 }
 
 .wrapper {
 	width: 90%;
 	max-width: 1024px;
-	margin: 0 5%;
+	margin: 0 auto;
+	position: relative;
 }
 
 .wrapper-small {
@@ -14,7 +21,7 @@ body {
 }
 
 .gray-bg {
-	background: $gray;
+	background: $gray-color;
 }
 
 /* ===================
@@ -25,7 +32,7 @@ body {
 }
 
 .footer-container {
-	background: $gray;
+	background: $gray-color;
 	height: 30px;
 	footer {
 		color: white;
@@ -67,14 +74,14 @@ nav a {
 	font-weight: normal;
 	font-size: 15px;
 
-	color: $orange;
+	color: $orange-color;
 	background: #fff;
 
 }
 
 nav a:hover,
 nav a:visited {
-	color: $orange;
+	color: $orange-color;
 }
 
 nav a:hover {
@@ -96,13 +103,8 @@ nav a:hover {
 	font-size: 2em;
 }
 
-.main aside {
-	color: white;
-	padding: 0px 5% 10px;
-}
-
 header h1 {
-	color: $orange;
+	color: $orange-color;
 }
 
 
@@ -117,44 +119,61 @@ header h1 {
 		width: 20%;
 		height: 100%;
 		margin: 0px 5% 0px 0px;
+		text-align: center;
 
 		h2 {
-			text-align: center;
 			color: $blue;
-		}
-		img {
-			text-align: center;
 		}
 		p {
 			color: $light-gray;
+			text-align: justify;
 		}
 		> .inner {
 			padding: 10px;
 		}
+	}
+	article {
+		padding: 20px 0px 0px 0px;
 	}
 }
 
 #definition {
 	text-align: center;
 
-	header {
-		h1 {
-			color : $orange;
+	article{
+		padding: 35px 0px 25px 0px;
+		header {
+			h1 {
+				padding: 0px;
+				margin: 0px;
+			}
 		}
 	}
 }
 
 #latest {
 	background: $light-tan;
-	border-top: 5px solid $orange;
+	border-top: 5px solid $orange-color;
 	section{
 		float: left;
 		width: 15%;
 		margin: 0px 1px 0px 0px;
-		border-right: 1px dotted $gray;
+		border-right: 1px dotted $gray-color;
 
 		> .inner {
 			padding: 10px;
+		}
+	}
+}
+
+#social {
+	section { 
+		float: left;
+		&#video {
+			width: 60%;
+		}
+		&#twitter {
+			width: 40%;
 		}
 	}
 }
@@ -171,16 +190,49 @@ header h1 {
 }
 
 #team {
-	background: $orange;
+	background: $orange-color;
+	color: #fff;
+	position: relative;
 	section {
 		border-right: 2px dotted #fff;
 		float: left;
-		width: 15%;
 		margin: 0px 1px 0px 0px;
+		text-align: center;
+
+		img { 
+			background: #010101;
+		}
 
 		> .inner {
-			padding: 10px;
+			padding: 10px 0px;
 		}
+	}
+	article { 
+		z-index: 1;
+		zoom: 1;
+	}
+	.edge {
+		.mid {
+			width: 100%;
+			height: 175px;
+			background: #010101;
+		}
+		.btm, .top {
+			width: 100%;
+			background: $orange-color;
+		}
+		.top { 
+			height: 73px;
+		}
+		.btm { 
+			height: 110px;
+		}
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		z-index: 0;
+		zoom: 1;
 	}
 }
 
@@ -188,7 +240,7 @@ header h1 {
 	section {
 		float: left;
 		width: 30%;
-		border-right: 1px dotted $gray;
+		border-right: 1px dotted $gray-color;
 
 		> .inner {
 			padding: 0px 20px;

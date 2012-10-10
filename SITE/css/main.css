@@ -1,77 +1,264 @@
-/*
-Syntax error: Undefined variable: "$gray".
-        on line 17 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss
+/* line 3, ../sass/main.scss */
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
 
-Backtrace:
-/Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss:17
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/script/variable.rb:49:in `_perform'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/script/node.rb:40:in `perform'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:216:in `visit_prop'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:238:in `visit_rule'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/tree/root_node.rb:20:in `render'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/engine.rb:299:in `_render'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.18/lib/sass/engine.rb:246:in `render'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:126:in `timed'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:139:in `block in compile'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/logger.rb:45:in `red'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:138:in `compile'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:101:in `each'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:101:in `block in run'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:126:in `timed'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:100:in `run'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `each'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block in run'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `loop'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/base.rb:18:in `execute'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/bin/compass:29:in `block in <top (required)>'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/bin/compass:43:in `call'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/bin/compass:43:in `<top (required)>'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/bin/compass:19:in `load'
-/Users/BALT/.rvm/gems/ruby-1.9.2-p290/bin/compass:19:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 17 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/main.scss"; }
+/* line 7, ../sass/main.scss */
+ul, li {
+  list-style-type: none;
+}
+
+/* line 11, ../sass/main.scss */
+.wrapper {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 18, ../sass/main.scss */
+.wrapper-small {
+  width: 60%;
+  margin: 0 20%;
+}
+
+/* line 23, ../sass/main.scss */
+.gray-bg {
+  background: #515151;
+}
+
+/* ===================
+	ALL: Orange Theme
+   =================== */
+/* line 34, ../sass/main.scss */
+.footer-container {
+  background: #515151;
+  height: 30px;
+}
+/* line 37, ../sass/main.scss */
+.footer-container footer {
+  color: white;
+  font-weight: normal;
+}
+
+/* line 43, ../sass/main.scss */
+.title {
+  background: url("../img/dcg-logo.jpg") 0 0 no-repeat;
+  width: 102px;
+  height: 102px;
+}
+
+/* line 49, ../sass/main.scss */
+.slogan {
+  font-size: 24px;
+}
+
+/* ==============
+	MOBILE: Menu
+   ============== */
+/* line 61, ../sass/main.scss */
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 67, ../sass/main.scss */
+nav a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  color: #e35225;
+  background: #fff;
+}
+
+/* line 83, ../sass/main.scss */
+nav a:hover,
+nav a:visited {
+  color: #e35225;
+}
+
+/* line 87, ../sass/main.scss */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==============
+	MOBILE: Main
+   ============== */
+/* line 95, ../sass/main.scss */
+.main-container {
+  width: 100%;
+}
+
+/* line 98, ../sass/main.scss */
+.main {
+  padding: 30px 0;
+}
+
+/* line 102, ../sass/main.scss */
+.main article h1 {
+  font-size: 2em;
+}
+
+/* line 106, ../sass/main.scss */
+header h1 {
+  color: #e35225;
+}
+
+/* ==================
+	SECTIONS
+    ================== */
+/* line 115, ../sass/main.scss */
+#steps {
+  color: #fff;
+}
+/* line 117, ../sass/main.scss */
+#steps section {
+  float: left;
+  width: 20%;
+  height: 100%;
+  margin: 0px 5% 0px 0px;
+  text-align: center;
+}
+/* line 124, ../sass/main.scss */
+#steps section h2 {
+  color: #bde9f2;
+}
+/* line 127, ../sass/main.scss */
+#steps section p {
+  color: silver;
+  text-align: justify;
+}
+/* line 131, ../sass/main.scss */
+#steps section > .inner {
+  padding: 10px;
+}
+/* line 135, ../sass/main.scss */
+#steps article {
+  padding: 20px 0px 0px 0px;
+}
+
+/* line 140, ../sass/main.scss */
+#definition {
+  text-align: center;
+}
+/* line 143, ../sass/main.scss */
+#definition article {
+  padding: 35px 0px 25px 0px;
+}
+/* line 146, ../sass/main.scss */
+#definition article header h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 154, ../sass/main.scss */
+#latest {
+  background: #e3dfd4;
+  border-top: 5px solid #e35225;
+}
+/* line 157, ../sass/main.scss */
+#latest section {
+  float: left;
+  width: 15%;
+  margin: 0px 1px 0px 0px;
+  border-right: 1px dotted #515151;
+}
+/* line 163, ../sass/main.scss */
+#latest section > .inner {
+  padding: 10px;
+}
+
+/* line 170, ../sass/main.scss */
+#social section {
+  float: left;
+}
+/* line 172, ../sass/main.scss */
+#social section#video {
+  width: 60%;
+}
+/* line 175, ../sass/main.scss */
+#social section#twitter {
+  width: 40%;
+}
+
+/* line 181, ../sass/main.scss */
+#story {
+  color: #fff;
+  height: 370px;
+}
+/* line 186, ../sass/main.scss */
+#story .wrapper > .inner {
+  padding: 10px 0px;
+}
+
+/* line 192, ../sass/main.scss */
+#team {
+  background: #e35225;
+  color: #fff;
+  position: relative;
+}
+/* line 196, ../sass/main.scss */
+#team section {
+  border-right: 2px dotted #fff;
+  float: left;
+  margin: 0px 1px 0px 0px;
+  text-align: center;
+}
+/* line 202, ../sass/main.scss */
+#team section img {
+  background: #010101;
+}
+/* line 206, ../sass/main.scss */
+#team section > .inner {
+  padding: 10px 0px;
+}
+/* line 210, ../sass/main.scss */
+#team article {
+  z-index: 1;
+  zoom: 1;
+}
+/* line 214, ../sass/main.scss */
+#team .edge {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+  zoom: 1;
+}
+/* line 215, ../sass/main.scss */
+#team .edge .mid {
+  width: 100%;
+  height: 175px;
+  background: #010101;
+}
+/* line 220, ../sass/main.scss */
+#team .edge .btm, #team .edge .top {
+  width: 100%;
+  background: #e35225;
+}
+/* line 224, ../sass/main.scss */
+#team .edge .top {
+  height: 73px;
+}
+/* line 227, ../sass/main.scss */
+#team .edge .btm {
+  height: 110px;
+}
+
+/* line 240, ../sass/main.scss */
+#contact section {
+  float: left;
+  width: 30%;
+  border-right: 1px dotted #515151;
+}
+/* line 245, ../sass/main.scss */
+#contact section > .inner {
+  padding: 0px 20px;
+}
