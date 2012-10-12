@@ -59,15 +59,19 @@ nav {
 }
 
 nav ul {
+	width: 59%;
 	float: right;
 	margin: 0;
 	padding: 0;
 }
 
 nav a {
+	float: left;
 	display: block;
 	margin-bottom: 10px;
-	padding: 15px 0;
+	margin: 0 1.7%;
+	padding: 25px 2%;
+	margin-bottom: 0;
 
 	text-align: center;
 	text-decoration: none;
@@ -77,16 +81,16 @@ nav a {
 	color: $orange-color;
 	background: #fff;
 
+	&:hover,
+	&:visited {
+		color: $orange-color;
+	}
+
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
-nav a:hover,
-nav a:visited {
-	color: $orange-color;
-}
-
-nav a:hover {
-	text-decoration: underline;
-}
 
 /* ==============
 	MOBILE: Main
@@ -110,7 +114,7 @@ header h1 {
 
 /* ==================
 	SECTIONS
-    ================== */
+	================== */
 
 #steps {
 	color : #fff;
@@ -123,6 +127,7 @@ header h1 {
 
 		h2 {
 			color: $blue;
+			font-size: 100%;
 		}
 		p {
 			color: $light-gray;
@@ -154,26 +159,86 @@ header h1 {
 #latest {
 	background: $light-tan;
 	border-top: 5px solid $orange-color;
+	article {
+		padding: 0 0 2em 0;
+	}
 	section{
 		float: left;
-		width: 15%;
-		margin: 0px 1px 0px 0px;
-		border-right: 1px dotted $gray-color;
+		width: 24.6%;
+		border-right: 2px dotted $gray-color;
 
 		> .inner {
-			padding: 10px;
+			padding: 1% 5%;
+		}
+		&.last{
+			border-right: 0;
+		}
+	}
+}
+
+#thoughts {
+	.contain {
+		border-bottom: 2px dotted $gray-color;
+	}
+	.row {
+		border-top: 2px dotted $gray-color;
+		margin: 5px 0 0 0;
+		width: 100%;
+		height: 100%;
+		position: inherit;
+		>.inner {
+			position: inherit;
+			padding: 8px 5px 5px 5px;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	section {
+		float: left;
+		width: 24.6%;
+		height: 305px;
+		border-right: 2px dotted $gray-color;
+		&.first{
+		}
+		&.last{
+			border-right: 0;
+		}
+		>.inner {
+			padding: 8px;
+			height: 100%;
+		}
+		.border {
+			height: 100%;
+		}
+		a { 
+			display: block;
+		}
+		p { 
+			margin: 0;
 		}
 	}
 }
 
 #social {
+	article {
+		padding: 0 0 2em 0;
+	}
 	section { 
 		float: left;
 		&#video {
-			width: 60%;
+			width: 59%;
+			padding: 2em 0px;
+			iframe {
+				width: 100%;
+			}
 		}
 		&#twitter {
 			width: 40%;
+			border-left: 2px dotted $gray-color;
+			>.inner {
+				padding: 10px 20px;
+			}
 		}
 	}
 }
@@ -240,7 +305,11 @@ header h1 {
 	section {
 		float: left;
 		width: 30%;
-		border-right: 1px dotted $gray-color;
+		border-right: 2px dotted $gray-color;
+
+		&.last {
+			border-right: 0;
+		}
 
 		> .inner {
 			padding: 0px 20px;
@@ -254,6 +323,11 @@ header h1 {
 
 	}
 	.contact {
-
+		h4{
+			margin: 0;
+		}
+		p { 
+			margin: 0;
+		}
 	}
 }

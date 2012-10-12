@@ -73,85 +73,6 @@ textarea {
   padding-top: 20px;
 }
 
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-@media only screen and (min-width: 480px) {
-  /* ====================
-      INTERMEDIATE: Menu
-     ==================== */
-  /* line 13, ../sass/mediaqueries.scss */
-  nav ul {
-    width: 59%;
-  }
-
-  /* line 16, ../sass/mediaqueries.scss */
-  nav a {
-    float: left;
-    margin: 0 1.7%;
-    padding: 25px 2%;
-    margin-bottom: 0;
-  }
-
-  /* line 23, ../sass/mediaqueries.scss */
-  nav li:first-child a {
-    margin-left: 0;
-  }
-
-  /* line 27, ../sass/mediaqueries.scss */
-  nav li:last-child a {
-    margin-right: 0;
-  }
-
-  /* ========================
-      INTERMEDIATE: IE Fixes
-     ======================== */
-  /* line 35, ../sass/mediaqueries.scss */
-  nav ul li {
-    display: inline;
-  }
-
-  /* line 39, ../sass/mediaqueries.scss */
-  .oldie nav a {
-    margin: 0 0.7%;
-  }
-}
-@media only screen and (min-width: 768px) {
-  /* ====================
-      WIDE: CSS3 Effects
-     ==================== */
-  /* ============
-      WIDE: Menu
-     ============ */
-  /* line 54, ../sass/mediaqueries.scss */
-  .title {
-    float: left;
-    min-width: 15%;
-    width: 15%;
-  }
-
-  /* line 60, ../sass/mediaqueries.scss */
-  .slogan {
-    float: right;
-    min-width: 80%;
-    width: 80%;
-  }
-
-  /* ============
-      WIDE: Main
-     ============ */
-}
-@media only screen and (min-width: 1140px) {
-  /* ===============
-      Maximal Width
-     =============== */
-  /* line 78, ../sass/mediaqueries.scss */
-  .wrapper {
-    width: 1026px;
-    /* 1140px - 10% for margins */
-    margin: 0 auto;
-  }
-}
 /* line 3, ../sass/main.scss */
 body {
   font: 16px/26px Helvetica, Helvetica Neue, Arial;
@@ -212,16 +133,20 @@ ul, li {
    ============== */
 /* line 61, ../sass/main.scss */
 nav ul {
+  width: 59%;
   float: right;
   margin: 0;
   padding: 0;
 }
 
-/* line 67, ../sass/main.scss */
+/* line 68, ../sass/main.scss */
 nav a {
+  float: left;
   display: block;
   margin-bottom: 10px;
-  padding: 15px 0;
+  margin: 0 1.7%;
+  padding: 25px 2%;
+  margin-bottom: 0;
   text-align: center;
   text-decoration: none;
   font-weight: normal;
@@ -229,14 +154,11 @@ nav a {
   color: #e35225;
   background: #fff;
 }
-
-/* line 83, ../sass/main.scss */
-nav a:hover,
-nav a:visited {
+/* line 85, ../sass/main.scss */
+nav a:hover, nav a:visited {
   color: #e35225;
 }
-
-/* line 87, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 nav a:hover {
   text-decoration: underline;
 }
@@ -244,34 +166,34 @@ nav a:hover {
 /* ==============
 	MOBILE: Main
    ============== */
-/* line 95, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 .main-container {
   width: 100%;
 }
 
-/* line 98, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 .main {
   padding: 30px 0;
 }
 
-/* line 102, ../sass/main.scss */
+/* line 106, ../sass/main.scss */
 .main article h1 {
   font-size: 2em;
 }
 
-/* line 106, ../sass/main.scss */
+/* line 110, ../sass/main.scss */
 header h1 {
   color: #e35225;
 }
 
 /* ==================
 	SECTIONS
-    ================== */
-/* line 115, ../sass/main.scss */
+	================== */
+/* line 119, ../sass/main.scss */
 #steps {
   color: #fff;
 }
-/* line 117, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 #steps section {
   float: left;
   width: 20%;
@@ -279,105 +201,175 @@ header h1 {
   margin: 0px 5% 0px 0px;
   text-align: center;
 }
-/* line 124, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 #steps section h2 {
   color: #bde9f2;
+  font-size: 100%;
 }
-/* line 127, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 #steps section p {
   color: silver;
   text-align: justify;
 }
-/* line 131, ../sass/main.scss */
+/* line 136, ../sass/main.scss */
 #steps section > .inner {
   padding: 10px;
 }
-/* line 135, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 #steps article {
   padding: 20px 0px 0px 0px;
 }
 
-/* line 140, ../sass/main.scss */
+/* line 145, ../sass/main.scss */
 #definition {
   text-align: center;
 }
-/* line 143, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 #definition article {
   padding: 35px 0px 25px 0px;
 }
-/* line 146, ../sass/main.scss */
+/* line 151, ../sass/main.scss */
 #definition article header h1 {
   padding: 0px;
   margin: 0px;
 }
 
-/* line 154, ../sass/main.scss */
+/* line 159, ../sass/main.scss */
 #latest {
   background: #e3dfd4;
   border-top: 5px solid #e35225;
 }
-/* line 157, ../sass/main.scss */
+/* line 162, ../sass/main.scss */
+#latest article {
+  padding: 0 0 2em 0;
+}
+/* line 165, ../sass/main.scss */
 #latest section {
   float: left;
-  width: 15%;
-  margin: 0px 1px 0px 0px;
-  border-right: 1px dotted #515151;
+  width: 24.6%;
+  border-right: 2px dotted #515151;
 }
-/* line 163, ../sass/main.scss */
+/* line 170, ../sass/main.scss */
 #latest section > .inner {
-  padding: 10px;
+  padding: 1% 5%;
+}
+/* line 173, ../sass/main.scss */
+#latest section.last {
+  border-right: 0;
 }
 
-/* line 170, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
+#thoughts .contain {
+  border-bottom: 2px dotted #515151;
+}
+/* line 183, ../sass/main.scss */
+#thoughts .row {
+  border-top: 2px dotted #515151;
+  margin: 5px 0 0 0;
+  width: 100%;
+  height: 100%;
+  position: inherit;
+}
+/* line 189, ../sass/main.scss */
+#thoughts .row > .inner {
+  position: inherit;
+  padding: 8px 5px 5px 5px;
+  width: 100%;
+  height: 100%;
+}
+/* line 197, ../sass/main.scss */
+#thoughts section {
+  float: left;
+  width: 24.6%;
+  height: 305px;
+  border-right: 2px dotted #515151;
+}
+/* line 204, ../sass/main.scss */
+#thoughts section.last {
+  border-right: 0;
+}
+/* line 207, ../sass/main.scss */
+#thoughts section > .inner {
+  padding: 8px;
+  height: 100%;
+}
+/* line 211, ../sass/main.scss */
+#thoughts section .border {
+  height: 100%;
+}
+/* line 214, ../sass/main.scss */
+#thoughts section a {
+  display: block;
+}
+/* line 217, ../sass/main.scss */
+#thoughts section p {
+  margin: 0;
+}
+
+/* line 224, ../sass/main.scss */
+#social article {
+  padding: 0 0 2em 0;
+}
+/* line 227, ../sass/main.scss */
 #social section {
   float: left;
 }
-/* line 172, ../sass/main.scss */
+/* line 229, ../sass/main.scss */
 #social section#video {
-  width: 60%;
+  width: 59%;
+  padding: 2em 0px;
 }
-/* line 175, ../sass/main.scss */
+/* line 232, ../sass/main.scss */
+#social section#video iframe {
+  width: 100%%;
+}
+/* line 236, ../sass/main.scss */
 #social section#twitter {
   width: 40%;
+  border-left: 2px dotted #515151;
+}
+/* line 239, ../sass/main.scss */
+#social section#twitter > .inner {
+  padding: 10px 20px;
 }
 
-/* line 181, ../sass/main.scss */
+/* line 246, ../sass/main.scss */
 #story {
   color: #fff;
   height: 370px;
 }
-/* line 186, ../sass/main.scss */
+/* line 251, ../sass/main.scss */
 #story .wrapper > .inner {
   padding: 10px 0px;
 }
 
-/* line 192, ../sass/main.scss */
+/* line 257, ../sass/main.scss */
 #team {
   background: #e35225;
   color: #fff;
   position: relative;
 }
-/* line 196, ../sass/main.scss */
+/* line 261, ../sass/main.scss */
 #team section {
   border-right: 2px dotted #fff;
   float: left;
   margin: 0px 1px 0px 0px;
   text-align: center;
 }
-/* line 202, ../sass/main.scss */
+/* line 267, ../sass/main.scss */
 #team section img {
   background: #010101;
 }
-/* line 206, ../sass/main.scss */
+/* line 271, ../sass/main.scss */
 #team section > .inner {
   padding: 10px 0px;
 }
-/* line 210, ../sass/main.scss */
+/* line 275, ../sass/main.scss */
 #team article {
   z-index: 1;
   zoom: 1;
 }
-/* line 214, ../sass/main.scss */
+/* line 279, ../sass/main.scss */
 #team .edge {
   width: 100%;
   height: 100%;
@@ -386,37 +378,152 @@ header h1 {
   z-index: 0;
   zoom: 1;
 }
-/* line 215, ../sass/main.scss */
+/* line 280, ../sass/main.scss */
 #team .edge .mid {
   width: 100%;
   height: 175px;
   background: #010101;
 }
-/* line 220, ../sass/main.scss */
+/* line 285, ../sass/main.scss */
 #team .edge .btm, #team .edge .top {
   width: 100%;
   background: #e35225;
 }
-/* line 224, ../sass/main.scss */
+/* line 289, ../sass/main.scss */
 #team .edge .top {
   height: 73px;
 }
-/* line 227, ../sass/main.scss */
+/* line 292, ../sass/main.scss */
 #team .edge .btm {
   height: 110px;
 }
 
-/* line 240, ../sass/main.scss */
+/* line 305, ../sass/main.scss */
 #contact section {
   float: left;
   width: 30%;
-  border-right: 1px dotted #515151;
+  border-right: 2px dotted #515151;
 }
-/* line 245, ../sass/main.scss */
+/* line 310, ../sass/main.scss */
+#contact section.last {
+  border-right: 0;
+}
+/* line 314, ../sass/main.scss */
 #contact section > .inner {
   padding: 0px 20px;
 }
+/* line 326, ../sass/main.scss */
+#contact .contact h4 {
+  margin: 0;
+}
+/* line 329, ../sass/main.scss */
+#contact .contact p {
+  margin: 0;
+}
 
+/* ==========================================================================
+	 Media Queries
+	 ========================================================================== */
+@media only screen and (max-width: 1100px) {
+  /* line 10, ../sass/mediaqueries.scss */
+  #social section#twitter {
+    border-left: 0;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* ====================
+  		INTERMEDIATE: Menu
+  	 ==================== */
+  /* line 23, ../sass/mediaqueries.scss */
+  .wrapper {
+    width: 100%;
+  }
+
+  /* line 27, ../sass/mediaqueries.scss */
+  nav ul {
+    width: 100%;
+  }
+
+  /* line 30, ../sass/mediaqueries.scss */
+  nav li {
+    width: 100%;
+  }
+
+  /* line 33, ../sass/mediaqueries.scss */
+  nav a {
+    float: none;
+    background: #e35225;
+    color: #fff;
+    padding: 25px 2%;
+    margin: 0;
+  }
+
+  /* line 41, ../sass/mediaqueries.scss */
+  nav li:first-child a {
+    margin-left: 0;
+  }
+
+  /* line 45, ../sass/mediaqueries.scss */
+  nav li:last-child a {
+    margin-right: 0;
+  }
+
+  /* ========================
+  		INTERMEDIATE: IE Fixes
+  	 ======================== */
+  /* line 54, ../sass/mediaqueries.scss */
+  nav ul li {
+    display: inline;
+  }
+
+  /* line 58, ../sass/mediaqueries.scss */
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 67, ../sass/mediaqueries.scss */
+  #steps section img {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+  		WIDE: CSS3 Effects
+  	 ==================== */
+  /* ============
+  		WIDE: Menu
+  	 ============ */
+  /* line 84, ../sass/mediaqueries.scss */
+  .title {
+    float: left;
+    min-width: 15%;
+    width: 15%;
+  }
+
+  /* line 90, ../sass/mediaqueries.scss */
+  .slogan {
+    float: right;
+    min-width: 80%;
+    width: 80%;
+  }
+
+  /* ============
+  		WIDE: Main
+  	 ============ */
+}
+@media only screen and (min-width: 1140px) {
+  /* ===============
+  		Maximal Width
+  	 =============== */
+  /* line 108, ../sass/mediaqueries.scss */
+  .wrapper {
+    width: 1026px;
+    /* 1140px - 10% for margins */
+    margin: 0 auto;
+  }
+}
 /* line 1, ../sass/helper.scss */
 .ir {
   background-color: transparent;

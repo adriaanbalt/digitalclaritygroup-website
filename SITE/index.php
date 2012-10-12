@@ -135,7 +135,7 @@
 								<a href='' target='_blank'>See All Research</a>
 							</div>
 						</section>
-						<section>
+						<section class='last'>
 							<div class='inner'>
 								<h2>Thinking</h2>
 								<ul>
@@ -154,12 +154,12 @@
 					</article>
 				</div>
 
-				<div id='thoughts'>
+				<div id='thoughts' class='clearfix'>
 					<article class='wrapper'>
 						<header>
 							<h1>OUR THOUGHTS</h1>
 						</header>
-						<div>
+						<div class='contain clearfix'>
 							<?php getRSS( 'http://digitalclaritygroup.com/feed/', 'thoughtsLoaded' ); ?>
 						</div>
 					</article>
@@ -171,8 +171,10 @@
 							<iframe width="560" height="315" src="http://www.youtube.com/embed/videoseries?list=PLI0CjHTl84BwYc3wF7lRASZyE0_htgHnk&amp;hl=en_US" frameborder="0" allowfullscreen></iframe>
 						</section>
 						<section id='twitter'>
-							<div class='cathymcknight'></div>
-							<div class='justclarity'></div>								
+							<div class='inner'>
+								<div class='cathymcknight'></div>
+								<div class='justclarity'></div>
+							</div>
 						</section>
 					</article>
 				</div>
@@ -274,7 +276,7 @@
 								</form>
 							</div>
 						</section>
-						<section class='contact'>
+						<section class='contact last'>
 							<div class='inner'>
 								<h2>Contact</h2>
 								<h4>PR</h4>

@@ -21,22 +21,33 @@
 				);
 			array_push($feed, $item);
 		}
-		$limit = 5;
+		$rowLimit = 4;
+		$limit = $rowLimit * (floor(count($feed) / $rowLimit));
 		$container = '';
 		for($x=0;$x<$limit;$x++) {
 			$title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
 			$link = $feed[$x]['link'];
-			$description = $feed[$x]['desc'];
+			$date = 'March 20, 2012';
+			if ( $x == 0 ){
+				$container .= "<div class='row'><div class='inner clearfix'>";
+			}
+			if ( $x % $rowLimit == 0 && $x != 0 ){
+				$container .= "</div></div><div class='row'><div class='inner clearfix'>";
+			}
 			$container .= 
-			'<section>
-				<a href="'.$link.'" title="'.$title.'">
-					<p>'.$date.'</p>
-					<p>'.$title.'</p>
-					<img src="'. $image .'"/>
-					<p>Continue Reading...</p>
-					<p>'.$author.'</p>
-				</a>
-			</section>';
+			"<section class='". (((($x+1) % 4 == 0)&&($x!=0)) ? 'last' : '') . ($x==0 || $x == $rowLimit ? 'first' : '') ."'>
+				<div class='inner'>
+					<div class='border'>
+						<a href='".$link."' target='_blank' title='".$title."'>
+							<p>".$date."</p>
+							<p>".$title."</p>
+							<img src='". $image ."'/>
+							<p>Continue Reading...</p>
+							<p>".$author."</p>
+						</a>
+					</div>
+				</div>
+			</section>";
 		}
 		print $container;
 	}
