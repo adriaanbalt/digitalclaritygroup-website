@@ -160,7 +160,7 @@
 							<h1>OUR THOUGHTS</h1>
 						</header>
 						<div class='contain clearfix'>
-							<?php getRSS( 'http://digitalclaritygroup.com/feed/', 'thoughtsLoaded' ); ?>
+							<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup/blog', 'thoughtsLoaded' ); ?>
 						</div>
 					</article>
 				</div>

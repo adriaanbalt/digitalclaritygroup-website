@@ -29,6 +29,14 @@ ul, li {
    =================== */
 
 .header-container {
+	.title {
+		background: url('../img/dcg-logo.jpg') 0 0 no-repeat;
+		width: 102px;
+		height: 102px;
+	}
+	.slogan {
+		font-size: 24px;
+	}
 }
 
 .footer-container {
@@ -38,16 +46,6 @@ ul, li {
 		color: white;
 		font-weight: normal;
 	}
-}
-
-.title {
-	background: url('../img/dcg-logo.jpg') 0 0 no-repeat;
-	width: 102px;
-	height: 102px;
-}
-
-.slogan {
-	font-size: 24px;
 }
 
 /* ==============
@@ -205,17 +203,43 @@ header h1 {
 			border-right: 0;
 		}
 		>.inner {
-			padding: 8px;
+			padding: 0px 8px;
 			height: 100%;
 		}
 		.border {
 			height: 100%;
 		}
-		a { 
+		a {
+			color: #000;
+			text-decoration: none;
 			display: block;
+			height: 100%;
+			&:hover {
+				text-decoration: underline;
+			}
 		}
-		p { 
+		p {
 			margin: 0;
+			&.date{
+
+				font-size: 14px;
+				color: #999;
+			}
+			&.title{
+				font-size: 16px;
+				line-height: 18px;
+			}
+			&.continue{
+				font-size: 14px;
+			}
+			&.author{
+				font-size: 11px;
+				line-height: 11px;
+			}
+		}
+		img {
+			max-width: 100%;
+			margin: .5em 0;
 		}
 	}
 }
@@ -224,7 +248,7 @@ header h1 {
 	article {
 		padding: 0 0 2em 0;
 	}
-	section { 
+	section {
 		float: left;
 		&#video {
 			width: 59%;
@@ -264,7 +288,7 @@ header h1 {
 		margin: 0px 1px 0px 0px;
 		text-align: center;
 
-		img { 
+		img {
 			background: #010101;
 		}
 
@@ -272,7 +296,7 @@ header h1 {
 			padding: 10px 0px;
 		}
 	}
-	article { 
+	article {
 		z-index: 1;
 		zoom: 1;
 	}
@@ -286,10 +310,10 @@ header h1 {
 			width: 100%;
 			background: $orange-color;
 		}
-		.top { 
+		.top {
 			height: 73px;
 		}
-		.btm { 
+		.btm {
 			height: 110px;
 		}
 		width: 100%;
@@ -326,7 +350,7 @@ header h1 {
 		h4{
 			margin: 0;
 		}
-		p { 
+		p {
 			margin: 0;
 		}
 	}

@@ -20,7 +20,7 @@
 		INTERMEDIATE: Menu
 	 ==================== */
 
-		.wrapper { 
+		.wrapper {
 			width: 100%;
 		}
 
@@ -80,7 +80,7 @@
 /* ============
 		WIDE: Menu
 	 ============ */
-	 
+	.header-container {
 		.title {
 			float: left;
 			min-width: 15%;
@@ -92,6 +92,7 @@
 			min-width: 80%;
 			width: 80%;
 		}
+	}
 
 /* ============
 		WIDE: Main
