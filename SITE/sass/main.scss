@@ -1,11 +1,20 @@
 @import "constants";
 
 body {
-	font: 16px/26px Helvetica, Helvetica Neue, Arial;
+  	font-family: 'Maven Pro';
+	position: relative;
 }
 
 ul, li {
 	list-style-type : none;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 .wrapper {
@@ -72,12 +81,12 @@ nav a {
 	margin-bottom: 0;
 
 	text-align: center;
-	text-decoration: none;
 	font-weight: normal;
 	font-size: 15px;
 
 	color: $orange-color;
 	background: #fff;
+	border-bottom: 1px solid #fff;
 
 	&:hover,
 	&:visited {
@@ -85,7 +94,6 @@ nav a {
 	}
 
 	&:hover {
-		text-decoration: underline;
 	}
 }
 
@@ -114,18 +122,90 @@ header h1 {
 	SECTIONS
 	================== */
 
+.overlay-container {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: relative;
+
+	.bg {
+		background: #000;
+		opacity: .8;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 0;
+		zoom: 1;
+		display: block;
+	}
+	.content {
+		>.inner { 
+			padding: 20px;
+		}
+		h3 {
+			color: $orange-color;
+			font-size: 25px;
+			margin: 0;
+		}
+		h4 {
+			font-size: 20px;
+			margin: 0;
+		}
+		p {
+			font-size: 14px;
+		}
+		.email, .info, .twitter {
+			color: $orange-color;
+			margin: 0;
+			span{
+				margin: 0px 10px 0px 0px;
+			}
+			a {
+				color: $orange-color;
+			}
+		}
+		background: #fff;
+		width: 50%;
+		text-align: left;
+		position: fixed;
+		z-index: 1;
+		zoom: 1;
+		top: 10%;
+		left: 50%;
+		margin-left: -25%;
+	}
+	.close {
+		float: right;
+		background: url('../img/close-overlay.jpg') 0 0 no-repeat;
+		width: 19px;
+		height: 17px;
+		display: block;
+	}
+	hr{ 
+		margin-top: 30px;
+		border: 1px dotted $gray-color;
+	}
+}
+
 #steps {
 	color : #fff;
 	section {
 		float: left;
 		width: 20%;
 		height: 100%;
-		margin: 0px 5% 0px 0px;
+		margin: 0px 6.5% 0px 0px;
 		text-align: center;
 
 		h2 {
 			color: $blue;
-			font-size: 100%;
 		}
 		p {
 			color: $light-gray;
@@ -133,6 +213,9 @@ header h1 {
 		}
 		> .inner {
 			padding: 10px;
+		}
+		&.last {
+			margin: 0;
 		}
 	}
 	article {
@@ -171,6 +254,16 @@ header h1 {
 		&.last{
 			border-right: 0;
 		}
+		p {
+			margin: 0;
+		}
+		.date {
+			font-size: 14px;
+		}
+		.title {
+			text-decoration: underline;
+			font-size: 16px;
+		}
 	}
 }
 
@@ -182,20 +275,20 @@ header h1 {
 		border-top: 2px dotted $gray-color;
 		margin: 5px 0 0 0;
 		width: 100%;
-		height: 100%;
 		position: inherit;
 		>.inner {
-			position: inherit;
+			position: relative;
 			padding: 8px 5px 5px 5px;
 			width: 100%;
-			height: 100%;
 		}
 	}
 
 	section {
+		position: relative;
 		float: left;
 		width: 24.6%;
-		height: 305px;
+		min-height: 310px;
+		height:100%;
 		border-right: 2px dotted $gray-color;
 		&.first{
 		}
@@ -204,19 +297,11 @@ header h1 {
 		}
 		>.inner {
 			padding: 0px 8px;
-			height: 100%;
-		}
-		.border {
-			height: 100%;
 		}
 		a {
-			color: #000;
-			text-decoration: none;
 			display: block;
-			height: 100%;
-			&:hover {
-				text-decoration: underline;
-			}
+			min-height: 310px;
+			height:100%;
 		}
 		p {
 			margin: 0;
@@ -251,17 +336,20 @@ header h1 {
 	section {
 		float: left;
 		&#video {
-			width: 59%;
 			padding: 2em 0px;
-			iframe {
-				width: 100%;
-			}
 		}
 		&#twitter {
-			width: 40%;
+			width: 45%;
 			border-left: 2px dotted $gray-color;
 			>.inner {
 				padding: 10px 20px;
+			}
+			.tweet_list {
+				margin: 0;
+				li {
+					border-bottom: 1px dotted $gray-color;
+					margin: 10px 0px;
+				}
 			}
 		}
 	}
@@ -294,6 +382,9 @@ header h1 {
 
 		> .inner {
 			padding: 10px 0px;
+		}
+		a {
+			color: #fff;
 		}
 	}
 	article {
@@ -328,8 +419,8 @@ header h1 {
 #contact {
 	section {
 		float: left;
-		width: 30%;
 		border-right: 2px dotted $gray-color;
+		height: 275px;
 
 		&.last {
 			border-right: 0;
@@ -339,19 +430,50 @@ header h1 {
 			padding: 0px 20px;
 		}
 
-	}
-	.links {
-
-	}
-	.newsletter {
-
-	}
-	.contact {
 		h4{
 			margin: 0;
+			font-size: 18px;
 		}
 		p {
 			margin: 0;
+			font-size: 14px;
+			line-height: 1.5em;
+		}
+	}
+	.links {
+		width: 20%;
+		img {
+			margin-top: -7px;
+		}
+		span{
+			margin: 5px;
+		}
+	}
+	.newsletter {
+		width: 50%;
+		input {
+			border: 5px solid white; 
+			-webkit-box-shadow: 
+				inset 0 0 8px  rgba(0,0,0,0.1),
+					0 0 16px rgba(0,0,0,0.1); 
+			-moz-box-shadow: 
+				inset 0 0 8px  rgba(0,0,0,0.1),
+					0 0 16px rgba(0,0,0,0.1); 
+			box-shadow: 
+				inset 0 0 8px  rgba(0,0,0,0.1),
+					0 0 16px rgba(0,0,0,0.1); 
+			padding: 15px;
+			background: rgba(227,82,37,.5);
+			margin: 0 0 10px 0;
+		}
+		p{
+			margin: 0 0 20px 0;
+		}
+	}
+	.contact {
+		width: 29%;
+		.role{
+			margin-bottom: 15px;
 		}
 	}
 }

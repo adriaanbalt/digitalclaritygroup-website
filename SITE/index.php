@@ -25,14 +25,66 @@
 			<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
 		<![endif]-->
 
+		<div class='overlay-container'>
+
+			<div id='scottliewehr' class='overlay'>
+				<div class='content'>
+					<div class='inner'>
+						<a href='#' class='close'></a>
+						<hr>
+						<h3>Scott Liewehr</h3>
+						<h4>President & Principle</h4>
+						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+					</div>
+				</div>
+				<a href='#' class='bg'></a>
+			</div>
+
+			<div id='chris' class='overlay'>
+				<div class='content'>
+					<div class='inner'>
+						<a href='#' class='close'></a>
+						<hr>
+						<h3>Chris</h3>
+						<h4>Delivery</h4>
+						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+					</div>
+				</div>
+				<a href='#' class='bg'></a>
+			</div>
+
+			<div id='tim' class='overlay'>
+				<div class='content'>
+					<div class='inner'>
+						<a href='#' class='close'></a>
+						<hr>
+						<h3>Tim</h3>
+						<h4>Analyst</h4>
+						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+					</div>
+				</div>
+				<a href='#' class='bg'></a>
+			</div>
+			
+		</div>
+
 		<div class="header-container">
 			<header class="wrapper">
 				<nav class='clearfix'>
 					<ul class='clearfix'>
-						<li><a href="#">OUR LATEST</a></li>
-						<li><a href="#">OUT THOUGHTS</a></li>
-						<li><a href="#">OUR STORY</a></li>
-						<li><a href="#">CONTACT US</a></li>
+						<li><a href="#latest">OUR LATEST</a></li>
+						<li><a href="#thoughts">OUT THOUGHTS</a></li>
+						<li><a href="#story">OUR STORY</a></li>
+						<li><a href="#contact">CONTACT US</a></li>
 					</ul>
 				</nav>
 				<div class='clearfix'>
@@ -68,7 +120,7 @@
 								<p>Enterprise Technology powers insight that reveals the need for change - but it doesn’t power change itself. For true success, enterprises must implement technological change well and adopt and manage it successfully. DCG helps business leaders to unleash innovative change.</p>
 							</div>
 						</section>
-						<section>
+						<section class='last'>
 							<div class='inner'>
 								<img src='img/adaptive-technology.png' alt='Adaptive Technology'/>
 								<h2>Adaptive Technology</h2>
@@ -99,10 +151,7 @@
 							<div class='inner'>
 								<h2>News</h2>
 								<ul>
-									<li>
-										<h6>10.06.2012</h6>
-										<p><a href='' target='_blank'>Some Headline</a></p>
-									</li>
+									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-news', 'latestLoaded' ); ?>
 								</ul>
 								<a href='' target='_blank'>See All News</a>
 							</div>
@@ -111,14 +160,7 @@
 							<div class='inner'>
 								<h2>Events</h2>
 								<ul>
-									<li>
-										<h6>10.06.2012</h6>
-										<p><a href='' target='_blank'>Some Headline</a></p>
-									</li>
-									<li>
-										<h6>10.06.2012</h6>
-										<p><a href='' target='_blank'>Some Headline</a></p>
-									</li>
+									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-events', 'latestLoaded' ); ?>
 								</ul>
 								<a href='' target='_blank'>See All Events</a>
 							</div>
@@ -127,10 +169,7 @@
 							<div class='inner'>
 								<h2>Research</h2>
 								<ul>
-									<li>
-										<h6>10.06.2012</h6>
-										<p><a href='' target='_blank'>Some Headline</a></p>
-									</li>
+									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-research', 'latestLoaded' ); ?>
 								</ul>
 								<a href='' target='_blank'>See All Research</a>
 							</div>
@@ -139,14 +178,7 @@
 							<div class='inner'>
 								<h2>Thinking</h2>
 								<ul>
-									<li>
-										<h6>10.06.2012</h6>
-										<p><a href='' target='_blank'>Some Headline</a></p>
-									</li>
-									<li>
-										<h6>10.06.2012</h6>
-										<p><a href='' target='_blank'>Some Headline</a></p>
-									</li>
+									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-thinking', 'latestLoaded' ); ?>
 								</ul>
 								<a href='' target='_blank'>See All Thinking</a>
 							</div>
@@ -196,50 +228,62 @@
 					<article class='wrapper clearfix'>
 						<section>
 							<div class='inner'>
-								<h3>Scott</h3>
-								<img src='img/person.jpg' alt='Scott'/>
-								<p class='position'>President</p>
-								<p class='sub-position'>Principle Analyst</p>
+								<a href='#scottliewehr'>
+									<h3>Scott Liewehr</h3>
+									<img src='img/person.jpg' alt='Scott Liewehr'/>
+									<p class='position'>President</p>
+									<p class='sub-position'>Principle Analyst</p>
+								</a>
 							</div>
 						</section>
 						<section>
 							<div class='inner'>
-								<h3>Cathy</h3>
-								<img src='img/person.jpg' alt='Scott'/>
-								<p class='position'>President</p>
-								<p class='sub-position'>Principle Analyst</p>
+								<a href='#chris'>
+									<h3>Cathy</h3>
+									<img src='img/person.jpg' alt='Cathy'/>
+									<p class='position'>President</p>
+									<p class='sub-position'>Principle Analyst</p>
+								</a>
 							</div>
 						</section>
 						<section>
 							<div class='inner'>
-								<h3>Tim</h3>
-								<img src='img/person.jpg' alt='Scott'/>
-								<p class='position'>President</p>
-								<p class='sub-position'>Principle Analyst</p>
+								<a href='#tim'>
+									<h3>Tim</h3>
+									<img src='img/person.jpg' alt='Tim'/>
+									<p class='position'>President</p>
+									<p class='sub-position'>Principle Analyst</p>
+								</a>
 							</div>
 						</section>
 						<section>
 							<div class='inner'>
-								<h3>Elise</h3>
-								<img src='img/person.jpg' alt='Scott'/>
-								<p class='position'>President</p>
-								<p class='sub-position'>Principle Analyst</p>
+								<a href='#scottrose'>
+									<h3>Elise</h3>
+									<img src='img/person.jpg' alt='Scott'/>
+									<p class='position'>President</p>
+									<p class='sub-position'>Principle Analyst</p>
+								</a>
 							</div>
 						</section>
 						<section>
 							<div class='inner'>
-								<h3>Robert</h3>
-								<img src='img/person.jpg' alt='Scott'/>
-								<p class='position'>President</p>
-								<p class='sub-position'>Principle Analyst</p>
+								<a href='#scottrose'>
+									<h3>Robert</h3>
+									<img src='img/person.jpg' alt='Scott'/>
+									<p class='position'>President</p>
+									<p class='sub-position'>Principle Analyst</p>
+								</a>
 							</div>
 						</section>
 						<section>
 							<div class='inner'>
-								<h3>Kyle</h3>
-								<img src='img/person.jpg' alt='Scott'/>
-								<p class='position'>President</p>
-								<p class='sub-position'>Principle Analyst</p>
+								<a href='#scottrose'>
+									<h3>Kyle</h3>
+									<img src='img/person.jpg' alt='Scott'/>
+									<p class='position'>President</p>
+									<p class='sub-position'>Principle Analyst</p>
+								</a>
 							</div>
 						</section>
 					</article>
@@ -259,11 +303,11 @@
 							<div class='inner'>
 								<h2>Links</h2>
 								<ul>
-									<li><a href='' target='_blank'><img src='img/twitter.jpg' alt='Twitter'/>Twitter</a></li>
-									<li><a href='' target='_blank'><img src='img/facebook.jpg' alt='Facebook'/>Facebook</a></li>
-									<li><a href='' target='_blank'><img src='img/blogger.jpg' alt='Blogs'/>Blogs</a></li>
-									<li><a href='' target='_blank'><img src='img/rss.jpg' alt='RSS Feed'/>RSS Feed</a></li>
-									<li><a href='' target='_blank'><img src='img/slideshare.jpg' alt='Slideshare'/>Slideshare</a></li>
+									<li><a href='' target='_blank'><img src='img/twitter.jpg' alt='Twitter'/><span>Twitter</span></a></li>
+									<li><a href='' target='_blank'><img src='img/facebook.jpg' alt='Facebook'/><span>Facebook</span></a></li>
+									<li><a href='' target='_blank'><img src='img/blogger.jpg' alt='Blogs'/><span>Blogs</span></a></li>
+									<li><a href='' target='_blank'><img src='img/rss.jpg' alt='RSS Feed'/><span>RSS Feed</span></a></li>
+									<li><a href='' target='_blank'><img src='img/slideshare.jpg' alt='Slideshare'/><span>Slideshare</span></a></li>
 								</ul>
 							</div>
 						</section>
@@ -272,21 +316,26 @@
 								<h2>Sign Up</h2>
 								<p>Subscribe to Digital Clarity Group if you'd like to receive our free content designed to help leaders navigate digital transformation.</p>
 								<form>
-									<input></input>
+									<input type='text'>
+									<input type="submit" value="Submit">
 								</form>
 							</div>
 						</section>
 						<section class='contact last'>
 							<div class='inner'>
 								<h2>Contact</h2>
-								<h4>PR</h4>
-								<p class='name'>Robert Rose</p>
-								<p class='email'>Email: <a href='mailto:rrose@digitalclaritygroup.com'>rrose@digitalclaritygroup.com</a></p>
-								<p class='phone'>Phone: <a href='tel:800-555-5555'>800-555-5555</a></p>
-								<h4>General Inquiries</h4>
-								<p class='name'>Scott Leiwehr</p>
-								<p class='email'>Email: <a href='mailto:sleiwehr@digitalclaritygroup.com'>sleiwehr@digitalclaritygroup.com</a></p>
-								<p class='phone'>Phone: <a href='tel:800-555-5555'>800-555-5555</a></p>
+								<div class='role'>
+									<h4>PR</h4>
+									<p class='name'>Robert Rose</p>
+									<p class='email'>Email: <a href='mailto:rrose@digitalclaritygroup.com'>rrose@digitalclaritygroup.com</a></p>
+									<p class='phone'>Phone: <a href='tel:800-555-5555'>800-555-5555</a></p>
+								</div>
+								<div class='role'>
+									<h4>General Inquiries</h4>
+									<p class='name'>Scott Leiwehr</p>
+									<p class='email'>Email: <a href='mailto:sleiwehr@digitalclaritygroup.com'>sleiwehr@digitalclaritygroup.com</a></p>
+									<p class='phone'>Phone: <a href='tel:800-555-5555'>800-555-5555</a></p>
+								</div>
 							</div>
 						</section>
 					</article>
@@ -304,8 +353,11 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
+		<script src="js/jquery.history.js"></script>
 		<script src="js/jquery.tweet.js"></script>
-		<script src="js/main.js"></script>
+		<script src="js/dcg.overlay.js"></script>
+		<script src="js/dcg.historymanager.js"></script>
+		<script src="js/dcg.main.js"></script>=
 
 		<script>
 			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

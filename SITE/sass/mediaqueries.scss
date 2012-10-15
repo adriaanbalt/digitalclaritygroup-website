@@ -12,6 +12,9 @@
 				width: 100%
 			}
 		}
+
+		
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -69,7 +72,25 @@
 			}
 	 	}
 	}
+	#steps {
+		section{
+			h2{
+				font-size: 1.2em;
+			}
+		}
+	}
 }
+
+
+@media only screen and (max-width: 600px) {
+	#video {
+		width: 100%;
+		iframe {
+			width: 100%;
+		}
+	}
+}
+
 
 @media only screen and (min-width: 768px) {
 

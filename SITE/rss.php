@@ -9,6 +9,40 @@
 		call_user_func( $callback, $rss );
 	}
 
+
+	function latestLoaded( $rss ) {
+		$feed = array();
+		foreach ($rss->getElementsByTagName('item') as $node) {
+			$img_links = array();
+			$dom = new DOMDocument();
+			$dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
+			$item = array (
+				'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+				'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+				'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue
+				);
+			array_push($feed, $item);
+		}
+		$limit = 5;
+		$container = '';
+		foreach( $feed as $item ) {
+			$title = str_replace(' & ', ' &amp; ', $item['title']);
+			$link = $item['link'];
+			$dateArr = split(' ', $item['date']);
+			$date = $dateArr[2] . ' ' . $dateArr[1] . ', ' . $dateArr[3];
+			$container .=
+			"<li class='". (((($x+1) % 4 == 0)&&($x!=0)) ? 'last' : '') . ($x==0 || $x == $rowLimit ? 'first' : '') ."'>
+				<div class='inner'>
+					<a href='".$link."' target='_blank' title='".$title."'>
+						<p class='date'>".$date."</p>
+						<p class='title'>".$title."</p>
+					</a>
+				</div>
+			</li>";
+		}
+		print $container;
+	}
+
 	function thoughtsLoaded( $rss ) {
 		$feed = array();
 		foreach ($rss->getElementsByTagName('item') as $node) {
@@ -46,16 +80,14 @@
 			$container .=
 			"<section class='". (((($x+1) % 4 == 0)&&($x!=0)) ? 'last' : '') . ($x==0 || $x == $rowLimit ? 'first' : '') ."'>
 				<div class='inner'>
-					<div class='border'>
-						<a href='".$link."' target='_blank' title='".$title."'>
-							<p class='date'>".$date."</p>
-							<p class='title'>".$title."</p>
-							<img src='". $image ."'/>
-							<p class='continue'>Continue Reading...</p>
-							<p class='author'>Posted by ".$author."</p>
-							<div class='share'></div>
-						</a>
-					</div>
+					<a href='".$link."' target='_blank' title='".$title."'>
+						<p class='date'>".$date."</p>
+						<p class='title'>".$title."</p>
+						<img src='". $image ."'/>
+						<p class='continue'>Continue Reading...</p>
+						<p class='author'>Posted by ".$author."</p>
+						<div class='share'></div>
+					</a>
 				</div>
 			</section>";
 		}
