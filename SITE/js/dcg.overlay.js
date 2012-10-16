@@ -10,11 +10,13 @@
 			$('.overlay-container').show();
 			$('.overlay').hide();
 			$('#'+hash).show();
+			$('body').addClass('has-overlay');
 		}
 
 		root.hide = function(hash) {
 			$('.overlay-container').hide();
 			$('.overlay').hide();
+			$('body').removeClass('has-overlay');
 		}
 
 		init();

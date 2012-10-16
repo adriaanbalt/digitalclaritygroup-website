@@ -36,7 +36,7 @@
 		nav a {
 			float: none;
 			background: $orange-color;
-			color: #fff;
+			color: #fff !important;
 			padding: 25px 2%;
 			margin: 0;
 		}
@@ -61,6 +61,17 @@
 		.oldie nav a {
 			margin: 0 0.7%;
 		}
+		.overlay {
+			.content {
+				top: 0%;
+			}
+		}
+
+		body {
+			&.has-overlay{
+			}
+		}
+
 }
 
 @media only screen and (max-width: 768px) {

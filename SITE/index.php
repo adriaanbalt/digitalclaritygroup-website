@@ -341,14 +341,14 @@
 								<div class='role'>
 									<h4>PR</h4>
 									<p class='name'>Robert Rose</p>
-									<p class='email'>Email: <a href='mailto:rrose@digitalclaritygroup.com'>rrose@digitalclaritygroup.com</a></p>
-									<p class='phone'>Phone: <a href='tel:800-555-5555'>800-555-5555</a></p>
+									<p class='email'><a href='mailto:rrose@digitalclaritygroup.com'>rrose@digitalclaritygroup.com</a></p>
+									<p class='phone'><a href='tel:800-555-5555'>800-555-5555</a></p>
 								</div>
 								<div class='role'>
 									<h4>General Inquiries</h4>
 									<p class='name'>Scott Leiwehr</p>
-									<p class='email'>Email: <a href='mailto:sleiwehr@digitalclaritygroup.com'>sleiwehr@digitalclaritygroup.com</a></p>
-									<p class='phone'>Phone: <a href='tel:800-555-5555'>800-555-5555</a></p>
+									<p class='email'><a href='mailto:sleiwehr@digitalclaritygroup.com'>sleiwehr@digitalclaritygroup.com</a></p>
+									<p class='phone'><a href='tel:800-555-5555'>800-555-5555</a></p>
 								</div>
 							</div>
 						</section>
