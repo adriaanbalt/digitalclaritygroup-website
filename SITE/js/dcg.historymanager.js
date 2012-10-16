@@ -26,8 +26,6 @@
 				ret = true;
 			}
 
-			console.log ( "ret: ", ret, hash );
-
 			return ret;
 		}
 

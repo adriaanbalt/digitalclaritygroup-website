@@ -204,7 +204,10 @@
 						</section>
 						<section id='twitter'>
 							<div class='inner'>
-								<div class='cathymcknight'></div>
+								<header class='clearfix'>
+									<h2><img src='img/twitter-logo.png' alt='Twitter'/></h2>
+									<a href='javascript:void(0);' class='reload'>Reload</a>
+								</header>
 								<div class='justclarity'></div>
 							</div>
 						</section>
@@ -226,72 +229,83 @@
 
 				<div id='team'>
 					<article class='wrapper clearfix'>
-						<section>
-							<div class='inner'>
-								<a href='#scottliewehr'>
-									<h3>Scott Liewehr</h3>
-									<img src='img/person.jpg' alt='Scott Liewehr'/>
-									<p class='position'>President</p>
-									<p class='sub-position'>Principle Analyst</p>
-								</a>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<a href='#chris'>
-									<h3>Cathy</h3>
-									<img src='img/person.jpg' alt='Cathy'/>
-									<p class='position'>President</p>
-									<p class='sub-position'>Principle Analyst</p>
-								</a>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<a href='#tim'>
-									<h3>Tim</h3>
-									<img src='img/person.jpg' alt='Tim'/>
-									<p class='position'>President</p>
-									<p class='sub-position'>Principle Analyst</p>
-								</a>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<a href='#scottrose'>
-									<h3>Elise</h3>
-									<img src='img/person.jpg' alt='Scott'/>
-									<p class='position'>President</p>
-									<p class='sub-position'>Principle Analyst</p>
-								</a>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<a href='#scottrose'>
-									<h3>Robert</h3>
-									<img src='img/person.jpg' alt='Scott'/>
-									<p class='position'>President</p>
-									<p class='sub-position'>Principle Analyst</p>
-								</a>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<a href='#scottrose'>
-									<h3>Kyle</h3>
-									<img src='img/person.jpg' alt='Scott'/>
-									<p class='position'>President</p>
-									<p class='sub-position'>Principle Analyst</p>
-								</a>
-							</div>
-						</section>
+						<div class='row clearfix'>
+							<section>
+								<div class='inner'>
+									<a href='#scottliewehr'>
+										<img src='img/person.jpg' alt='Scott Liewehr'/>
+										<h3>Scott Liewehr</h3>
+										<p class='position'>President / Principle Analyst</p>
+									</a>
+								</div>
+							</section>
+							<section>
+								<div class='inner'>
+									<a href='#chris'>
+										<img src='img/person.jpg' alt='Cathy'/>
+										<h3>Cathy</h3>
+										<p class='position'>President / Principle Analyst</p>
+									</a>
+								</div>
+							</section>
+							<section>
+								<div class='inner'>
+									<a href='#tim'>
+										<img src='img/person.jpg' alt='Tim'/>
+										<h3>Tim</h3>
+										<p class='position'>President / Principle Analyst</p>
+									</a>
+								</div>
+							</section>
+							<section class='last'>
+								<div class='inner'>
+									<a href='#scottliewehr'>
+										<img src='img/person.jpg' alt='Scott'/>
+										<h3>Elise</h3>
+										<p class='position'>President / Principle Analyst</p>
+									</a>
+								</div>
+							</section>
+						</div>
+						<div class='row last clearfix'>
+							<section>
+								<div class='inner'>
+									<a href='#scottliewehr'>
+										<img src='img/person.jpg' alt='Scott'/>
+										<h3>Robert</h3>
+										<p class='position'>President / Principle Analyst</p>
+									</a>
+								</div>
+							</section>
+							<section>
+								<div class='inner'>
+									<a href='#scottliewehr'>
+										<img src='img/person.jpg' alt='Scott'/>
+										<h3>Kyle</h3>
+										<p class='position'>President / Principle Analyst</p>
+									</a>
+								</div>
+							</section>
+							<section>
+								<div class='inner'>
+									<a href='#scottliewehr'>
+										<img src='img/person.jpg' alt='Scott'/>
+										<h3>Kyle</h3>
+										<p class='position'>President / Principle Analyst</p>
+									</a>
+								</div>
+							</section>
+							<section class='last'>
+								<div class='inner'>
+									<a href='#scottliewehr'>
+										<img src='img/person.jpg' alt='Scott'/>
+										<h3>Kyle</h3>
+										<p class='position'>President / Principle Analyst</p>
+									</a>
+								</div>
+							</section>
+						</div>
 					</article>
-					<div class='edge'>
-						<div class='top'></div>
-						<div class='mid'></div>
-						<div class='btm'></div>
-					</div>
 				</div>
 
 				<div id='contact'>
@@ -357,7 +371,7 @@
 		<script src="js/jquery.tweet.js"></script>
 		<script src="js/dcg.overlay.js"></script>
 		<script src="js/dcg.historymanager.js"></script>
-		<script src="js/dcg.main.js"></script>=
+		<script src="js/dcg.main.js"></script>
 
 		<script>
 			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

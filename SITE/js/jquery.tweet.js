@@ -30,7 +30,7 @@
       twitter_url: "twitter.com",               // [string]   custom twitter url, if any (apigee, etc.)
       twitter_api_url: "api.twitter.com",       // [string]   custom twitter api url, if any (apigee, etc.)
       twitter_search_url: "search.twitter.com", // [string]   custom twitter search url, if any (apigee, etc.)
-      template: "{avatar}{time}{join} {text}",  // [string or function] template used to construct each tweet <li> - see code for available vars
+      template: "{avatar}<p class='txt'>{text}{time}</p>",        // [string or function] template used to construct each tweet <li> - see code for available vars
       comparator: function(tweet1, tweet2) {    // [function] comparator used to sort tweets (see Array.sort)
         return tweet2["tweet_time"] - tweet1["tweet_time"];
       },
@@ -221,6 +221,8 @@
       var list = $('<ul class="tweet_list">');
       list.append($.map(tweets, function(o) { return "<li>" + t(s.template, o) + "</li>"; }).join('')).
         children('li:first').addClass('tweet_first').end().
+        children('li:last').addClass('tweet_last').end().
+        children('li').addClass('clearfix').end().
         children('li:odd').addClass('tweet_even').end().
         children('li:even').addClass('tweet_odd');
 
@@ -251,7 +253,9 @@
 
       $(widget).unbind("tweet:render").unbind("tweet:retrieved").unbind("tweet:load").
         bind({
-          "tweet:load": function() { load(widget); },
+          "tweet:load": function() { 
+            load(widget);
+          },
           "tweet:retrieved": function(ev, tweets) {
             $(widget).trigger("tweet:render", [tweets])
           },

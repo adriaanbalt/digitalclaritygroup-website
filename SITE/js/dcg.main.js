@@ -17,12 +17,16 @@
 				loading_text: "Loading Twitter feed...",
 				refresh_interval: 120
 			});
-			$("#twitter .justclarity").tweet({
+			var twit = $("#twitter .justclarity").tweet({
 				avatar_size: 64,
-				count: 3,
+				count: 5,
 				username: ["just_clarity"],
 				loading_text: "",
 				refresh_interval: 120
+			});
+			$('#twitter .reload').on( 'click', function() {
+				console.log ( 'clicked ', twit );
+				twit.trigger("tweet:load");
 			});
 		}
 
