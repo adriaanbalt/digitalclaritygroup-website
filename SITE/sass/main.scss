@@ -45,7 +45,8 @@ a{
 		height: 102px;
 	}
 	.slogan {
-		font-size: 24px;
+		font-size: 1.3em;
+		margin: 1.9em 0 0 0;
 	}
 }
 
@@ -211,6 +212,7 @@ header h1 {
 
 		h2 {
 			color: $blue;
+			line-height: 1em;
 		}
 		p {
 			color: $light-gray;
@@ -310,10 +312,16 @@ header h1 {
 		>.inner {
 			padding: 0px 8px;
 		}
-		a {
+		.blog-btn {
 			display: block;
 			min-height: 310px;
 			height:100%;
+		}
+		.share {
+			margin-top: 1em;
+			iframe {
+				margin: -3px 0 0 0;
+			}
 		}
 		p {
 			margin: 0;
@@ -325,6 +333,8 @@ header h1 {
 			&.title{
 				font-size: 16px;
 				line-height: 18px;
+				height: 55px;
+				overflow: hidden;
 			}
 			&.continue{
 				font-size: 14px;
@@ -337,6 +347,7 @@ header h1 {
 		img {
 			max-width: 100%;
 			margin: .5em 0;
+			overflow: hidden;
 		}
 	}
 }
@@ -345,65 +356,111 @@ header h1 {
 	article {
 		padding: 0 0 2em 0;
 	}
-	section {
-		float: left;
-		&#video {
+	#videoplayer{
+		width:48.4%;
+		border-right: 2px dotted $gray-color;
+		padding: 0 1em 0 0px;
+		>.inner {
+			padding: 0px 1em 1em 1em;
+			background: #eaeaea;
+		}
+		#videoLoad{
+			display: none;
+			visibility: hidden;
+		}
+		#video {
 			padding: 2em 1em 0 0;
 		}
-		&#twitter {
-			width: 43%;
-			border-left: 2px dotted $gray-color;
-			>.inner {
-				padding: 10px 20px;
+		#videofeature {
+			h3 {
+				max-height: 55px;
+				overflow: hidden;
 			}
-			.tweet_list {
+			iframe{
+				width: 100%;
+			}
+		}
+		#videoplaylist {
+			h4 {
+				width: 90px;
+				height: 57px;
 				margin: 0;
-				li {
-					border-bottom: 1px dotted $gray-color;
-					padding: 0px 0px 5px 0px;
-					margin: 10px 0px;
-					overflow: hidden;
-
-					.tweet_time{
-						display: block;
-					}
-				}
-				.tweet_first {
-					margin: 0px 0px 10px 0px;
-				}
-				.tweet_last {
-					border-bottom: 0;
-				}
-				.tweet_avatar {
-					border: 1px solid #000;
-					padding: 3px;
-					width: 64px;
-					height: 64px;
-					display: block;
-					float: left;
-					margin-right: .75em;
-				}
-				.txt {
-					margin: 0;
-					width: 75%;
-					float: left;
-				}
+				font-size: 13px;
+				overflow: hidden;
 			}
-			header {
-				border-bottom: 1px dotted $gray-color;
-				margin-bottom: 1em;
-				h2 {
-					float: left;
-					margin: 0;
-					margin-bottom: .5em;
-				}
-				a {
-					margin-top: .5em;
-					float: right;
-					display: block;
+			img {
+				width: 90px;
+			}
+			li {
+				display: inline;
+				float: left;
+				margin: 0px 0px 0px 2px;
+				&.active {
+					//background: #f1f1f1;
+					opacity: .3;
+					a {
+						cursor: cursor;
+						text-decoration: none;
+					}
 				}
 			}
 		}
+	}
+	#twitter {
+		width: 49%;
+		>.inner {
+			padding: 10px 20px;
+		}
+		.tweet_list {
+			margin: 0;
+			li {
+				border-bottom: 1px dotted $gray-color;
+				padding: 0px 0px 5px 0px;
+				margin: 10px 0px;
+				overflow: hidden;
+
+				.tweet_time{
+					display: block;
+				}
+			}
+			.tweet_first {
+				margin: 0px 0px 10px 0px;
+			}
+			.tweet_last {
+				border-bottom: 0;
+			}
+			.tweet_avatar {
+				border: 1px solid #000;
+				padding: 3px;
+				width: 64px;
+				height: 64px;
+				display: block;
+				float: left;
+				margin-right: .75em;
+			}
+			.txt {
+				margin: 0;
+				width: 75%;
+				float: left;
+			}
+		}
+		header {
+			border-bottom: 1px dotted $gray-color;
+			margin-bottom: 1em;
+			h2 {
+				float: left;
+				margin: 0;
+				margin-bottom: .5em;
+			}
+			a {
+				margin-top: .5em;
+				float: right;
+				display: block;
+			}
+		}
+	}
+	section {
+		float: left;
 	}
 }
 
@@ -416,7 +473,7 @@ header h1 {
 		}
 		section{
 			p{
-				font-size: 1.25em;
+				font-size: 1.2em;
 			}
 		}
 	}
@@ -427,7 +484,7 @@ header h1 {
 	color: #fff;
 	position: relative;
 	border-top: 5px solid $orange-color;
-	border-bottom: 5px solid $orange-color;
+	border-bottom: 6px solid $orange-color;
 	section {
 		border-right: 2px dotted #fff;
 		float: left;

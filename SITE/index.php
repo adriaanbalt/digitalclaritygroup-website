@@ -199,8 +199,14 @@
 
 				<div id='social'>
 					<article class='wrapper clearfix'>
-						<section id='video'>
-							<iframe width="560" height="315" src="http://www.youtube.com/embed/videoseries?list=PLI0CjHTl84BwYc3wF7lRASZyE0_htgHnk&amp;hl=en_US" frameborder="0" allowfullscreen></iframe>
+						<section id='videoplayer'>
+							<div class='inner'>
+								<div id='videofeature'></div>
+								<div id='videoplaylist'>
+									<ul class='clearfix'></ul>
+								</div>
+								<div id='videoLoad'></div>
+							</div>
 						</section>
 						<section id='twitter'>
 							<div class='inner'>
@@ -374,7 +380,19 @@
 		<script src="js/dcg.main.js"></script>
 
 		<script>
-			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+			(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+		<script>
+			var _gaq=[['_setAccount','UA-30276201-1'],['_trackPageview']];
 			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 			s.parentNode.insertBefore(g,s)}(document,'script'));

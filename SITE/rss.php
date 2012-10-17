@@ -49,9 +49,11 @@
 			$img_links = array();
 			$dom = new DOMDocument();
 			$dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
+			$linkArr = split('/', $node->getElementsByTagName('comments')->item(0)->nodeValue );
+			$linkT = $linkArr[0] . '//' . $linkArr[2] . '/' . $linkArr[3];
 			$item = array (
 				'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-				'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+				'link' => $linkT,
 				'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
 				'image' => $dom->getElementsByTagName('img')->item(0)->getAttribute('src'),
 				'author' => $node->getElementsByTagNameNS('*','creator')->item(0)->nodeValue,
@@ -86,7 +88,11 @@
 						<img src='". $image ."'/>
 						<p class='continue'>Continue Reading...</p>
 						<p class='author'>Posted by ".$author."</p>
-						<div class='share'></div>
+						<div class='share'>
+							<div class='fb-like' data-href='" . $link . "' data-send='false' data-layout='button_count' data-width='100' data-show-faces='false' data-colorscheme='light' data-font='verdana'></div>
+							<a href='https://twitter.com/share' class='twitter-share-button' data-url='" . $link . "' data-text='" . $title . "' data-via='justclarity' data-related='justclarity' data-hashtags='justclarity'>Tweet</a>
+
+						</div>
 					</a>
 				</div>
 			</section>";

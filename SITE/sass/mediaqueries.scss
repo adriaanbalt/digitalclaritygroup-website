@@ -6,15 +6,16 @@
 
 @media only screen and (max-width: 1100px) {
 
-		#social section{
-			&#twitter{
+		#social {
+			#twitter{
 				border-left: 0;
 				width: 100%
 			}
+			#videoplayer {
+				border: 0;
+				width: 100%;
+			}
 		}
-
-		
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -81,14 +82,24 @@
 			img {
 				width: 75%;
 			}
-	 	}
-	}
-	#steps {
-		section{
 			h2{
 				font-size: 1.2em;
 			}
+	 	}
+	}
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+	#steps {
+		section{
+			p{
+				text-align: left;
+			}
 		}
+
 	}
 }
 
