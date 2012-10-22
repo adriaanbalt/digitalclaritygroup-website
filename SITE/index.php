@@ -74,7 +74,7 @@
 				</div>
 				<a href='#' class='bg'></a>
 			</div>
-			
+
 		</div>
 
 		<div class="header-container">
@@ -84,7 +84,7 @@
 						<li><a href="#latest">OUR LATEST</a></li>
 						<li><a href="#thoughts">OUT THOUGHTS</a></li>
 						<li><a href="#story">OUR STORY</a></li>
-						<li><a href="#contact">CONTACT US</a></li>
+						<li class='last'><a href="#contact">CONTACT US</a></li>
 					</ul>
 				</nav>
 				<div class='clearfix'>
@@ -153,7 +153,7 @@
 								<ul>
 									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-news', 'latestLoaded' ); ?>
 								</ul>
-								<a href='' target='_blank'>See All News</a>
+								<a class='seeall' href='' target='_blank'>See All News</a>
 							</div>
 						</section>
 						<section>
@@ -162,7 +162,7 @@
 								<ul>
 									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-events', 'latestLoaded' ); ?>
 								</ul>
-								<a href='' target='_blank'>See All Events</a>
+								<a class='seeall' href='' target='_blank'>See All Events</a>
 							</div>
 						</section>
 						<section>
@@ -171,7 +171,7 @@
 								<ul>
 									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-research', 'latestLoaded' ); ?>
 								</ul>
-								<a href='' target='_blank'>See All Research</a>
+								<a class='seeall' href='' target='_blank'>See All Research</a>
 							</div>
 						</section>
 						<section class='last'>
@@ -180,7 +180,7 @@
 								<ul>
 									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-thinking', 'latestLoaded' ); ?>
 								</ul>
-								<a href='' target='_blank'>See All Thinking</a>
+								<a class='seeall' href='' target='_blank'>See All Thinking</a>
 							</div>
 						</section>
 					</article>
@@ -201,7 +201,9 @@
 					<article class='wrapper clearfix'>
 						<section id='videoplayer'>
 							<div class='inner'>
-								<div id='videofeature'></div>
+								<div id='videofeature'>
+									<a href='http://youtube.com' target='_blank'>See All</a>
+								</div>
 								<div id='videoplaylist'>
 									<ul class='clearfix'></ul>
 								</div>
@@ -213,6 +215,7 @@
 								<header class='clearfix'>
 									<h2><img src='img/twitter-logo.png' alt='Twitter'/></h2>
 									<a href='javascript:void(0);' class='reload'>Reload</a>
+									<a href='http://twitter.com/Just_Clarity' target='_blank'>See All</a>
 								</header>
 								<div class='justclarity'></div>
 							</div>
@@ -235,7 +238,7 @@
 
 				<div id='team'>
 					<article class='wrapper clearfix'>
-						<div class='row clearfix'>
+						<div class='row clearfix first'>
 							<section>
 								<div class='inner'>
 									<a href='#scottliewehr'>
@@ -388,7 +391,7 @@
 			fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));
 		</script>
-		
+
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 		<script>

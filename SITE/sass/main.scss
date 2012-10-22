@@ -10,6 +10,16 @@ ul, li {
 	list-style-type : none;
 }
 
+h1 {
+	margin: 0.5em 0;
+}
+
+h2 {
+	margin: 0.5em 0;
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
 a{
 	color: #000;
 	text-decoration: none;
@@ -19,34 +29,34 @@ a{
 }
 
 .wrapper {
-	width: 90%;
-	max-width: 1024px;
+	width: 1024px;
 	margin: 0 auto;
 	position: relative;
+	padding: 0 10px;
 }
 
 .wrapper-small {
-	width: 60%;
-	margin: 0 20%;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .gray-bg {
 	background: $gray-color;
 }
 
-/* ===================
-	ALL: Orange Theme
-   =================== */
-
 .header-container {
 	.title {
 		background: url('../img/dcg-logo.jpg') 0 0 no-repeat;
 		width: 102px;
 		height: 102px;
+		float: left;
 	}
 	.slogan {
 		font-size: 1.3em;
 		margin: 1.9em 0 0 0;
+		width: 710px;
+		float: right;
+		color: $gray-color;
 	}
 }
 
@@ -65,40 +75,40 @@ a{
 /* ==============
 	MOBILE: Menu
    ============== */
-
-nav {
-
-}
-
 nav ul {
-	width: 59%;
+	width: 510px;
 	float: right;
 	margin: 0;
 	padding: 0;
-}
+	li {
+		float: left;
+		margin: 0 1.7%;
+		padding: 25px 2%;
+		margin-bottom: 0;
+		&.last {
+			margin: 0 0 0 1.7%;
+			padding: 25px 0 25px 2%;
+		}
 
-nav a {
-	float: left;
-	display: block;
-	margin-bottom: 10px;
-	margin: 0 1.7%;
-	padding: 25px 2%;
-	margin-bottom: 0;
-
-	text-align: center;
-	font-weight: normal;
-	font-size: 15px;
-
-	color: $orange-color;
-	background: #fff;
-	border-bottom: 1px solid #fff;
-
-	&:hover,
-	&:visited {
-		color: $orange-color;
 	}
+	a {
+		display: block;
 
-	&:hover {
+		text-align: center;
+		font-weight: normal;
+		font-size: 15px;
+
+		color: $orange-color;
+		background: #fff;
+		border-bottom: 1px solid #fff;
+
+		&:hover,
+		&:visited {
+			color: $orange-color;
+		}
+
+		&:hover {
+		}
 	}
 }
 
@@ -152,7 +162,7 @@ header h1 {
 		display: block;
 	}
 	.content {
-		>.inner { 
+		>.inner {
 			padding: 20px;
 		}
 		h3 {
@@ -194,7 +204,7 @@ header h1 {
 		height: 17px;
 		display: block;
 	}
-	hr{ 
+	hr{
 		margin-top: 30px;
 		border: 1px dotted $gray-color;
 	}
@@ -204,15 +214,16 @@ header h1 {
 	color : #fff;
 	section {
 		float: left;
-		width: 20%;
+		width: 245px;
 		height: 100%;
-		margin: 0px 6.5% 0px 0px;
+		margin: 0px 10px 0px 0px;
 		text-align: center;
 		overflow: hidden;
 
 		h2 {
 			color: $blue;
 			line-height: 1em;
+			font-size: 1.2em;
 		}
 		p {
 			color: $light-gray;
@@ -243,7 +254,7 @@ header h1 {
 			}
 		}
 		p {
-			font-size: 1.25em;
+			font-size: 1em;
 		}
 	}
 }
@@ -256,6 +267,7 @@ header h1 {
 	}
 	section{
 		overflow: hidden;
+		position: relative;
 		float: left;
 		width: 24.6%;
 		border-right: 2px dotted $gray-color;
@@ -277,6 +289,11 @@ header h1 {
 		.title {
 			text-decoration: underline;
 			font-size: 16px;
+		}
+		.seeall {
+			position: absolute;
+			bottom: 2px;
+			right: 10px;
 		}
 	}
 }
@@ -327,7 +344,8 @@ header h1 {
 			margin: 0;
 			&.date{
 
-				font-size: 14px;
+				font-size: 11px;
+				margin-bottom: 5px;
 				color: #999;
 			}
 			&.title{
@@ -456,6 +474,7 @@ header h1 {
 				margin-top: .5em;
 				float: right;
 				display: block;
+				margin: 0px 10px;
 			}
 		}
 	}
@@ -531,7 +550,7 @@ header h1 {
 			border-right: 0;
 		}
 
-		
+
 
 		h4{
 			margin: 0;
@@ -561,16 +580,16 @@ header h1 {
 			padding: 0 1em;
 		}
 		input {
-			border: 5px solid white; 
-			-webkit-box-shadow: 
+			border: 5px solid white;
+			-webkit-box-shadow:
 				inset 0 0 8px  rgba(0,0,0,0.1),
-					0 0 16px rgba(0,0,0,0.1); 
-			-moz-box-shadow: 
+					0 0 16px rgba(0,0,0,0.1);
+			-moz-box-shadow:
 				inset 0 0 8px  rgba(0,0,0,0.1),
-					0 0 16px rgba(0,0,0,0.1); 
-			box-shadow: 
+					0 0 16px rgba(0,0,0,0.1);
+			box-shadow:
 				inset 0 0 8px  rgba(0,0,0,0.1),
-					0 0 16px rgba(0,0,0,0.1); 
+					0 0 16px rgba(0,0,0,0.1);
 			padding: 15px;
 			background: rgba(227,82,37,.5);
 			margin: 0 0 10px 0;
@@ -595,7 +614,7 @@ header h1 {
 		.role{
 			margin-bottom: 15px;
 		}
-		.email, .phone { 
+		.email, .phone {
 			overflow: hidden;
 		}
 	}

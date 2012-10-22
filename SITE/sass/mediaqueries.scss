@@ -1,156 +1,198 @@
-
-
-/* ==========================================================================
-	 Media Queries
-	 ========================================================================== */
-
-@media only screen and (max-width: 1100px) {
-
-		#social {
-			#twitter{
-				border-left: 0;
-				width: 100%
-			}
-			#videoplayer {
-				border: 0;
-				width: 100%;
-			}
-		}
-}
-
 @media only screen and (max-width: 480px) {
 
-/* ====================
-		INTERMEDIATE: Menu
-	 ==================== */
-
-		.wrapper {
-			width: 100%;
+	.wrapper {
+		width: 100%;
+		padding: 0px;
+		>.inner{
+			padding: 1em 1em 3em 1em;
 		}
-
-		nav ul {
-			width: 100%;
-		}
-		nav li {
-			width: 100%;
-		}
-		nav a {
-			float: none;
-			background: $orange-color;
-			color: #fff !important;
-			padding: 25px 2%;
-			margin: 0;
-		}
-
-		nav li:first-child a {
-			margin-left: 0;
-		}
-
-		nav li:last-child a {
-			margin-right: 0;
-		}
-
-
-/* ========================
-		INTERMEDIATE: IE Fixes
-	 ======================== */
-
-		nav ul li {
-			display: inline;
-		}
-
-		.oldie nav a {
-			margin: 0 0.7%;
-		}
-		.overlay {
-			.content {
-				top: 0%;
-			}
-		}
-
-		body {
-			&.has-overlay{
-			}
-		}
-
-}
-
-@media only screen and (max-width: 768px) {
-	#steps{
-	 	section{
-
-			img {
-				width: 75%;
-			}
-			h2{
-				font-size: 1.2em;
-			}
-	 	}
 	}
 
-}
-
-
-
-@media only screen and (max-width: 900px) {
+	nav {
+		margin-top: 127px;
+		ul {
+			width: 100%;
+			li {
+				width: 100%;
+				float: none;
+				margin: 0;
+				padding: 0px;
+				a {
+					background: $gray-color !important;
+					color: #fff !important;
+					padding: 12px 25px;
+					text-align: left;
+				}
+				&.last {
+					margin: 0;
+					padding: 0;
+				}
+			}
+		}
+	}
+	header{
+		.title {
+			top: -131px;
+			left: 13px;
+			position: absolute;
+		}
+		.slogan {
+			width: 100% !important;
+			margin: 0em !important;
+			float: none !important;
+		}
+	}
 	#steps {
-		section{
-			p{
-				text-align: left;
+		display: none;
+		visibility: hidden;
+	}
+	#definition {
+		display: none;
+		visibility: hidden;
+	}
+	#latest {
+		section {
+			float: none !important;
+			width: 100% !important;
+			border-right: 0 !important;
+			border-bottom: 2px dotted #515151;
+			min-height: 150px !important;
+		}
+	}
+	#thoughts{
+		.contain {
+			border-bottom: 0 !important;
+			.row{
+				&.first{
+					border-top: 0 !important;
+				}
+				>.inner {
+					padding: 8px 0px !important;
+				}
+			}
+			section{
+				overflow: hidden;
 			}
 		}
-
 	}
+	#social {
+		#videoplayer {
+			width: 100% !important;
+			border-right: 0;
+			padding: 0 !important;
+		}
+		#twitter {
+			width: 100% !important;
+		}
+	}
+	#contact {
+		section {
+			float: none !important;
+			width: 100% !important;
+			border-bottom: 2px dotted $gray-color !important;
+			border-right: 0 !important;
+			&.last {
+				border-bottom: 0 !important;
+			}
+		}
+		.newsletter {
+			input[type='text']{
+				width: 315px;
+			}
+		}
+	}
+
+	nav li:first-child a {
+		margin-left: 0;
+	}
+
+	nav li:last-child a {
+		margin-right: 0;
+	}
+
+	nav ul li {
+		display: inline;
+	}
+
+	.oldie nav a {
+		margin: 0 0.7%;
+	}
+	.overlay {
+		.content {
+			top: 0%;
+		}
+	}
+
 }
+
+
+// slogan
+// videoplayer
+// thoughts .row inner
+// thoughts h1
+// contact wrapper
+// contact section.contact
+// contact section.contact >.inner
 
 
 @media only screen and (max-width: 600px) {
-	#video {
+	.wrapper {
 		width: 100%;
-		iframe {
-			width: 100%;
+		padding: 0px;
+		>.inner{
+			padding: 1em 1em 3em 1em;
 		}
 	}
-}
+	.wrapper-small {
+		width: 530px;
+	}
 
-
-@media only screen and (min-width: 768px) {
-
-/* ====================
-		WIDE: CSS3 Effects
-	 ==================== */
-
-/* ============
-		WIDE: Menu
-	 ============ */
-	.header-container {
+	nav {
+		ul {
+			width: 570px;
+			li {
+				margin: 0;
+				padding: 0px;
+				a {
+					padding: 32px 21px;
+					text-align: left;
+				}
+				&.last {
+					margin: 0;
+					padding: 0;
+				}
+			}
+		}
+	}
+	header{
 		.title {
-			float: left;
-			min-width: 15%;
-			width: 15%;
+			margin-left: 37px;
 		}
-
 		.slogan {
-			float: right;
-			min-width: 80%;
-			width: 80%;
+			font-size: 16px !important;
+			width: 420px !important;
+			margin: 14px 0px !important;
+			line-height: 27px;
+		}
+	}
+	#latest {
+		section {
+			float: none !important;
+			width: 100% !important;
+			border-right: 0 !important;
+			border-bottom: 2px dotted #515151;
+			min-height: 150px !important;
+		}
+	}
+	#social {
+		#videoplayer {
+			width: 100% !important;
+			border-right: 0;
+			padding: 0 !important;
+		}
+		#twitter {
+			width: 100% !important;
 		}
 	}
 
-/* ============
-		WIDE: Main
-	 ============ */
-
-}
-
-@media only screen and (min-width: 1140px) {
-
-/* ===============
-		Maximal Width
-	 =============== */
-
-		.wrapper {
-			width: 1026px; /* 1140px - 10% for margins */
-			margin: 0 auto;
-		}
 }

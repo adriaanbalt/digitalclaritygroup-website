@@ -74,7 +74,7 @@
 			$image = $feed[$x]['image'];
 			$author = $feed[$x]['author'];
 			if ( $x == 0 ){
-				$container .= "<div class='row'><div class='inner clearfix'>";
+				$container .= "<div class='row first'><div class='inner clearfix'>";
 			}
 			if ( $x % $rowLimit == 0 && $x != 0 ){
 				$container .= "</div></div><div class='row'><div class='inner clearfix'>";
