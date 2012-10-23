@@ -98,128 +98,146 @@
 			<div class="main">
 
 				<div id='steps' class='gray-bg'>
-					<article class='clearfix wrapper'>
-						<section>
-							<div class='inner'>
-								<img src='img/consumer-engagement.png' alt='Consumer Engagement'/>
-								<h2>Consumer Engagement</h2>
-								<p>Marketing is undergoing fundamental change. The new mandate: create high-impact digital experiences that differentiate the brand, drive growth and fuel consumer evangelism. DCG helps leaders create clear maps for how technology can help power new strategies.</p>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<img src='img/social-enterprise.png' alt='Social Enterprise'/>
-								<h2>Social Enterprise</h2>
-								<p>The social business is here ready or not. It has changed the way enterprises earn, learn, communicate and collaborate. It’s no longer a choice of ‘if’ – it’s a question of how. DCG puts clarity around the strategy, process and technology of the socially enabled enterprise.</p>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<img src='img/innovation-change.png' alt='Innovation Change'/>
-								<h2>Innovation Change</h2>
-								<p>Enterprise Technology powers insight that reveals the need for change - but it doesn’t power change itself. For true success, enterprises must implement technological change well and adopt and manage it successfully. DCG helps business leaders to unleash innovative change.</p>
-							</div>
-						</section>
-						<section class='last'>
-							<div class='inner'>
-								<img src='img/adaptive-technology.png' alt='Adaptive Technology'/>
-								<h2>Adaptive Technology</h2>
-								<p>Technology is both facilitating and disrupting both consumer engagement and social collaboration. Savvy organizations are now architecting technology around systems of engagement. DCG helps business leaders navigate through this architectural transformation.</p>
-							</div>
-						</section>
+					<article class='wrapper'>
+						<div class='inner clearfix'>
+							<section>
+								<div class='inner'>
+									<img src='img/consumer-engagement.png' alt='Consumer Engagement'/>
+									<div class='description'>
+										<h2>Consumer Engagement</h2>
+										<p>Marketing is undergoing fundamental change. The new mandate: create high-impact digital experiences that differentiate the brand, drive growth and fuel consumer evangelism. DCG helps leaders create clear maps for how technology can help power new strategies.</p>
+									</div>
+								</div>
+							</section>
+							<section>
+								<div class='inner'>
+									<img src='img/social-enterprise.png' alt='Social Enterprise'/>
+									<div class='description'>
+										<h2>Social Enterprise</h2>
+										<p>The social business is here ready or not. It has changed the way enterprises earn, learn, communicate and collaborate. It’s no longer a choice of ‘if’ – it’s a question of how. DCG puts clarity around the strategy, process and technology of the socially enabled enterprise.</p>
+									</div>
+								</div>
+							</section>
+							<section>
+								<div class='inner'>
+									<img src='img/innovation-change.png' alt='Innovation Change'/>
+									<div class='description'>
+										<h2>Innovation Change</h2>
+										<p>Enterprise Technology powers insight that reveals the need for change - but it doesn’t power change itself. For true success, enterprises must implement technological change well and adopt and manage it successfully. DCG helps business leaders to unleash innovative change.</p>
+									</div>
+								</div>
+							</section>
+							<section class='last'>
+								<div class='inner'>
+									<img src='img/adaptive-technology.png' alt='Adaptive Technology'/>
+									<div class='description'>
+										<h2>Adaptive Technology</h2>
+										<p>Technology is both facilitating and disrupting both consumer engagement and social collaboration. Savvy organizations are now architecting technology around systems of engagement. DCG helps business leaders navigate through this architectural transformation.</p>
+									</div>
+								</div>
+							</section>
+						</div>
 					</article>
 				</div>
 
 				<div id='definition'>
 					<article class='wrapper-small'>
-						<header>
-							<h1>Because business-as-usual isn’t.</h1>
-						</header>
-						<section>
-							<p>It is in a state of disruption.  Consumers and knowledge workers alike are grabbing control of the reigns and not letting go. The combination of the social web, open standards, the cloud, and ubiquitous mobility to name just a few, represent a field of dreams for empowered audiences to both collaborate and self-satisfy. For organizations, these disruptions represent an opportunity to transform, innovate, engage and develop loyal customers and employees like never before.  The destination may yet be undetermined – but your organization may need help in navigating. If it does – you’ll need clear guidance.</p>
-							<p>DCG provides both the clarity and the guidance. We provide research, consulting, events and advisory services to help business leaders navigate the digital transformation.</p>
-						</section>
+						<div class='inner clearfix'>
+							<header>
+								<h1>Because business-as-usual isn’t.</h1>
+							</header>
+							<section>
+								<p>It is in a state of disruption.  Consumers and knowledge workers alike are grabbing control of the reigns and not letting go. The combination of the social web, open standards, the cloud, and ubiquitous mobility to name just a few, represent a field of dreams for empowered audiences to both collaborate and self-satisfy. For organizations, these disruptions represent an opportunity to transform, innovate, engage and develop loyal customers and employees like never before.  The destination may yet be undetermined – but your organization may need help in navigating. If it does – you’ll need clear guidance.</p>
+								<p>DCG provides both the clarity and the guidance. We provide research, consulting, events and advisory services to help business leaders navigate the digital transformation.</p>
+							</section>
+						</div>
 					</article>
 				</div>
 
 				<div id='latest'>
-					<article class='wrapper clearfix'>
-						<header>
-							<h1>OUR LATEST</h1>
-						</header>
-						<section>
-							<div class='inner'>
-								<h2>News</h2>
-								<ul>
-									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-news', 'latestLoaded' ); ?>
-								</ul>
-								<a class='seeall' href='' target='_blank'>See All News</a>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<h2>Events</h2>
-								<ul>
-									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-events', 'latestLoaded' ); ?>
-								</ul>
-								<a class='seeall' href='' target='_blank'>See All Events</a>
-							</div>
-						</section>
-						<section>
-							<div class='inner'>
-								<h2>Research</h2>
-								<ul>
-									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-research', 'latestLoaded' ); ?>
-								</ul>
-								<a class='seeall' href='' target='_blank'>See All Research</a>
-							</div>
-						</section>
-						<section class='last'>
-							<div class='inner'>
-								<h2>Thinking</h2>
-								<ul>
-									<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-thinking', 'latestLoaded' ); ?>
-								</ul>
-								<a class='seeall' href='' target='_blank'>See All Thinking</a>
-							</div>
-						</section>
+					<article class='wrapper'>
+						<div class='inner clearfix'>
+							<header>
+								<h1>OUR LATEST</h1>
+							</header>
+							<section>
+								<div class='inner clearfix'>
+									<h2>News</h2>
+									<ul>
+										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-news', 'latestLoaded' ); ?>
+									</ul>
+									<a class='seeall' href='' target='_blank'>See All News</a>
+								</div>
+							</section>
+							<section>
+								<div class='inner clearfix'>
+									<h2>Events</h2>
+									<ul>
+										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-events', 'latestLoaded' ); ?>
+									</ul>
+									<a class='seeall' href='' target='_blank'>See All Events</a>
+								</div>
+							</section>
+							<section>
+								<div class='inner clearfix'>
+									<h2>Research</h2>
+									<ul>
+										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-research', 'latestLoaded' ); ?>
+									</ul>
+									<a class='seeall' href='' target='_blank'>See All Research</a>
+								</div>
+							</section>
+							<section class='last'>
+								<div class='inner clearfix'>
+									<h2>Thinking</h2>
+									<ul>
+										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-thinking', 'latestLoaded' ); ?>
+									</ul>
+									<a class='seeall' href='' target='_blank'>See All Thinking</a>
+								</div>
+							</section>
+						</div>
 					</article>
 				</div>
 
-				<div id='thoughts' class='clearfix'>
+				<div id='thoughts' class=''>
 					<article class='wrapper'>
-						<header>
-							<h1>OUR THOUGHTS</h1>
-						</header>
-						<div class='contain clearfix'>
-							<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup/blog', 'thoughtsLoaded' ); ?>
+						<div class='inner'>
+							<header>
+								<h1>OUR THOUGHTS</h1>
+							</header>
+							<div class='contain clearfix'>
+								<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup/blog', 'thoughtsLoaded' ); ?>
+							</div>
 						</div>
 					</article>
 				</div>
 
 				<div id='social'>
-					<article class='wrapper clearfix'>
-						<section id='videoplayer'>
-							<div class='inner'>
-								<div id='videofeature'>
-									<a href='http://youtube.com' target='_blank'>See All</a>
+					<article class='wrapper'>
+						<div class='inner clearfix'>
+							<section id='videoplayer'>
+								<div class='inner'>
+									<div id='videofeature'>
+										<a href='http://youtube.com' target='_blank'>See All</a>
+									</div>
+									<div id='videoplaylist'>
+										<ul class='clearfix'></ul>
+									</div>
+									<div id='videoLoad'></div>
 								</div>
-								<div id='videoplaylist'>
-									<ul class='clearfix'></ul>
+							</section>
+							<section id='twitter'>
+								<div class='inner'>
+									<header class='clearfix'>
+										<h2><img src='img/twitter-logo.png' alt='Twitter'/></h2>
+										<a href='javascript:void(0);' class='reload'>Reload</a>
+										<a href='http://twitter.com/Just_Clarity' target='_blank'>See All</a>
+									</header>
+									<div class='justclarity'></div>
 								</div>
-								<div id='videoLoad'></div>
-							</div>
-						</section>
-						<section id='twitter'>
-							<div class='inner'>
-								<header class='clearfix'>
-									<h2><img src='img/twitter-logo.png' alt='Twitter'/></h2>
-									<a href='javascript:void(0);' class='reload'>Reload</a>
-									<a href='http://twitter.com/Just_Clarity' target='_blank'>See All</a>
-								</header>
-								<div class='justclarity'></div>
-							</div>
-						</section>
+							</section>
+						</div>
 					</article>
 				</div>
 
@@ -238,129 +256,133 @@
 
 				<div id='team'>
 					<article class='wrapper clearfix'>
-						<div class='row clearfix first'>
-							<section>
-								<div class='inner'>
-									<a href='#scottliewehr'>
-										<img src='img/person.jpg' alt='Scott Liewehr'/>
-										<h3>Scott Liewehr</h3>
-										<p class='position'>President / Principle Analyst</p>
-									</a>
-								</div>
-							</section>
-							<section>
-								<div class='inner'>
-									<a href='#chris'>
-										<img src='img/person.jpg' alt='Cathy'/>
-										<h3>Cathy</h3>
-										<p class='position'>President / Principle Analyst</p>
-									</a>
-								</div>
-							</section>
-							<section>
-								<div class='inner'>
-									<a href='#tim'>
-										<img src='img/person.jpg' alt='Tim'/>
-										<h3>Tim</h3>
-										<p class='position'>President / Principle Analyst</p>
-									</a>
-								</div>
-							</section>
-							<section class='last'>
-								<div class='inner'>
-									<a href='#scottliewehr'>
-										<img src='img/person.jpg' alt='Scott'/>
-										<h3>Elise</h3>
-										<p class='position'>President / Principle Analyst</p>
-									</a>
-								</div>
-							</section>
-						</div>
-						<div class='row last clearfix'>
-							<section>
-								<div class='inner'>
-									<a href='#scottliewehr'>
-										<img src='img/person.jpg' alt='Scott'/>
-										<h3>Robert</h3>
-										<p class='position'>President / Principle Analyst</p>
-									</a>
-								</div>
-							</section>
-							<section>
-								<div class='inner'>
-									<a href='#scottliewehr'>
-										<img src='img/person.jpg' alt='Scott'/>
-										<h3>Kyle</h3>
-										<p class='position'>President / Principle Analyst</p>
-									</a>
-								</div>
-							</section>
-							<section>
-								<div class='inner'>
-									<a href='#scottliewehr'>
-										<img src='img/person.jpg' alt='Scott'/>
-										<h3>Kyle</h3>
-										<p class='position'>President / Principle Analyst</p>
-									</a>
-								</div>
-							</section>
-							<section class='last'>
-								<div class='inner'>
-									<a href='#scottliewehr'>
-										<img src='img/person.jpg' alt='Scott'/>
-										<h3>Kyle</h3>
-										<p class='position'>President / Principle Analyst</p>
-									</a>
-								</div>
-							</section>
+						<div class='inner'>
+							<div class='row clearfix first'>
+								<section>
+									<div class='inner'>
+										<a href='#scottliewehr'>
+											<img src='img/person.jpg' alt='Scott Liewehr'/>
+											<h3>Scott Liewehr</h3>
+											<p class='position'>President / Principle Analyst</p>
+										</a>
+									</div>
+								</section>
+								<section>
+									<div class='inner'>
+										<a href='#chris'>
+											<img src='img/person.jpg' alt='Cathy'/>
+											<h3>Cathy</h3>
+											<p class='position'>President / Principle Analyst</p>
+										</a>
+									</div>
+								</section>
+								<section>
+									<div class='inner'>
+										<a href='#tim'>
+											<img src='img/person.jpg' alt='Tim'/>
+											<h3>Tim</h3>
+											<p class='position'>President / Principle Analyst</p>
+										</a>
+									</div>
+								</section>
+								<section class='last'>
+									<div class='inner'>
+										<a href='#scottliewehr'>
+											<img src='img/person.jpg' alt='Scott'/>
+											<h3>Elise</h3>
+											<p class='position'>President / Principle Analyst</p>
+										</a>
+									</div>
+								</section>
+							</div>
+							<div class='row last clearfix'>
+								<section>
+									<div class='inner'>
+										<a href='#scottliewehr'>
+											<img src='img/person.jpg' alt='Scott'/>
+											<h3>Robert</h3>
+											<p class='position'>President / Principle Analyst</p>
+										</a>
+									</div>
+								</section>
+								<section>
+									<div class='inner'>
+										<a href='#scottliewehr'>
+											<img src='img/person.jpg' alt='Scott'/>
+											<h3>Kyle</h3>
+											<p class='position'>President / Principle Analyst</p>
+										</a>
+									</div>
+								</section>
+								<section>
+									<div class='inner'>
+										<a href='#scottliewehr'>
+											<img src='img/person.jpg' alt='Scott'/>
+											<h3>Kyle</h3>
+											<p class='position'>President / Principle Analyst</p>
+										</a>
+									</div>
+								</section>
+								<section class='last'>
+									<div class='inner'>
+										<a href='#scottliewehr'>
+											<img src='img/person.jpg' alt='Scott'/>
+											<h3>Kyle</h3>
+											<p class='position'>President / Principle Analyst</p>
+										</a>
+									</div>
+								</section>
+							</div>
 						</div>
 					</article>
 				</div>
 
 				<div id='contact'>
 					<article class='wrapper clearfix'>
-						<header>
-							<h1>CONTACT US</h1>
-						</header>
-						<section class='links'>
-							<div class='inner'>
-								<h2>Links</h2>
-								<ul>
-									<li><a href='' target='_blank'><img src='img/twitter.jpg' alt='Twitter'/><span>Twitter</span></a></li>
-									<li><a href='' target='_blank'><img src='img/facebook.jpg' alt='Facebook'/><span>Facebook</span></a></li>
-									<li><a href='' target='_blank'><img src='img/blogger.jpg' alt='Blogs'/><span>Blogs</span></a></li>
-									<li><a href='' target='_blank'><img src='img/rss.jpg' alt='RSS Feed'/><span>RSS Feed</span></a></li>
-									<li><a href='' target='_blank'><img src='img/slideshare.jpg' alt='Slideshare'/><span>Slideshare</span></a></li>
-								</ul>
-							</div>
-						</section>
-						<section class='newsletter'>
-							<div class='inner'>
-								<h2>Sign Up</h2>
-								<p>Subscribe to Digital Clarity Group if you'd like to receive our free content designed to help leaders navigate digital transformation.</p>
-								<form>
-									<input type='text'>
-									<input type="submit" value="Submit">
-								</form>
-							</div>
-						</section>
-						<section class='contact last'>
-							<div class='inner'>
-								<h2>Contact</h2>
-								<div class='role'>
-									<h4>PR</h4>
-									<p class='name'>Robert Rose</p>
-									<p class='email'><a href='mailto:rrose@digitalclaritygroup.com'>rrose@digitalclaritygroup.com</a></p>
-									<p class='phone'><a href='tel:800-555-5555'>800-555-5555</a></p>
+						<div class='inner'>
+							<header>
+								<h1>CONTACT US</h1>
+							</header>
+							<section class='links'>
+								<div class='inner'>
+									<h2>Links</h2>
+									<ul>
+										<li><a href='' target='_blank'><img src='img/twitter.jpg' alt='Twitter'/><span>Twitter</span></a></li>
+										<li><a href='' target='_blank'><img src='img/facebook.jpg' alt='Facebook'/><span>Facebook</span></a></li>
+										<li><a href='' target='_blank'><img src='img/blogger.jpg' alt='Blogs'/><span>Blogs</span></a></li>
+										<li><a href='' target='_blank'><img src='img/rss.jpg' alt='RSS Feed'/><span>RSS Feed</span></a></li>
+										<li><a href='' target='_blank'><img src='img/slideshare.jpg' alt='Slideshare'/><span>Slideshare</span></a></li>
+									</ul>
 								</div>
-								<div class='role'>
-									<h4>General Inquiries</h4>
-									<p class='name'>Scott Leiwehr</p>
-									<p class='email'><a href='mailto:sleiwehr@digitalclaritygroup.com'>sleiwehr@digitalclaritygroup.com</a></p>
-									<p class='phone'><a href='tel:800-555-5555'>800-555-5555</a></p>
+							</section>
+							<section class='newsletter'>
+								<div class='inner'>
+									<h2>Sign Up</h2>
+									<p>Subscribe to Digital Clarity Group if you'd like to receive our free content designed to help leaders navigate digital transformation.</p>
+									<form>
+										<input type='text'>
+										<input type="submit" value="Submit">
+									</form>
 								</div>
-							</div>
-						</section>
+							</section>
+							<section class='contact last'>
+								<div class='inner'>
+									<h2>Contact</h2>
+									<div class='role'>
+										<h4>PR</h4>
+										<p class='name'>Robert Rose</p>
+										<p class='email'><a href='mailto:rrose@digitalclaritygroup.com'>rrose@digitalclaritygroup.com</a></p>
+										<p class='phone'><a href='tel:800-555-5555'>800-555-5555</a></p>
+									</div>
+									<div class='role'>
+										<h4>General Inquiries</h4>
+										<p class='name'>Scott Leiwehr</p>
+										<p class='email'><a href='mailto:sleiwehr@digitalclaritygroup.com'>sleiwehr@digitalclaritygroup.com</a></p>
+										<p class='phone'><a href='tel:800-555-5555'>800-555-5555</a></p>
+									</div>
+								</div>
+							</section>
+						</div>
 					</article>
 				</div>
 

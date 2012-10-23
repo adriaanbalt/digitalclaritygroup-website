@@ -29,14 +29,13 @@ a{
 }
 
 .wrapper {
-	width: 1024px;
+	width: 1005px;
 	margin: 0 auto;
 	position: relative;
-	padding: 0 10px;
 }
 
 .wrapper-small {
-	width: 800px;
+	width: 950px;
 	margin: 0 auto;
 }
 
@@ -53,7 +52,7 @@ a{
 	}
 	.slogan {
 		font-size: 1.3em;
-		margin: 1.9em 0 0 0;
+		margin: 1.9em 4% 0 0%;
 		width: 710px;
 		float: right;
 		color: $gray-color;
@@ -76,7 +75,7 @@ a{
 	MOBILE: Menu
    ============== */
 nav ul {
-	width: 510px;
+	width: 55%;
 	float: right;
 	margin: 0;
 	padding: 0;
@@ -214,9 +213,9 @@ header h1 {
 	color : #fff;
 	section {
 		float: left;
-		width: 245px;
+		width: 235px;
 		height: 100%;
-		margin: 0px 10px 0px 0px;
+		margin:0px 2% 0px 0px;
 		text-align: center;
 		overflow: hidden;
 
@@ -265,6 +264,11 @@ header h1 {
 	article {
 		padding: 0 0 2em 0;
 	}
+	.wrapper {
+		> .inner {
+			padding: 1% 2%;
+		}
+	}
 	section{
 		overflow: hidden;
 		position: relative;
@@ -287,13 +291,10 @@ header h1 {
 			font-size: 14px;
 		}
 		.title {
-			text-decoration: underline;
 			font-size: 16px;
 		}
 		.seeall {
-			position: absolute;
-			bottom: 2px;
-			right: 10px;
+			float: right;
 		}
 	}
 }
@@ -313,7 +314,11 @@ header h1 {
 			width: 100%;
 		}
 	}
-
+	.wrapper {
+		>.inner {
+			padding: 1% 2%;
+		}
+	}
 	section {
 		position: relative;
 		float: left;
@@ -488,7 +493,7 @@ header h1 {
 
 	.wrapper {
 		> .inner {
-			padding: 1em 0 3em 0;
+			padding: 1% 2%;
 		}
 		section{
 			p{
@@ -540,6 +545,11 @@ header h1 {
 }
 
 #contact {
+	.wrapper {
+		> .inner {
+			padding: 1% 2%;
+		}
+	}
 	section {
 		float: left;
 		border-right: 2px dotted $gray-color;
@@ -580,26 +590,18 @@ header h1 {
 			padding: 0 1em;
 		}
 		input {
-			border: 5px solid white;
-			-webkit-box-shadow:
-				inset 0 0 8px  rgba(0,0,0,0.1),
-					0 0 16px rgba(0,0,0,0.1);
-			-moz-box-shadow:
-				inset 0 0 8px  rgba(0,0,0,0.1),
-					0 0 16px rgba(0,0,0,0.1);
-			box-shadow:
-				inset 0 0 8px  rgba(0,0,0,0.1),
-					0 0 16px rgba(0,0,0,0.1);
+			border: 1px solid #000;
 			padding: 15px;
-			background: rgba(227,82,37,.5);
+			background: rgba(255,255,255,1);
 			margin: 0 0 10px 0;
 		}
 		input[type='text'] {
 			width: 65%;
 		}
 		input[type='submit'] {
+			background: #638d95;
 			&:hover{
-				background: rgba(227,82,37,.3);
+				background: $orange-color;
 			}
 		}
 		p{

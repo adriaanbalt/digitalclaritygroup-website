@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$gray-color".
-        on line 21 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/mediaqueries.scss
+        on line 25 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/mediaqueries.scss
 
 Backtrace:
-/Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/mediaqueries.scss:21
+/Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/mediaqueries.scss:25
 /Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/script/variable.rb:49:in `_perform'
 /Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/script/node.rb:40:in `perform'
 /Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/script/list.rb:69:in `_perform'
@@ -127,4 +127,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray-color\".\A         on line 21 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/mediaqueries.scss"; }
+  content: "Syntax error: Undefined variable: \"$gray-color\".\A         on line 25 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/mediaqueries.scss"; }

@@ -16,12 +16,12 @@ body {
 }
 
 ::-moz-selection {
-    background: #B3D500;
+    background: $orange-color;
     text-shadow: none;
 }
 
 ::selection {
-    background: #B3D500;
+    background: $orange-color;
     text-shadow: none;
 }
 
