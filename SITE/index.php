@@ -219,7 +219,7 @@
 							<section id='videoplayer'>
 								<div class='inner'>
 									<div id='videofeature'>
-										<a href='http://youtube.com' target='_blank'>See All</a>
+										<a href='http://youtube.com' target='_blank' class='seeall'>See All</a>
 									</div>
 									<div id='videoplaylist'>
 										<ul class='clearfix'></ul>

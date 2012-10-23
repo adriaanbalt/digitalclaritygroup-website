@@ -262,7 +262,7 @@ header h1 {
 	background: $light-tan;
 	border-top: 5px solid $orange-color;
 	article {
-		padding: 0 0 2em 0;
+		padding: 0 0 2% 0;
 	}
 	.wrapper {
 		> .inner {
@@ -283,18 +283,30 @@ header h1 {
 		}
 		&.last{
 			border-right: 0;
+			border-bottom: 0;
 		}
 		p {
 			margin: 0;
 		}
+		h2{
+			font-weight: bold;
+		}
 		.date {
 			font-size: 14px;
+			font-weight: bold;
+			color: $gray-color;
 		}
 		.title {
 			font-size: 16px;
+			color: $gray-color;
 		}
 		.seeall {
-			float: right;
+			position: absolute;
+			bottom: 0px;
+			right: 10px;
+		}
+		li {
+			margin-top: 10px;
 		}
 	}
 }
@@ -398,9 +410,15 @@ header h1 {
 			h3 {
 				max-height: 55px;
 				overflow: hidden;
+				border-top: 2px dotted black;
+				padding: 8px 0px;
 			}
 			iframe{
 				width: 100%;
+			}
+			.seeall {
+				padding: 10px 0;
+				display: block;
 			}
 		}
 		#videoplaylist {
@@ -590,7 +608,7 @@ header h1 {
 			padding: 0 1em;
 		}
 		input {
-			border: 1px solid #000;
+			border: 1px solid $gray-color;
 			padding: 15px;
 			background: rgba(255,255,255,1);
 			margin: 0 0 10px 0;

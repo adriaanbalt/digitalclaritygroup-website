@@ -24,6 +24,7 @@
 				ret = false;
 			} else if ( hash != '' ) {
 				ret = true;
+				$(window).scrollTop(0);
 			}
 
 			return ret;

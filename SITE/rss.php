@@ -25,6 +25,7 @@
 		}
 		$limit = 5;
 		$container = '';
+		$i = 0;
 		foreach( $feed as $item ) {
 			$title = str_replace(' & ', ' &amp; ', $item['title']);
 			$link = $item['link'];
@@ -39,6 +40,7 @@
 					</a>
 				</div>
 			</li>";
+			$i++;
 		}
 		print $container;
 	}
