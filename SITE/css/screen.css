@@ -768,28 +768,29 @@ header h1 {
 /* line 619, ../sass/main.scss */
 #contact .newsletter input[type='submit'] {
   background: #638d95;
+  font-family: 'Maven Pro';
 }
-/* line 621, ../sass/main.scss */
+/* line 622, ../sass/main.scss */
 #contact .newsletter input[type='submit']:hover {
   background: #e35225;
 }
-/* line 625, ../sass/main.scss */
+/* line 626, ../sass/main.scss */
 #contact .newsletter p {
   margin: 0 0 20px 0;
 }
-/* line 629, ../sass/main.scss */
+/* line 630, ../sass/main.scss */
 #contact .contact {
   width: 24%;
 }
-/* line 631, ../sass/main.scss */
+/* line 632, ../sass/main.scss */
 #contact .contact > .inner {
   padding: 0 0 0 1em;
 }
-/* line 634, ../sass/main.scss */
+/* line 635, ../sass/main.scss */
 #contact .contact .role {
   margin-bottom: 15px;
 }
-/* line 637, ../sass/main.scss */
+/* line 638, ../sass/main.scss */
 #contact .contact .email, #contact .contact .phone {
   overflow: hidden;
 }
