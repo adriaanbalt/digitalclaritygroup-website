@@ -444,7 +444,7 @@ header h1 {
 }
 /* line 398, ../sass/main.scss */
 #social #videoplayer > .inner {
-  padding: 0px 1em 1em 1em;
+  padding: 0px .5em 1em .5em;
   background: #eaeaea;
 }
 /* line 402, ../sass/main.scss */
