@@ -116,13 +116,17 @@
 					} else {
 						$('#videoplaylist ul').append( "<li class='video-entry in-active'><a href='javascript:void(0);' data-videoid='" + $(this).find('videoid').text() + "' data-listid='" + $(this).find('id').text().split(':')[3] + "'><h4>" + $(this).find('title:eq(0)').text()  + "</h4><div class='cover'></div><img src='" + $(this).find('thumbnail:eq(2)').attr('url') + "'/></a></li>")
 					}
-			$('#videoplaylist ul li').on('click', '.in-active', function(e) {
-				e.preventDefault();
-				console.log ( " $(this).data('videoid') : ", $(this).data('videoid') );
-				if ( player !== null ) {
-					player.loadVideoByUrl( $(this).data('videoid'), 0, "default" );
-				}
-			})
+					
+					$('#videoplaylist ul li').on('click', 'a', function(e) {
+						e.preventDefault();
+						console.log ( "$(this) ", $(this) );
+						if ( player !== null ) {
+							player.loadVideoById( $(this).data('videoid'), 0, "default" );
+							$(this).parents('#videoplaylist ul').find('.active').removeClass('active').addClass('in-active');
+							$(this).parent().removeClass('in-active').addClass('active');
+						}
+					});
+
 					iterator++;
 				} else {
 					return;
