@@ -645,7 +645,7 @@ header h1 {
   margin-top: .5em;
   float: right;
   display: block;
-  margin: 0px 10px;
+  margin: 5px 10px;
 }
 /* line 513, ../sass/main.scss */
 #social section {
@@ -694,121 +694,117 @@ header h1 {
 }
 /* line 554, ../sass/main.scss */
 #team section a .info {
-  position: absolute;
-  top: 73%;
-  width: 100%;
-  left: 50%;
-  margin-left: -50%;
+  padding: 15px 0px;
 }
-/* line 560, ../sass/main.scss */
+/* line 556, ../sass/main.scss */
 #team section a .info p {
   margin: 0;
 }
-/* line 566, ../sass/main.scss */
+/* line 562, ../sass/main.scss */
 #team section.last {
   border-right: 0;
 }
-/* line 570, ../sass/main.scss */
+/* line 566, ../sass/main.scss */
 #team .row {
   border-bottom: 1px dotted #fff;
 }
-/* line 572, ../sass/main.scss */
+/* line 568, ../sass/main.scss */
 #team .row.last {
   border-bottom: 0;
 }
-/* line 576, ../sass/main.scss */
+/* line 572, ../sass/main.scss */
 #team article {
   z-index: 1;
   zoom: 1;
 }
 
-/* line 584, ../sass/main.scss */
+/* line 580, ../sass/main.scss */
 #contact .wrapper > .inner {
   padding: 1% 2%;
 }
-/* line 588, ../sass/main.scss */
+/* line 584, ../sass/main.scss */
 #contact section {
   float: left;
   border-right: 1px dotted #515151;
   min-height: 275px;
   height: 100%;
 }
-/* line 594, ../sass/main.scss */
+/* line 590, ../sass/main.scss */
 #contact section.last {
   border-right: 0;
 }
-/* line 600, ../sass/main.scss */
+/* line 596, ../sass/main.scss */
 #contact section h4 {
   margin: 0;
   font-size: 18px;
 }
-/* line 604, ../sass/main.scss */
+/* line 600, ../sass/main.scss */
 #contact section p {
   margin: 0;
   font-size: 14px;
   line-height: 1.5em;
 }
-/* line 610, ../sass/main.scss */
+/* line 606, ../sass/main.scss */
 #contact .links {
   width: 24%;
 }
-/* line 612, ../sass/main.scss */
+/* line 608, ../sass/main.scss */
 #contact .links > .inner {
   padding: 0 0 0 1em;
 }
-/* line 615, ../sass/main.scss */
+/* line 611, ../sass/main.scss */
 #contact .links img {
   margin-top: -7px;
 }
-/* line 618, ../sass/main.scss */
+/* line 614, ../sass/main.scss */
 #contact .links span {
   margin: 5px;
 }
-/* line 622, ../sass/main.scss */
+/* line 618, ../sass/main.scss */
 #contact .newsletter {
   width: 48%;
 }
-/* line 624, ../sass/main.scss */
+/* line 620, ../sass/main.scss */
 #contact .newsletter > .inner {
   padding: 0 1em;
 }
-/* line 627, ../sass/main.scss */
+/* line 623, ../sass/main.scss */
 #contact .newsletter input {
   border: 1px solid #515151;
   padding: 15px;
   background: white;
   margin: 0 0 10px 0;
 }
-/* line 633, ../sass/main.scss */
+/* line 629, ../sass/main.scss */
 #contact .newsletter input[type='text'] {
   width: 65%;
 }
-/* line 636, ../sass/main.scss */
+/* line 632, ../sass/main.scss */
 #contact .newsletter input[type='submit'] {
   background: #638d95;
   font-family: 'Maven Pro';
 }
-/* line 639, ../sass/main.scss */
+/* line 635, ../sass/main.scss */
 #contact .newsletter input[type='submit']:hover {
   background: #e35225;
 }
-/* line 643, ../sass/main.scss */
+/* line 639, ../sass/main.scss */
 #contact .newsletter p {
   margin: 0 0 20px 0;
 }
-/* line 647, ../sass/main.scss */
+/* line 643, ../sass/main.scss */
 #contact .contact {
   width: 24%;
 }
-/* line 649, ../sass/main.scss */
+/* line 645, ../sass/main.scss */
 #contact .contact > .inner {
   padding: 0 0 0 1em;
 }
-/* line 652, ../sass/main.scss */
+/* line 648, ../sass/main.scss */
 #contact .contact .role {
   margin-bottom: 15px;
 }
-/* line 655, ../sass/main.scss */
+/* line 651, ../sass/main.scss */
 #contact .contact .email, #contact .contact .phone {
   overflow: hidden;
 }

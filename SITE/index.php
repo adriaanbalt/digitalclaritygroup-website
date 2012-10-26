@@ -27,13 +27,13 @@
 
 		<div class='overlay-container'>
 
-			<div id='scottliewehr' class='overlay'>
+			<div id='scott' class='overlay'>
 				<div class='content'>
 					<div class='inner'>
 						<a href='#' class='close'></a>
 						<hr>
 						<h3>Scott Liewehr</h3>
-						<h4>President & Principle</h4>
+						<h4>President / Principle Analyst</h4>
 						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
 						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
 						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
@@ -43,13 +43,13 @@
 				<a href='#' class='bg'></a>
 			</div>
 
-			<div id='chris' class='overlay'>
+			<div id='cathy' class='overlay'>
 				<div class='content'>
 					<div class='inner'>
 						<a href='#' class='close'></a>
 						<hr>
-						<h3>Chris</h3>
-						<h4>Delivery</h4>
+						<h3>Cathy</h3>
+						<h4>Partner / Principle Analyst</h4>
 						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
 						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
 						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
@@ -65,7 +65,39 @@
 						<a href='#' class='close'></a>
 						<hr>
 						<h3>Tim</h3>
-						<h4>Analyst</h4>
+						<h4>Partner / Principle Analyst</h4>
+						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+					</div>
+				</div>
+				<a href='#' class='bg'></a>
+			</div>
+
+			<div id='elise' class='overlay'>
+				<div class='content'>
+					<div class='inner'>
+						<a href='#' class='close'></a>
+						<hr>
+						<h3>Elise</h3>
+						<h4>Partner / Client Analyst</h4>
+						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+					</div>
+				</div>
+				<a href='#' class='bg'></a>
+			</div>
+
+			<div id='robert' class='overlay'>
+				<div class='content'>
+					<div class='inner'>
+						<a href='#' class='close'></a>
+						<hr>
+						<h3>Robert</h3>
+						<h4>Senior Analyst</h4>
 						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
 						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
 						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
@@ -262,10 +294,10 @@
 							<div class='row clearfix first'>
 								<section>
 									<div class='inner'>
-										<a href='#scottliewehr'>
-											<img src='img/headshot-scott-liewehr.jpg' alt='Scott Liewehr'/>
+										<a href='#scott'>
+											<img src='img/headshot-scott.jpg' alt='Scott Liewehr'/>
 											<div class='info'>
-												<h3>Scott Liewehr</h3>
+												<h3>Scott</h3>
 												<p class='position'>President / Principle Analyst</p>
 											</div>
 										</a>
@@ -273,33 +305,33 @@
 								</section>
 								<section>
 									<div class='inner'>
-										<a href='#chris'>
-											<img src='img/headshot-woman-1.jpg' alt='Cathy'/>
+										<a href='#cathy'>
+											<img src='img/headshot-cathy.jpg' alt='Cathy'/>
 											<div class='info'>
 												<h3>Cathy</h3>
-												<p class='position'>President / Principle Analyst</p>
+												<p class='position'>Partner / Principle Analyst</p>
 											</div>
 										</a>
 									</div>
 								</section>
 								<section>
 									<div class='inner'>
-										<a href='#tim'>
-											<img src='img/headshot-man-3.jpg' alt='Tim'/>
+										<a href='#elise'>
+											<img src='img/headshot-elise.jpg' alt='Tim'/>
 											<div class='info'>
-												<h3>Tim</h3>
-												<p class='position'>President / Principle Analyst</p>
+												<h3>Elise</h3>
+												<p class='position'>Partner / Client Analyst</p>
 											</div>
 										</a>
 									</div>
 								</section>
 								<section class='last'>
 									<div class='inner'>
-										<a href='#scottliewehr'>
-											<img src='img/headshot-woman-2.jpg' alt='Scott'/>
+										<a href='#tim'>
+											<img src='img/headshot-Tim.jpg' alt='Scott'/>
 											<div class='info'>
-												<h3>Elise</h3>
-												<p class='position'>President / Principle Analyst</p>
+												<h3>Tim</h3>
+												<p class='position'>Partner / Principle Analyst</p>
 											</div>
 										</a>
 									</div>
@@ -308,41 +340,44 @@
 							<div class='row last clearfix'>
 								<section>
 									<div class='inner'>
-										<a href='#scottliewehr'>
-											<img src='img/headshot-man-2.jpg' alt='Scott'/>
+										<a href='#robert'>
+											<img src='img/headshot-robert.jpg' alt='Scott'/>
 											<div class='info'>
 												<h3>Robert</h3>
-												<p class='position'>President / Principle Analyst</p>
+												<p class='position'>Senior Analyst</p>
 											</div>
 										</a>
 									</div>
 								</section>
 								<section>
 									<div class='inner'>
-										<a href='#scottliewehr'>
+										<a href='#robert'>
+											<img src='img/headshot-robert.jpg' alt='Scott'/>
 											<div class='info'>
-												<h3></h3>
-												<p class='position'></p>
+												<h3>Robert</h3>
+												<p class='position'>Senior Analyst</p>
 											</div>
 										</a>
 									</div>
 								</section>
 								<section>
 									<div class='inner'>
-										<a href='#scottliewehr'>
+										<a href='#robert'>
+											<img src='img/headshot-robert.jpg' alt='Scott'/>
 											<div class='info'>
-												<h3></h3>
-												<p class='position'></p>
+												<h3>Robert</h3>
+												<p class='position'>Senior Analyst</p>
 											</div>
 										</a>
 									</div>
 								</section>
 								<section class='last'>
 									<div class='inner'>
-										<a href='#scottliewehr'>
+										<a href='#robert'>
+											<img src='img/headshot-robert.jpg' alt='Scott'/>
 											<div class='info'>
-												<h3></h3>
-												<p class='position'></p>
+												<h3>Robert</h3>
+												<p class='position'>Senior Analyst</p>
 											</div>
 										</a>
 									</div>
