@@ -166,7 +166,7 @@
 									<ul>
 										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-news', 'latestLoaded' ); ?>
 									</ul>
-									<a class='seeall' href='' target='_blank'>See All News</a>
+									<a class='seeall' href='http://digitalclaritygroup.com/category/news/' target='_blank'>See All News</a>
 								</div>
 							</section>
 							<section>
@@ -175,7 +175,7 @@
 									<ul>
 										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-events', 'latestLoaded' ); ?>
 									</ul>
-									<a class='seeall' href='' target='_blank'>See All Events</a>
+									<a class='seeall' href='http://digitalclaritygroup.com/category/events/' target='_blank'>See All Events</a>
 								</div>
 							</section>
 							<section>
@@ -184,7 +184,7 @@
 									<ul>
 										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-research', 'latestLoaded' ); ?>
 									</ul>
-									<a class='seeall' href='' target='_blank'>See All Research</a>
+									<a class='seeall' href='http://digitalclaritygroup.com/category/research/' target='_blank'>See All Research</a>
 								</div>
 							</section>
 							<section class='last'>
@@ -193,7 +193,7 @@
 									<ul>
 										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-thinking', 'latestLoaded' ); ?>
 									</ul>
-									<a class='seeall' href='' target='_blank'>See All Thinking</a>
+									<a class='seeall' href='http://digitalclaritygroup.com/category/thinking/' target='_blank'>See All Thinking</a>
 								</div>
 							</section>
 						</div>
@@ -220,7 +220,7 @@
 								<div class='inner'>
 									<div id='videofeature'>
 										<div class='contain-seeall clearfix'>
-											<a href='http://youtube.com' target='_blank' class='seeall'>See All</a>
+											<a href='http://www.youtube.com/playlist?list=PLI0CjHTl84BwYc3wF7lRASZyE0_htgHnk' target='_blank' class='seeall'>See All</a>
 										</div>
 									</div>
 									<div id='videoplaylist'>

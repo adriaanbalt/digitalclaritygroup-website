@@ -2,7 +2,9 @@
 	SMALL SIZE
 */
 
-@media only screen and (max-width: 600px) {
+@import "constants";
+
+@media only screen and (max-width: 560px) {
 
 	.wrapper {
 		width: 100%;
@@ -68,6 +70,12 @@
 				width: 15% !important;
 			}
 		}
+		display: none;
+		visibility: hidden;
+	}
+	#definition {
+		display: none;
+		visibility: hidden;
 	}
 	#latest {
 		section {
@@ -89,8 +97,11 @@
 					padding: 8px 0px !important;
 				}
 			}
-			section{
-				overflow: hidden;
+		}
+		section{
+			overflow: hidden;
+			>.inner {
+				padding: 0px 3% !important;
 			}
 		}
 	}
@@ -99,6 +110,9 @@
 			width: 100% !important;
 			border-right: 0;
 			padding: 0 !important;
+			#videoplaylist li {
+				margin: 0px 0px 0px 2px !important;
+			}
 		}
 		#twitter {
 			width: 100% !important;
@@ -270,6 +284,9 @@
 			width: 100% !important;
 			border-right: 0;
 			padding: 0 !important;
+			#videoplaylist li {
+				margin: 0px 0px 0px 2.5%;
+			}
 		}
 		#twitter {
 			width: 100% !important;
@@ -296,6 +313,11 @@
 		.wrapper{
 			>.inner {
 				padding: 2% !important;
+			}
+		}
+		.links {
+			>.inner {
+				min-width:126px !important;
 			}
 		}
 		.newsletter {

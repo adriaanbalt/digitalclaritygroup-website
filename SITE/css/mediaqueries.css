@@ -1,130 +1,351 @@
 /*
-Syntax error: Undefined variable: "$gray-color".
-        on line 38 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/mediaqueries.scss
-
-Backtrace:
-/Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/mediaqueries.scss:38
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/script/variable.rb:49:in `_perform'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/script/node.rb:40:in `perform'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/script/list.rb:69:in `_perform'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/script/list.rb:69:in `map'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/script/list.rb:69:in `_perform'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/script/node.rb:40:in `perform'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:216:in `visit_prop'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:238:in `visit_rule'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:238:in `visit_rule'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:238:in `visit_rule'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:238:in `visit_rule'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:39:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:47:in `visit_root'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/tree/root_node.rb:20:in `render'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/engine.rb:299:in `_render'
-/Users/BALT/.gem/ruby/1.8/gems/sass-3.1.15/lib/sass/../sass/engine.rb:246:in `render'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Library/Ruby/Site/1.8/rubygems/custom_require.rb:36:in `to_proc'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/path.rb:73:in `call'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/path.rb:73:in `run_callback'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/path.rb:55:in `callback_action'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/path.rb:35:in `update'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:39:in `modified'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:37:in `each'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:37:in `modified'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/backends/fsevents.rb:15:in `add_handler'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/backends/fsevents.rb:14:in `each'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/backends/fsevents.rb:14:in `add_handler'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/backends/rubycocoa/fsevents.rb:107:in `call'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/backends/rubycocoa/fsevents.rb:107:in `initialize'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/backends/fsevents.rb:27:in `call'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/backends/fsevents.rb:27:in `CFRunLoopRun'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/backends/fsevents.rb:27:in `run'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm/monitor.rb:26:in `run'
-/Users/BALT/.gem/ruby/1.8/gems/fssm-0.2.8.1/lib/fssm.rb:70:in `monitor'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:30
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44:in `call'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44
-/usr/bin/compass:23:in `load'
-/usr/bin/compass:23
+	SMALL SIZE
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray-color\".\A         on line 38 of /Users/BALT/PROJECTS/BALT/digitalclaritygroup/SITE/sass/mediaqueries.scss"; }
+@media only screen and (max-width: 560px) {
+  /* line 9, ../sass/mediaqueries.scss */
+  .wrapper {
+    width: 100%;
+    padding: 0px;
+  }
+  /* line 12, ../sass/mediaqueries.scss */
+  .wrapper > .inner {
+    padding: 1em 1em 3em 1em;
+  }
+
+  /* line 20, ../sass/mediaqueries.scss */
+  .overlay .content .email, .overlay .content .info, .overlay .content .twitter {
+    font-size: 68% !important;
+  }
+
+  /* line 26, ../sass/mediaqueries.scss */
+  .main {
+    padding: 0;
+  }
+
+  /* line 30, ../sass/mediaqueries.scss */
+  nav {
+    margin-top: 180px;
+  }
+  /* line 32, ../sass/mediaqueries.scss */
+  nav ul {
+    width: 100% !important;
+  }
+  /* line 34, ../sass/mediaqueries.scss */
+  nav ul li {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0px !important;
+  }
+  /* line 39, ../sass/mediaqueries.scss */
+  nav ul li a {
+    background: #515151 !important;
+    color: #fff !important;
+    padding: 12px 25px;
+    text-align: left;
+  }
+  /* line 45, ../sass/mediaqueries.scss */
+  nav ul li.last {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 53, ../sass/mediaqueries.scss */
+  header .title {
+    top: -131px;
+    left: 13px;
+    position: absolute;
+  }
+  /* line 58, ../sass/mediaqueries.scss */
+  header .slogan {
+    width: 90% !important;
+    margin: 0 !important;
+    float: none !important;
+    padding: 5% 0 5% 16% !important;
+    text-align: center;
+  }
+
+  /* line 66, ../sass/mediaqueries.scss */
+  #steps {
+    display: none;
+    visibility: hidden;
+  }
+  /* line 68, ../sass/mediaqueries.scss */
+  #steps section img {
+    padding: 10% 2% 6% 2% !important;
+    width: 15% !important;
+  }
+
+  /* line 76, ../sass/mediaqueries.scss */
+  #definition {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* line 81, ../sass/mediaqueries.scss */
+  #latest section {
+    float: none !important;
+    width: 100% !important;
+    border-right: 0 !important;
+    border-bottom: 2px dotted #515151;
+    min-height: 150px !important;
+  }
+
+  /* line 90, ../sass/mediaqueries.scss */
+  #thoughts .contain {
+    border-bottom: 0 !important;
+  }
+  /* line 93, ../sass/mediaqueries.scss */
+  #thoughts .contain .row.first {
+    border-top: 0 !important;
+  }
+  /* line 96, ../sass/mediaqueries.scss */
+  #thoughts .contain .row > .inner {
+    padding: 8px 0px !important;
+  }
+  /* line 101, ../sass/mediaqueries.scss */
+  #thoughts section {
+    overflow: hidden;
+  }
+  /* line 103, ../sass/mediaqueries.scss */
+  #thoughts section > .inner {
+    padding: 0px 3% !important;
+  }
+
+  /* line 109, ../sass/mediaqueries.scss */
+  #social #videoplayer {
+    width: 100% !important;
+    border-right: 0;
+    padding: 0 !important;
+  }
+  /* line 113, ../sass/mediaqueries.scss */
+  #social #videoplayer #videoplaylist li {
+    margin: 0px 0px 0px 2px !important;
+  }
+  /* line 117, ../sass/mediaqueries.scss */
+  #social #twitter {
+    width: 100% !important;
+  }
+
+  /* line 123, ../sass/mediaqueries.scss */
+  #team section a {
+    font-size: 75%;
+  }
+
+  /* line 129, ../sass/mediaqueries.scss */
+  #contact section {
+    float: none !important;
+    width: 100% !important;
+    border-bottom: 2px dotted #515151 !important;
+    border-right: 0 !important;
+  }
+  /* line 134, ../sass/mediaqueries.scss */
+  #contact section.last {
+    border-bottom: 0 !important;
+  }
+  /* line 139, ../sass/mediaqueries.scss */
+  #contact .newsletter input[type='text'] {
+    width: 315px;
+  }
+
+  /* line 145, ../sass/mediaqueries.scss */
+  nav li:first-child a {
+    margin-left: 0;
+  }
+
+  /* line 149, ../sass/mediaqueries.scss */
+  nav li:last-child a {
+    margin-right: 0;
+  }
+
+  /* line 153, ../sass/mediaqueries.scss */
+  nav ul li {
+    display: inline;
+  }
+
+  /* line 157, ../sass/mediaqueries.scss */
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
+}
+/*
+	MEDIUM SIZE
+*/
+@media only screen and (max-width: 1005px) {
+  /* line 169, ../sass/mediaqueries.scss */
+  .overlay .content {
+    top: 0%;
+    position: absolute;
+    margin-top: 50px;
+  }
+
+  /* line 176, ../sass/mediaqueries.scss */
+  .wrapper {
+    width: 100%;
+    padding: 0px;
+  }
+  /* line 179, ../sass/mediaqueries.scss */
+  .wrapper > .inner {
+    padding: 1em 1em 3em 1em;
+  }
+
+  /* line 183, ../sass/mediaqueries.scss */
+  .wrapper-small {
+    width: 90%;
+  }
+
+  /* line 188, ../sass/mediaqueries.scss */
+  nav ul {
+    width: 570px;
+  }
+  /* line 190, ../sass/mediaqueries.scss */
+  nav ul li {
+    margin: 0;
+    padding: 0px;
+  }
+  /* line 193, ../sass/mediaqueries.scss */
+  nav ul li a {
+    padding: 32px 21px;
+    text-align: left;
+  }
+  /* line 197, ../sass/mediaqueries.scss */
+  nav ul li.last {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 205, ../sass/mediaqueries.scss */
+  header .title {
+    margin: 0 0 0 37px;
+  }
+  /* line 208, ../sass/mediaqueries.scss */
+  header .slogan {
+    font-size: 16px !important;
+    width: 65% !important;
+    padding: 0% 2%;
+    margin: 0 !important;
+    line-height: 27px;
+  }
+
+  /* line 217, ../sass/mediaqueries.scss */
+  #thoughts .row {
+    border-top: 1px dotted #515151;
+  }
+  /* line 219, ../sass/mediaqueries.scss */
+  #thoughts .row.first {
+    border-top: 0;
+  }
+  /* line 222, ../sass/mediaqueries.scss */
+  #thoughts .row section {
+    border-right: 1px dotted #515151;
+  }
+  /* line 224, ../sass/mediaqueries.scss */
+  #thoughts .row section.last {
+    border-right: 0;
+  }
+
+  /* line 230, ../sass/mediaqueries.scss */
+  #steps {
+    padding: 0% 0% 2% 0%;
+  }
+  /* line 232, ../sass/mediaqueries.scss */
+  #steps section {
+    width: 100% !important;
+    text-align: left !important;
+    float: none !important;
+  }
+  /* line 236, ../sass/mediaqueries.scss */
+  #steps section img {
+    float: left;
+    padding: 1% 2% 6% 2%;
+    width: 10%;
+  }
+  /* line 241, ../sass/mediaqueries.scss */
+  #steps section .description {
+    float: left;
+    width: 75%;
+    padding: 0% 3%;
+  }
+  /* line 246, ../sass/mediaqueries.scss */
+  #steps section .description h2 {
+    margin: 1% 0%;
+  }
+  /* line 249, ../sass/mediaqueries.scss */
+  #steps section .description p {
+    margin: 1% 0%;
+  }
+
+  /* line 257, ../sass/mediaqueries.scss */
+  #latest section {
+    float: none !important;
+    width: 90% !important;
+    border-right: 0 !important;
+    border-bottom: 2px dotted #515151;
+    min-height: 150px !important;
+    margin: 0 5%;
+  }
+  /* line 264, ../sass/mediaqueries.scss */
+  #latest section .seeall {
+    padding: 1%;
+    position: relative;
+    float: right;
+  }
+  /* line 269, ../sass/mediaqueries.scss */
+  #latest section > .inner {
+    padding: 1% 0% !important;
+  }
+  /* line 274, ../sass/mediaqueries.scss */
+  #latest header h1 {
+    margin: 10px 1%;
+  }
+
+  /* line 280, ../sass/mediaqueries.scss */
+  #social article {
+    padding: 0;
+  }
+  /* line 283, ../sass/mediaqueries.scss */
+  #social #videoplayer {
+    width: 100% !important;
+    border-right: 0;
+    padding: 0 !important;
+  }
+  /* line 287, ../sass/mediaqueries.scss */
+  #social #videoplayer #videoplaylist li {
+    margin: 0px 0px 0px 2.5%;
+  }
+  /* line 291, ../sass/mediaqueries.scss */
+  #social #twitter {
+    width: 100% !important;
+  }
+
+  /* line 298, ../sass/mediaqueries.scss */
+  #story .wrapper > .inner {
+    padding: 1em 5% 3em 5% !important;
+  }
+
+  /* line 306, ../sass/mediaqueries.scss */
+  #team section p {
+    padding: 0px 10px;
+  }
+
+  /* line 314, ../sass/mediaqueries.scss */
+  #contact .wrapper > .inner {
+    padding: 2% !important;
+  }
+  /* line 319, ../sass/mediaqueries.scss */
+  #contact .links > .inner {
+    min-width: 126px !important;
+  }
+  /* line 324, ../sass/mediaqueries.scss */
+  #contact .newsletter input[type='text'] {
+    width: 65%;
+  }
+  /* line 328, ../sass/mediaqueries.scss */
+  #contact .newsletter input[type='submit']:hover {
+    background: rgba(227, 82, 37, 0.3);
+  }
+  /* line 333, ../sass/mediaqueries.scss */
+  #contact section {
+    min-height: 175px;
+  }
+}
