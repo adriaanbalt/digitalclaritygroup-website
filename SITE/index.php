@@ -219,7 +219,9 @@
 							<section id='videoplayer'>
 								<div class='inner'>
 									<div id='videofeature'>
-										<a href='http://youtube.com' target='_blank' class='seeall'>See All</a>
+										<div class='contain-seeall clearfix'>
+											<a href='http://youtube.com' target='_blank' class='seeall'>See All</a>
+										</div>
 									</div>
 									<div id='videoplaylist'>
 										<ul class='clearfix'></ul>
@@ -261,36 +263,44 @@
 								<section>
 									<div class='inner'>
 										<a href='#scottliewehr'>
-											<img src='img/person.jpg' alt='Scott Liewehr'/>
-											<h3>Scott Liewehr</h3>
-											<p class='position'>President / Principle Analyst</p>
+											<img src='img/headshot-scott-liewehr.jpg' alt='Scott Liewehr'/>
+											<div class='info'>
+												<h3>Scott Liewehr</h3>
+												<p class='position'>President / Principle Analyst</p>
+											</div>
 										</a>
 									</div>
 								</section>
 								<section>
 									<div class='inner'>
 										<a href='#chris'>
-											<img src='img/person.jpg' alt='Cathy'/>
-											<h3>Cathy</h3>
-											<p class='position'>President / Principle Analyst</p>
+											<img src='img/headshot-woman-1.jpg' alt='Cathy'/>
+											<div class='info'>
+												<h3>Cathy</h3>
+												<p class='position'>President / Principle Analyst</p>
+											</div>
 										</a>
 									</div>
 								</section>
 								<section>
 									<div class='inner'>
 										<a href='#tim'>
-											<img src='img/person.jpg' alt='Tim'/>
-											<h3>Tim</h3>
-											<p class='position'>President / Principle Analyst</p>
+											<img src='img/headshot-man-3.jpg' alt='Tim'/>
+											<div class='info'>
+												<h3>Tim</h3>
+												<p class='position'>President / Principle Analyst</p>
+											</div>
 										</a>
 									</div>
 								</section>
 								<section class='last'>
 									<div class='inner'>
 										<a href='#scottliewehr'>
-											<img src='img/person.jpg' alt='Scott'/>
-											<h3>Elise</h3>
-											<p class='position'>President / Principle Analyst</p>
+											<img src='img/headshot-woman-2.jpg' alt='Scott'/>
+											<div class='info'>
+												<h3>Elise</h3>
+												<p class='position'>President / Principle Analyst</p>
+											</div>
 										</a>
 									</div>
 								</section>
@@ -299,36 +309,41 @@
 								<section>
 									<div class='inner'>
 										<a href='#scottliewehr'>
-											<img src='img/person.jpg' alt='Scott'/>
-											<h3>Robert</h3>
-											<p class='position'>President / Principle Analyst</p>
+											<img src='img/headshot-man-2.jpg' alt='Scott'/>
+											<div class='info'>
+												<h3>Robert</h3>
+												<p class='position'>President / Principle Analyst</p>
+											</div>
 										</a>
 									</div>
 								</section>
 								<section>
 									<div class='inner'>
 										<a href='#scottliewehr'>
-											<img src='img/person.jpg' alt='Scott'/>
-											<h3>Kyle</h3>
-											<p class='position'>President / Principle Analyst</p>
+											<div class='info'>
+												<h3></h3>
+												<p class='position'></p>
+											</div>
 										</a>
 									</div>
 								</section>
 								<section>
 									<div class='inner'>
 										<a href='#scottliewehr'>
-											<img src='img/person.jpg' alt='Scott'/>
-											<h3>Kyle</h3>
-											<p class='position'>President / Principle Analyst</p>
+											<div class='info'>
+												<h3></h3>
+												<p class='position'></p>
+											</div>
 										</a>
 									</div>
 								</section>
 								<section class='last'>
 									<div class='inner'>
 										<a href='#scottliewehr'>
-											<img src='img/person.jpg' alt='Scott'/>
-											<h3>Kyle</h3>
-											<p class='position'>President / Principle Analyst</p>
+											<div class='info'>
+												<h3></h3>
+												<p class='position'></p>
+											</div>
 										</a>
 									</div>
 								</section>
