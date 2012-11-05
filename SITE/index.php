@@ -107,6 +107,38 @@
 				<a href='#' class='bg'></a>
 			</div>
 
+			<div id='kyle' class='overlay'>
+				<div class='content'>
+					<div class='inner'>
+						<a href='#' class='close'></a>
+						<hr>
+						<h3>Kyle</h3>
+						<h4>Senior Analyst</h4>
+						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+					</div>
+				</div>
+				<a href='#' class='bg'></a>
+			</div>
+
+			<div id='tiffany' class='overlay'>
+				<div class='content'>
+					<div class='inner'>
+						<a href='#' class='close'></a>
+						<hr>
+						<h3>Tiffany</h3>
+						<h4>Senior Analyst</h4>
+						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+					</div>
+				</div>
+				<a href='#' class='bg'></a>
+			</div>
+
 		</div>
 
 		<div class="header-container">
@@ -114,7 +146,7 @@
 				<nav class='clearfix'>
 					<ul class='clearfix'>
 						<li><a href="#latest">OUR LATEST</a></li>
-						<li><a href="#thoughts">OUT THOUGHTS</a></li>
+						<li><a href="#thoughts">OUR THOUGHTS</a></li>
 						<li><a href="#story">OUR STORY</a></li>
 						<li class='last'><a href="#contact">CONTACT US</a></li>
 					</ul>
@@ -137,7 +169,7 @@
 									<img src='img/consumer-engagement.png' alt='Consumer Engagement'/>
 									<div class='description'>
 										<h2>Consumer Engagement</h2>
-										<p>Marketing is undergoing fundamental change. The new mandate: create high-impact digital experiences that differentiate the brand, drive growth and fuel consumer evangelism. DCG helps leaders create clear maps for how technology can help power new strategies.</p>
+										<p>The new marketing mandate: create high-impact experiences that differentiate, drive growth and fuel evangelism. DCG helps leaders create clear maps to use technology to help power new engagement strategies.</p>
 									</div>
 								</div>
 							</section>
@@ -146,7 +178,7 @@
 									<img src='img/social-enterprise.png' alt='Social Enterprise'/>
 									<div class='description'>
 										<h2>Social Enterprise</h2>
-										<p>The social business is here ready or not. It has changed the way enterprises earn, learn, communicate and collaborate. It’s no longer a choice of ‘if’ – it’s a question of how. DCG puts clarity around the strategy, process and technology of the socially enabled enterprise.</p>
+										<p>Social business has changed the way enterprises earn, learn, communicate and collaborate. It’s no longer a choice of ‘if’ – it’s a question of how. DCG helps put clarity around the socially enabled enterprise.</p>
 									</div>
 								</div>
 							</section>
@@ -154,8 +186,8 @@
 								<div class='inner'>
 									<img src='img/innovation-change.png' alt='Innovation Change'/>
 									<div class='description'>
-										<h2>Innovation Change</h2>
-										<p>Enterprise Technology powers insight that reveals the need for change - but it doesn’t power change itself. For true success, enterprises must implement technological change well and adopt and manage it successfully. DCG helps business leaders to unleash innovative change.</p>
+										<h2>Innovative Change</h2>
+										<p>Technology powers insight, revealing the need for change - but it doesn’t power change. Enterprises must implement, adopt and manage technological well. DCG helps business leaders to unleash innovative change.</p>
 									</div>
 								</div>
 							</section>
@@ -164,7 +196,7 @@
 									<img src='img/adaptive-technology.png' alt='Adaptive Technology'/>
 									<div class='description'>
 										<h2>Adaptive Technology</h2>
-										<p>Technology is both facilitating and disrupting both consumer engagement and social collaboration. Savvy organizations are now architecting technology around systems of engagement. DCG helps business leaders navigate through this architectural transformation.</p>
+										<p>Technology is both facilitating and disrupting engagement and collaboration. Systems of engagement are creating new paths to success. DCG helps business leaders navigate this architectural transformation.</p>
 									</div>
 								</div>
 							</section>
@@ -179,7 +211,7 @@
 								<h1>Because business-as-usual isn’t.</h1>
 							</header>
 							<section>
-								<p>It is in a state of disruption.  Consumers and knowledge workers alike are grabbing control of the reigns and not letting go. The combination of the social web, open standards, the cloud, and ubiquitous mobility to name just a few, represent a field of dreams for empowered audiences to both collaborate and self-satisfy. For organizations, these disruptions represent an opportunity to transform, innovate, engage and develop loyal customers and employees like never before.  The destination may yet be undetermined – but your organization may need help in navigating. If it does – you’ll need clear guidance.</p>
+								<p>It is in a state of disruption. The combination of the social web, open standards, the cloud, and ubiquitous mobility to name just a few, represent an opportunity to transform, innovate, engage and develop loyal customers and employees like never before. The ultimate destination may yet be undetermined – but your organization may need help in navigating. If it does – you’ll need clear guidance.</p>
 								<p>DCG provides both the clarity and the guidance. We provide research, consulting, events and advisory services to help business leaders navigate the digital transformation.</p>
 							</section>
 						</div>
@@ -328,7 +360,7 @@
 								<section class='last'>
 									<div class='inner'>
 										<a href='#tim'>
-											<img src='img/headshot-Tim.jpg' alt='Scott'/>
+											<img src='img/headshot-tim.jpg' alt='Scott'/>
 											<div class='info'>
 												<h3>Tim</h3>
 												<p class='position'>Partner / Principle Analyst</p>
@@ -351,10 +383,10 @@
 								</section>
 								<section>
 									<div class='inner'>
-										<a href='#robert'>
-											<img src='img/headshot-robert.jpg' alt='Scott'/>
+										<a href='#kyle'>
+											<img src='img/headshot-kyle.jpg' alt='Scott'/>
 											<div class='info'>
-												<h3>Robert</h3>
+												<h3>Kyle</h3>
 												<p class='position'>Senior Analyst</p>
 											</div>
 										</a>
@@ -362,10 +394,10 @@
 								</section>
 								<section>
 									<div class='inner'>
-										<a href='#robert'>
-											<img src='img/headshot-robert.jpg' alt='Scott'/>
+										<a href='#tiffany'>
+											<img src='img/headshot-tiffany.jpg' alt='Scott'/>
 											<div class='info'>
-												<h3>Robert</h3>
+												<h3>Tiffany</h3>
 												<p class='position'>Senior Analyst</p>
 											</div>
 										</a>
@@ -419,16 +451,14 @@
 								<div class='inner'>
 									<h2>Contact</h2>
 									<div class='role'>
-										<h4>PR</h4>
-										<p class='name'>Robert Rose</p>
-										<p class='email'><a href='mailto:rrose@digitalclaritygroup.com'>rrose@digitalclaritygroup.com</a></p>
-										<p class='phone'><a href='tel:800-555-5555'>800-555-5555</a></p>
+										<h4>Client Services</h4>
+										<p class='email'><a href='mailto:info@digitalclaritygroup.com'>info@digitalclaritygroup.com</a></p>
 									</div>
 									<div class='role'>
-										<h4>General Inquiries</h4>
-										<p class='name'>Scott Leiwehr</p>
-										<p class='email'><a href='mailto:sleiwehr@digitalclaritygroup.com'>sleiwehr@digitalclaritygroup.com</a></p>
-										<p class='phone'><a href='tel:800-555-5555'>800-555-5555</a></p>
+										<h4><a href='http://digitalclaritygroup.com/research/vendor-briefings/' target='_blank'>Vendor Briefings</a></h4>
+									</div>
+									<div class='role'>
+										<h4><a href='http://digitalclaritygroup.com/contact/' target='_blank'>Media Resources</a></h4>
 									</div>
 								</div>
 							</section>
@@ -448,10 +478,8 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
-		<script src="js/jquery.history.js"></script>
 		<script src="js/jquery.tweet.js"></script>
 		<script src="js/dcg.overlay.js"></script>
-		<script src="js/dcg.historymanager.js"></script>
 		<script src="js/dcg.main.js"></script>
 
 		<script>

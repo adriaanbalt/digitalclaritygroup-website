@@ -13,39 +13,37 @@
 	function latestLoaded( $rss ) {
 		$feed = array();
 		foreach ($rss->getElementsByTagName('item') as $node) {
-			$img_links = array();
-			$dom = new DOMDocument();
-			echo $node->getElementsByTagName( "title" );
-			if ( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue != '' ) {
-				$dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
-				$item = array (
-					'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-					'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-					'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue
-					);
-				array_push($feed, $item);
-			} else {
-				echo "ERROR";
-				return;
-			}
+			// $img_links = array();
+			// $dom = new DOMDocument();
+			// $dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
+			$item = array (
+				'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+				'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+				'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue
+				);
+			array_push($feed, $item);
 		}
 		$limit = 5;
 		$container = '';
 		$i = 0;
 		foreach( $feed as $item ) {
-			$title = str_replace(' & ', ' &amp; ', $item['title']);
-			$link = $item['link'];
-			$dateArr = split(' ', $item['date']);
-			$date = $dateArr[2] . ' ' . $dateArr[1] . ', ' . $dateArr[3];
-			$container .=
-			"<li class='". (((($x+1) % 4 == 0)&&($x!=0)) ? 'last' : '') . ($x==0 || $x == $rowLimit ? 'first' : '') ."'>
-				<div class='inner'>
-					<a href='".$link."' target='_blank' title='".$title."'>
-						<p class='date'>".$date."</p>
-						<p class='title'>".$title."</p>
-					</a>
-				</div>
-			</li>";
+			if ( $i < $limit ) {
+				$title = str_replace(' & ', ' &amp; ', $item['title']);
+				$link = $item['link'];
+				$dateArr = split(' ', $item['date']);
+				$date = $dateArr[2] . ' ' . $dateArr[1] . ', ' . $dateArr[3];
+				$container .=
+				"<li class='". (((($x+1) % 4 == 0)&&($x!=0)) ? 'last' : '') . ($x==0 || $x == $rowLimit ? 'first' : '') ."'>
+					<div class='inner'>
+						<a href='".$link."' target='_blank' title='".$title."'>
+							<p class='date'>".$date."</p>
+							<p class='title'>".$title."</p>
+						</a>
+					</div>
+				</li>";
+			} else {
+				break;
+			}
 			$i++;
 		}
 		print $container;
@@ -57,19 +55,36 @@
 			$img_links = array();
 			$dom = new DOMDocument();
 			$dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
-			$linkArr = split('/', $node->getElementsByTagName('comments')->item(0)->nodeValue );
-			$linkT = $linkArr[0] . '//' . $linkArr[2] . '/' . $linkArr[3];
-			$item = array (
-				'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-				'link' => $linkT,
-				'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
-				'image' => $dom->getElementsByTagName('img')->item(0)->getAttribute('src'),
-				'author' => $node->getElementsByTagNameNS('*','creator')->item(0)->nodeValue,
-				'description' => $node->getElementsByTagName('description')->item(0)->nodeValue,
-				'content' => $node->getElementsByTagName( "content:encoded" )->item(0)->nodeValue
-				);
+
+			if ( $dom->getElementsByTagName('img')->length > 0 ){
+				$linkArr = split('/', $node->getElementsByTagName('comments')->item(0)->nodeValue );
+				$linkT = $linkArr[0] . '//' . $linkArr[2] . '/' . $linkArr[3];
+				$item = array (
+					'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+					'link' => $linkT,
+					'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
+					'image' => $dom->getElementsByTagName('img')->item(0)->getAttribute('src'),
+					'author' => $node->getElementsByTagNameNS('*','creator')->item(0)->nodeValue,
+					'description' => $node->getElementsByTagName('description')->item(0)->nodeValue,
+					'content' => $node->getElementsByTagName( "content:encoded" )->item(0)->nodeValue
+					);
+			} else {
+				$linkArr = split('/', $node->getElementsByTagName('comments')->item(0)->nodeValue );
+				$linkT = $linkArr[0] . '//' . $linkArr[2] . '/' . $linkArr[3];
+				$item = array (
+					'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+					'link' => $linkT,
+					'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
+					//'image' => $dom->getElementsByTagName('img')->item(0)->getAttribute('src'),
+					'author' => $node->getElementsByTagNameNS('*','creator')->item(0)->nodeValue,
+					'description' => $node->getElementsByTagName('description')->item(0)->nodeValue,
+					'content' => $node->getElementsByTagName( "content:encoded" )->item(0)->nodeValue
+					);
+			}
+			
 			array_push($feed, $item);
 		}
+
 		$rowLimit = 4;
 		$limit = $rowLimit * (floor(count($feed) / $rowLimit));
 		$container = '';

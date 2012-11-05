@@ -10,27 +10,32 @@
 		}
 
 		var twitter = function() {
-			$("#twitter .cathymcknight").tweet({
-				avatar_size: 64,
-				count: 3,
-				username: ["cathymcknight"],
-				loading_text: "Loading Twitter feed...",
-				refresh_interval: 120
-			});
 			var twit = $("#twitter .justclarity").tweet({
 				avatar_size: 64,
-				count: 5,
-				username: ["just_clarity"],
+				count: 6,
+				username: ["just_clarity, robert_rose, Sliewehr, cathymcknight, tim_walters, kyle_dover, Esegar"],
 				loading_text: "",
 				refresh_interval: 120
 			});
 			$('#twitter .reload').on( 'click', function() {
-				console.log ( 'clicked ', twit );
 				twit.trigger("tweet:load");
 			});
 		}
 
 		var resize = function() {
+			if ( $(window).width() > 1000 ){
+				$('body').addClass('large');
+				$('body').removeClass('medium');
+				$('body').removeClass('small');
+			} else if ( $(window).width() > 600 ){
+				$('body').removeClass('large');
+				$('body').addClass('medium');
+				$('body').removeClass('small');
+			} else if ( $(window).width() > 0 ){
+				$('body').removeClass('large');
+				$('body').removeClass('medium');
+				$('body').addClass('small');
+			}
 		}
 
 		var bindEvents = function() {
@@ -40,9 +45,18 @@
 			// });
 			$(window).resize( resize );
 			$(window).scroll( scrolling );
-			// $('.overlay').on( 'click', '.bg', function(){
-			// 	historyManager.parseHash('');
-			// });
+			$('#team section').on( 'click', 'a', function(e){
+				e.preventDefault();
+				overlay.show( $(this).attr('href').split('#').join('') );
+			});
+			$('.overlay').on( 'click', '.bg', function(e){
+				e.preventDefault();
+				overlay.hide();
+			});
+			$('.overlay').on( 'click', '.close', function(e){
+				e.preventDefault();
+				overlay.hide();
+			});
 		}
 
 		// overlay
@@ -61,7 +75,7 @@
 	};
 
 	$.youtubeplayer = function() {
- 
+
  		var player = null;
 
 		var getNewPlayerByID = function( videoID ) {
@@ -99,7 +113,7 @@
 		}
 
 		var getPlaylist = function( id ) {
-			$('#videoLoad').load( '	http://gdata.youtube.com/feeds/api/playlists/' + id + '?v=2', playLoadComplete );
+			$('#videoLoad').load( 'http://gdata.youtube.com/feeds/api/playlists/' + id + '?v=2', playLoadComplete );
 		}
 
 		var playLoadComplete = function( responseText, textStatus, XMLHttpRequest ) {
@@ -116,10 +130,9 @@
 					} else {
 						$('#videoplaylist ul').append( "<li class='video-entry in-active'><a href='javascript:void(0);' data-videoid='" + $(this).find('videoid').text() + "' data-listid='" + $(this).find('id').text().split(':')[3] + "'><h4>" + $(this).find('title:eq(0)').text()  + "</h4><div class='cover'></div><img src='" + $(this).find('thumbnail:eq(2)').attr('url') + "'/></a></li>")
 					}
-					
+
 					$('#videoplaylist ul li').on('click', 'a', function(e) {
 						e.preventDefault();
-						console.log ( "$(this) ", $(this) );
 						if ( player !== null ) {
 							player.loadVideoById( $(this).data('videoid'), 0, "default" );
 							$(this).parents('#videoplaylist ul').find('.active').removeClass('active').addClass('in-active');
@@ -152,6 +165,5 @@
 	website = new $.website();
 	ytPlayer = new $.youtubeplayer();
 	overlay = new $.overlay();
-	historyManager = new $.historyManager();
 
 })(jQuery);
