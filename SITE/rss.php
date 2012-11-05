@@ -15,13 +15,19 @@
 		foreach ($rss->getElementsByTagName('item') as $node) {
 			$img_links = array();
 			$dom = new DOMDocument();
-			$dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
-			$item = array (
-				'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-				'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-				'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue
-				);
-			array_push($feed, $item);
+			echo $node->getElementsByTagName( "title" );
+			if ( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue != '' ) {
+				$dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
+				$item = array (
+					'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+					'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+					'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue
+					);
+				array_push($feed, $item);
+			} else {
+				echo "ERROR";
+				return;
+			}
 		}
 		$limit = 5;
 		$container = '';
