@@ -34,10 +34,12 @@
 						<hr>
 						<h3>Scott Liewehr</h3>
 						<h4>President / Principle Analyst</h4>
-						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.</p>
+						<p>Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.</p>
+						<p>A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of sport franchises – Bears, Cubs, and Bulls.</p>
 						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
 						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
-						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='http://www.twitter.com/sliewehr'>@sliewehr</a></p>
 					</div>
 				</div>
 				<a href='#' class='bg'></a>
@@ -48,12 +50,15 @@
 					<div class='inner'>
 						<a href='#' class='close'></a>
 						<hr>
-						<h3>Cathy</h3>
+						<h3>Cathy Mcknight</h3>
 						<h4>Partner / Principle Analyst</h4>
-						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p>A founding partner of Digital Clarity Group, Cathy is a strong advocate of the concepts of communities both within and around the enterprise. Cathy works with clients to maximize their engagement, knowledge management, and the opportunity to build relationships with all their customers by finding the right-fit digital content management technology. A hybrid with deep experience in consulting, communications, and project management, Cathy has provided internal web strategies and implementation roadmaps to dozens of companies from Fortune 100 to not-for-profits; helping them implement successful intranet and portal solutions.</p>
+						<p>Prior to DCG, she has held senior and director level consulting roles with IBM, Prescient Digital Media and Aon Hewitt. Cathy has had the opportunity to speak at various communications and web related events on such topics as social media, web governance, and employee engagement.</p>
+						<p>Cathy is a certified Project Manager with the Project Management Institute (PMI), and when not absorbed in tinkering with the latest social channel, she can be found running through whatever city she happens to be in, or enjoying time with her family and two black labs back in Toronto.</p>
 						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
-						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
-						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.about.me/cathymcknight'>www.about.me/cathymcknight</a></p>
+						<p class='info'><span>Info:</span><a href='http://ca.linkedin.com/in/cathymcknight'>ca.linkedin.com/in/cathymcknight</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='http://www.twitter.com/cathymcknight'>@cathymcknight</a></p>
 					</div>
 				</div>
 				<a href='#' class='bg'></a>
@@ -64,12 +69,15 @@
 					<div class='inner'>
 						<a href='#' class='close'></a>
 						<hr>
-						<h3>Tim</h3>
+						<h3>Tim Walters</h3>
 						<h4>Partner / Principle Analyst</h4>
-						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p>A founding partner of Digital Clarity Group, Tim has vast experience helping companies engage with both consumers and employees. An early advocate of personalized and relevant web sites, he is also an expert on intranets and the future of work. His background in research, teaching, and software marketing and strategy makes Tim a valued advisor to enterprises as well as solution providers.</p>
+						<p>Prior to DCG, Tim was a Senior Analyst and Advisor at Forrester Research, where he covered WCM, intranets, the next-generation Information Workplace, portal servers, and translation/globalization practices. He also served as director of international marketing and strategy for FatWire Software, where he was instrumental in charting the transition from WCM to web experience management (WEM). Earlier, Tim was a professor at the University of Rochester and New York University.</p>
+						<p>Tim currently resides in Germany with his wife and son. When not digging into the latest research on digital disruption, he enjoys motor sports and alpine hiking, but not at the same time.</p>
 						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
-						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
-						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.about.me/timwalters'>www.about.me/timwalters</a></p>
+						<p class='info'><span>Info:</span><a href='http://de.linkedin.com/pub/tim-walters/0/7a9/390'>de.linkedin.com/pub/tim-walters/0/7a9/390</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='http://www.twitter.com/Tim_walters'>@Tim_walters</a></p>
 					</div>
 				</div>
 				<a href='#' class='bg'></a>
@@ -80,12 +88,14 @@
 					<div class='inner'>
 						<a href='#' class='close'></a>
 						<hr>
-						<h3>Elise</h3>
-						<h4>Partner / Client Analyst</h4>
-						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
-						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
-						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
-						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+						<h3>Elise Segar</h3>
+						<h4>Partner / Client Delivery</h4>
+						<p>As a partner at Digital Clarity Group, Elise is able to leverage her passion for content management and sales. Elise has more than 11 years in enterprise technology sales, sales management, strategic marketing and lead generation. Working with innovative companies throughout her career, she has seen first hand the transformation of “traditional” to “digital” in the world of sales and marketing.</p>
+						<p>Prior to DCG, Elise was a Senior Sales Strategist with ifridge &amp; Company where she worked with entrepreneurs and companies to take the next step towards successful sales and marketing. Elise got her start in WCM at RedDot Solutions back in 2002 where she successfully built and ran the inside channel sales team for North America.</p>
+						<p>Elise lives in Connecticut with her family who inspire and teach her new things everyday. She is a proud hockey mom and serves on the Board of Directors for the Eastern CT Hockey Organization. When she’s not working or playing taxi driver you’ll find her happily in the kitchen cooking big meals for her family and friends.</p>
+						<p class='email'><span>Email:</span><a href='mailto:esegar@digitalclaritygroup.com'>esegar@digitalclaritygroup.com</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.linkedin.com/in/elisesegar'>Linkedin.com/in/elisesegar</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='http://www.twitter.com/Esegar'>@Esegar</a></p>
 					</div>
 				</div>
 				<a href='#' class='bg'></a>
@@ -96,12 +106,15 @@
 					<div class='inner'>
 						<a href='#' class='close'></a>
 						<hr>
-						<h3>Robert</h3>
+						<h3>Robert Rose</h3>
 						<h4>Senior Analyst</h4>
-						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p>As an author, speaker and Senior Analyst with DCG, Robert helps marketers become storytellers. Robert shares his expertise and experience in Content Marketing through thoughtful white papers and research reports. Along side his work with DCG, he is also the Strategist in Residence and brand advisor for the Content Marketing Institute, a featured writer and guest blogger for iMedia Connection, CMSWire and Fierce Content Management.  Robert also maintains his own blog at The Mythic Marketer.</p>
+						<p>A recognized expert in content marketing strategy, digital media, and the social Web, Robert innovates creative and technical strategies for a wide variety of clientele. He’s helped large companies such as PTC, First American Title, Valley Crest, American Camp Association, and Nissan tell their story more effectively through the Web.  He’s worked to strategize digital marketing efforts for entertainment and media brands such as Dwight Yoakam, Nickelodeon, and NBC.</p>
+						<p>Robert lives in Los Angeles, California, with his amazing wife Elizabeth and their golden doodle Daisy.</p>
 						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
-						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
-						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.about.me/robertrose'>about.me/robertrose</a></p>
+						<p class='info'><span>LinkedIn:</span><a href='http://www.linkedin/in/robrose'>Linkedin/in/robrose</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='http://www.twitter.com/Robert_Rose'>@Robert_Rose</a></p>
 					</div>
 				</div>
 				<a href='#' class='bg'></a>
@@ -112,12 +125,14 @@
 					<div class='inner'>
 						<a href='#' class='close'></a>
 						<hr>
-						<h3>Kyle</h3>
+						<h3>Kyle Dover</h3>
 						<h4>Senior Analyst</h4>
-						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p>A Senior Analyst with Digital Clarity Group, Kyle has over 25 years’ experience training and coaching executives to build organizations for sustainable success. His work focuses on helping leaders to build top talent, align talent with strategy, and learn and apply skills needed to optimize performance. He has a special interest in helping leaders develop and apply strategic perspective and influence skills.</p>
+						<p>In conjunction with DCG, Kyle continues his role as a founding partner in Teleos Consulting. Teleos helps executives measurably improve organization performance through a custom approach that includes executive coaching, collaborative leadership skills training, and performance and talent systems alignment. Prior to Teleos, Kyle served as a consultant to the acclaimed G.E. WorkOut programs, which helped transform the G.E. culture.</p>
+						<p>Kyle lives in Chapel Hill, NC with his wife and Teleos partner Joan Kofodimos, and with their wonderful daughter Zoe. When not immersed in a coaching call, Kyle can be found in the gym or working with other concerned parents leading the Special Needs Advisory Council for his local school district.</p>
 						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
-						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
-						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+						<p class='info'><span>Info:</span><a href='http://www.linkedin.com/pub/kyle-dover/1/991/aa9'>www.linkedin.com/pub/kyle-dover/1/991/aa9</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='http://www.twitter.com/kyle_dover'>@kyle_dover</a></p>
 					</div>
 				</div>
 				<a href='#' class='bg'></a>
@@ -128,12 +143,12 @@
 					<div class='inner'>
 						<a href='#' class='close'></a>
 						<hr>
-						<h3>Tiffany</h3>
+						<h3>Tiffany Elliot</h3>
 						<h4>Senior Analyst</h4>
-						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.  Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.  A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of</p>
+						<p></p>
 						<p class='email'><span>Email:</span><a href='mailto:sliewehr@digitalclaritygroup.com'>sliewehr@digitalclaritygroup.com</a></p>
-						<p class='info'><span>Info:</span><a href='http://www.about.me/sliewehr'>www.about.me/sliewehr</a></p>
-						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/sliewehr'>@sliewehr</a></p>
+						<p class='info'><span>Info:</span><a href='ca.linkedin.com/pub/tiffany-elliot-ma/17/a96/339'>ca.linkedin.com/pub/tiffany-elliot-ma/17/a96/339</a></p>
+						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/macqueens'>@macqueens</a></p>
 					</div>
 				</div>
 				<a href='#' class='bg'></a>
@@ -187,7 +202,7 @@
 									<img src='img/innovation-change.png' alt='Innovation Change'/>
 									<div class='description'>
 										<h2>Innovative Change</h2>
-										<p>Technology powers insight, revealing the need for change - but it doesn’t power change. Enterprises must implement, adopt and manage technological well. DCG helps business leaders to unleash innovative change.</p>
+										<p>Technology powers insight, revealing the need for change - but it doesn’t power change. Enterprises must implement, adopt and manage technology well. DCG helps business leaders to unleash innovative change.</p>
 									</div>
 								</div>
 							</section>
@@ -246,9 +261,16 @@
 								<div class='inner clearfix'>
 									<h2>Research</h2>
 									<ul>
-										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-research', 'latestLoaded' ); ?>
+										<li>
+											<div class='inner'>
+												<a href='http://digitalclaritygroup.com/research/research-papers/' targer='_blank'>
+													<p class='pdfIcon'></p>
+													<p class='title'>White documents</p>
+												</a>
+											</div>
+										</li>
 									</ul>
-									<a class='seeall' href='http://digitalclaritygroup.com/category/research/' target='_blank'>See All Research</a>
+									<a class='seeall' href='http://digitalclaritygroup.com/research/research-papers/' target='_blank'>See All Research</a>
 								</div>
 							</section>
 							<section class='last'>
@@ -405,12 +427,7 @@
 								</section>
 								<section class='last'>
 									<div class='inner'>
-										<a href='#robert'>
-											<img src='img/headshot-robert.jpg' alt='Scott'/>
-											<div class='info'>
-												<h3>Robert</h3>
-												<p class='position'>Senior Analyst</p>
-											</div>
+										<a>
 										</a>
 									</div>
 								</section>
@@ -429,11 +446,10 @@
 								<div class='inner'>
 									<h2>Links</h2>
 									<ul>
-										<li><a href='' target='_blank'><img src='img/twitter.jpg' alt='Twitter'/><span>Twitter</span></a></li>
-										<li><a href='' target='_blank'><img src='img/facebook.jpg' alt='Facebook'/><span>Facebook</span></a></li>
-										<li><a href='' target='_blank'><img src='img/blogger.jpg' alt='Blogs'/><span>Blogs</span></a></li>
+										<li><a href='http://www.twitter.com/Just_Clarity' target='_blank'><img src='img/twitter.jpg' alt='Twitter'/><span>Twitter</span></a></li>
+										<li><a href='http://www.facebook.com/digitalclaritygroup' target='_blank'><img src='img/facebook.jpg' alt='Facebook'/><span>Facebook</span></a></li>
+										<li><a href='http://www.blog.digitalclaritygroup.com' target='_blank'><img src='img/blogger.jpg' alt='Blogs'/><span>Blogs</span></a></li>
 										<li><a href='' target='_blank'><img src='img/rss.jpg' alt='RSS Feed'/><span>RSS Feed</span></a></li>
-										<li><a href='' target='_blank'><img src='img/slideshare.jpg' alt='Slideshare'/><span>Slideshare</span></a></li>
 									</ul>
 								</div>
 							</section>

@@ -87,7 +87,7 @@
     float: none !important;
     width: 100% !important;
     border-right: 0 !important;
-    border-bottom: 2px dotted #515151;
+    border-bottom: 1px dotted #515151;
     min-height: 150px !important;
   }
 
@@ -127,43 +127,47 @@
     width: 100% !important;
   }
 
-  /* line 123, ../sass/mediaqueries.scss */
+  /* line 122, ../sass/mediaqueries.scss */
+  #team section {
+    width: 24.5% !important;
+  }
+  /* line 124, ../sass/mediaqueries.scss */
   #team section a {
     font-size: 75%;
   }
 
-  /* line 129, ../sass/mediaqueries.scss */
+  /* line 130, ../sass/mediaqueries.scss */
   #contact section {
     float: none !important;
     width: 100% !important;
-    border-bottom: 2px dotted #515151 !important;
+    border-bottom: 1px dotted #515151 !important;
     border-right: 0 !important;
   }
-  /* line 134, ../sass/mediaqueries.scss */
+  /* line 135, ../sass/mediaqueries.scss */
   #contact section.last {
     border-bottom: 0 !important;
   }
-  /* line 139, ../sass/mediaqueries.scss */
+  /* line 140, ../sass/mediaqueries.scss */
   #contact .newsletter input[type='text'] {
     width: 315px;
   }
 
-  /* line 145, ../sass/mediaqueries.scss */
+  /* line 146, ../sass/mediaqueries.scss */
   nav li:first-child a {
     margin-left: 0;
   }
 
-  /* line 149, ../sass/mediaqueries.scss */
+  /* line 150, ../sass/mediaqueries.scss */
   nav li:last-child a {
     margin-right: 0;
   }
 
-  /* line 153, ../sass/mediaqueries.scss */
+  /* line 154, ../sass/mediaqueries.scss */
   nav ul li {
     display: inline;
   }
 
-  /* line 157, ../sass/mediaqueries.scss */
+  /* line 158, ../sass/mediaqueries.scss */
   .oldie nav a {
     margin: 0 0.7%;
   }
@@ -172,53 +176,53 @@
 	MEDIUM SIZE
 */
 @media only screen and (max-width: 1005px) {
-  /* line 169, ../sass/mediaqueries.scss */
+  /* line 170, ../sass/mediaqueries.scss */
   .overlay .content {
     top: 0%;
     position: absolute;
     margin-top: 50px;
   }
 
-  /* line 176, ../sass/mediaqueries.scss */
+  /* line 177, ../sass/mediaqueries.scss */
   .wrapper {
     width: 100%;
     padding: 0px;
   }
-  /* line 179, ../sass/mediaqueries.scss */
+  /* line 180, ../sass/mediaqueries.scss */
   .wrapper > .inner {
     padding: 1em 1em 3em 1em;
   }
 
-  /* line 183, ../sass/mediaqueries.scss */
+  /* line 184, ../sass/mediaqueries.scss */
   .wrapper-small {
     width: 90%;
   }
 
-  /* line 188, ../sass/mediaqueries.scss */
+  /* line 189, ../sass/mediaqueries.scss */
   nav ul {
     width: 570px;
   }
-  /* line 190, ../sass/mediaqueries.scss */
+  /* line 191, ../sass/mediaqueries.scss */
   nav ul li {
     margin: 0;
     padding: 0px;
   }
-  /* line 193, ../sass/mediaqueries.scss */
+  /* line 194, ../sass/mediaqueries.scss */
   nav ul li a {
     padding: 32px 21px;
     text-align: left;
   }
-  /* line 197, ../sass/mediaqueries.scss */
+  /* line 198, ../sass/mediaqueries.scss */
   nav ul li.last {
     margin: 0;
     padding: 0;
   }
 
-  /* line 205, ../sass/mediaqueries.scss */
+  /* line 206, ../sass/mediaqueries.scss */
   header .title {
     margin: 0 0 0 37px;
   }
-  /* line 208, ../sass/mediaqueries.scss */
+  /* line 209, ../sass/mediaqueries.scss */
   header .slogan {
     font-size: 16px !important;
     width: 65% !important;
@@ -227,124 +231,133 @@
     line-height: 27px;
   }
 
-  /* line 217, ../sass/mediaqueries.scss */
+  /* line 218, ../sass/mediaqueries.scss */
   #thoughts .row {
     border-top: 1px dotted #515151;
   }
-  /* line 219, ../sass/mediaqueries.scss */
+  /* line 220, ../sass/mediaqueries.scss */
   #thoughts .row.first {
     border-top: 0;
   }
-  /* line 222, ../sass/mediaqueries.scss */
+  /* line 223, ../sass/mediaqueries.scss */
   #thoughts .row section {
     border-right: 1px dotted #515151;
   }
-  /* line 224, ../sass/mediaqueries.scss */
+  /* line 225, ../sass/mediaqueries.scss */
   #thoughts .row section.last {
     border-right: 0;
   }
 
-  /* line 230, ../sass/mediaqueries.scss */
+  /* line 231, ../sass/mediaqueries.scss */
   #steps {
     padding: 0% 0% 2% 0%;
   }
-  /* line 232, ../sass/mediaqueries.scss */
+  /* line 233, ../sass/mediaqueries.scss */
   #steps section {
     width: 100% !important;
     text-align: left !important;
     float: none !important;
   }
-  /* line 236, ../sass/mediaqueries.scss */
+  /* line 237, ../sass/mediaqueries.scss */
   #steps section img {
     float: left;
     padding: 1% 2% 6% 2%;
     width: 10%;
   }
-  /* line 241, ../sass/mediaqueries.scss */
+  /* line 242, ../sass/mediaqueries.scss */
   #steps section .description {
     float: left;
     width: 75%;
     padding: 0% 3%;
   }
-  /* line 246, ../sass/mediaqueries.scss */
+  /* line 247, ../sass/mediaqueries.scss */
   #steps section .description h2 {
     margin: 1% 0%;
   }
-  /* line 249, ../sass/mediaqueries.scss */
+  /* line 250, ../sass/mediaqueries.scss */
   #steps section .description p {
     margin: 1% 0%;
   }
 
   /* line 257, ../sass/mediaqueries.scss */
+  #thoughts .contain {
+    border-bottom: 0;
+  }
+
+  /* line 262, ../sass/mediaqueries.scss */
   #latest section {
     float: none !important;
     width: 90% !important;
     border-right: 0 !important;
-    border-bottom: 2px dotted #515151;
+    border-bottom: 1px dotted #515151;
     min-height: 150px !important;
     margin: 0 5%;
   }
-  /* line 264, ../sass/mediaqueries.scss */
+  /* line 269, ../sass/mediaqueries.scss */
   #latest section .seeall {
     padding: 1%;
     position: relative;
     float: right;
   }
-  /* line 269, ../sass/mediaqueries.scss */
+  /* line 274, ../sass/mediaqueries.scss */
   #latest section > .inner {
     padding: 1% 0% !important;
   }
-  /* line 274, ../sass/mediaqueries.scss */
+  /* line 279, ../sass/mediaqueries.scss */
   #latest header h1 {
     margin: 10px 1%;
   }
 
-  /* line 280, ../sass/mediaqueries.scss */
+  /* line 285, ../sass/mediaqueries.scss */
   #social article {
     padding: 0;
   }
-  /* line 283, ../sass/mediaqueries.scss */
+  /* line 288, ../sass/mediaqueries.scss */
   #social #videoplayer {
     width: 100% !important;
     border-right: 0;
     padding: 0 !important;
   }
-  /* line 287, ../sass/mediaqueries.scss */
+  /* line 292, ../sass/mediaqueries.scss */
   #social #videoplayer #videoplaylist li {
     margin: 0px 0px 0px 2.5%;
   }
-  /* line 291, ../sass/mediaqueries.scss */
+  /* line 296, ../sass/mediaqueries.scss */
   #social #twitter {
     width: 100% !important;
   }
 
-  /* line 298, ../sass/mediaqueries.scss */
+  /* line 303, ../sass/mediaqueries.scss */
   #story .wrapper > .inner {
     padding: 1em 5% 3em 5% !important;
   }
 
-  /* line 306, ../sass/mediaqueries.scss */
+  /* line 310, ../sass/mediaqueries.scss */
+  #team section {
+    width: 24.7%;
+  }
+  /* line 312, ../sass/mediaqueries.scss */
   #team section p {
     padding: 0px 10px;
   }
 
-  /* line 314, ../sass/mediaqueries.scss */
+  /* line 320, ../sass/mediaqueries.scss */
   #contact .wrapper > .inner {
     padding: 2% !important;
   }
-  /* line 319, ../sass/mediaqueries.scss */
+  /* line 325, ../sass/mediaqueries.scss */
   #contact .links > .inner {
     min-width: 126px !important;
   }
-  /* line 324, ../sass/mediaqueries.scss */
+  /* line 330, ../sass/mediaqueries.scss */
   #contact .newsletter input[type='text'] {
     width: 65%;
   }
-  /* line 328, ../sass/mediaqueries.scss */
+  /* line 334, ../sass/mediaqueries.scss */
   #contact .newsletter input[type='submit']:hover {
     background: rgba(227, 82, 37, 0.3);
   }
-  /* line 333, ../sass/mediaqueries.scss */
+  /* line 339, ../sass/mediaqueries.scss */
   #contact section {
     min-height: 175px;
   }

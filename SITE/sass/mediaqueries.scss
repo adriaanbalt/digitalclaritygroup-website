@@ -82,7 +82,7 @@
 			float: none !important;
 			width: 100% !important;
 			border-right: 0 !important;
-			border-bottom: 2px dotted #515151;
+			border-bottom: 1px dotted #515151;
 			min-height: 150px !important;
 		}
 	}
@@ -120,6 +120,7 @@
 	}
 	#team {
 		section{
+			width: 24.5% !important;
 			a {
 				font-size: 75%;
 			}
@@ -129,7 +130,7 @@
 		section {
 			float: none !important;
 			width: 100% !important;
-			border-bottom: 2px dotted $gray-color !important;
+			border-bottom: 1px dotted $gray-color !important;
 			border-right: 0 !important;
 			&.last {
 				border-bottom: 0 !important;
@@ -253,12 +254,16 @@
 		}
 	}
 
+	#thoughts .contain {
+		border-bottom: 0;
+	}
+
 	#latest {
 		section {
 			float: none !important;
 			width: 90% !important;
 			border-right: 0 !important;
-			border-bottom: 2px dotted #515151;
+			border-bottom: 1px dotted #515151;
 			min-height: 150px !important;
 			margin: 0 5%;
 			.seeall {
@@ -303,6 +308,7 @@
 
 	#team {
 		section{
+			width: 24.7%;
 			p{
 				padding: 0px 10px;
 			}

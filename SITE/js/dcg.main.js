@@ -13,7 +13,7 @@
 			var twit = $("#twitter .justclarity").tweet({
 				avatar_size: 64,
 				count: 6,
-				username: ["just_clarity, robert_rose, Sliewehr, cathymcknight, tim_walters, kyle_dover, Esegar"],
+				username: ["just_clarity", "robert_rose", "Sliewehr", "cathymcknight", "tim_walters", "kyle_dover", "Esegar"],
 				loading_text: "",
 				refresh_interval: 120
 			});
@@ -122,7 +122,7 @@
 				iterator = 0;
 
 			entry.each( function() {
-				if ( iterator < 5 ) {
+				if ( iterator < 4 ) {
 					if ( iterator == 0 ){
 						$('#videofeature').append( "<h3>" + $(this).find('title:eq(0)').text() + "</h3><div class='player' id='" + $(this).find('videoid').text() + "' data-listid='" + $(this).find('id').text().split(':')[3] + "'></div>" );
 						getNewPlayerByID( $(this).find('videoid').text() );
