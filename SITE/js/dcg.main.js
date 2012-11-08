@@ -85,7 +85,8 @@
 				videoId: videoID,
 				events: {
 					'onReady': onPlayerReady,
-					'onStateChange': onPlayerStateChange
+					'onStateChange': onPlayerStateChange,
+					'onError':onPlayerError
 				},
 				playerVars: {
 					autoplay: 0,
@@ -96,6 +97,9 @@
 					wmode: 'opaque'
 				}
 			});
+		}
+
+		var onPlayerError = function(evt) {
 		}
 
 		var onPlayerReady = function(evt) {
@@ -119,16 +123,25 @@
 		var playLoadComplete = function( responseText, textStatus, XMLHttpRequest ) {
 			var xml = $( XMLHttpRequest.responseXML.documentElement ),
 				entry = xml.find( "entry" ),
-				iterator = 0;
+				iterator = 0,
+				vidID = '';
 
 			entry.each( function() {
 				if ( iterator < 4 ) {
+					vidID = $(this).find('videoid').text();
+					if ( vidID == '' || vidID == undefined ) {
+						vidID = $(this).find('yt\\:videoid').text();
+					}
+					thumbnailURL = $(this).find('thumbnail:eq(2)').attr('url');
+					if ( thumbnailURL == undefined ){
+						thumbnailURL = $(this).find('media\\:thumbnail:eq(2)').attr('url');
+					}
 					if ( iterator == 0 ){
-						$('#videofeature').append( "<h3>" + $(this).find('title:eq(0)').text() + "</h3><div class='player' id='" + $(this).find('videoid').text() + "' data-listid='" + $(this).find('id').text().split(':')[3] + "'></div>" );
-						getNewPlayerByID( $(this).find('videoid').text() );
-						$('#videoplaylist ul').append( "<li class='video-entry active'><a href='javascript:void(0);' data-videoid='" + $(this).find('videoid').text() + "' data-listid='" + $(this).find('id').text().split(':')[3] + "'><h4>" + $(this).find('title:eq(0)').text()  + "</h4><div class='cover'></div><img src='" + $(this).find('thumbnail:eq(2)').attr('url') + "'/></a></li>")
+						$('#videofeature').append( "<h3>" + $(this).find('title:eq(0)').text() + "</h3><div class='player' id='" + vidID + "' name='" + vidID + "' data-listid='" + $(this).find('id').text().split(':')[3] + "'></div>" );
+						getNewPlayerByID( vidID );
+						$('#videoplaylist ul').append( "<li class='video-entry active'><a href='javascript:void(0);' data-videoid='" + vidID + "' data-listid='" + $(this).find('id').text().split(':')[3] + "'><h4>" + $(this).find('title:eq(0)').text()  + "</h4><div class='cover'></div><img src='" + thumbnailURL + "'/></a></li>")
 					} else {
-						$('#videoplaylist ul').append( "<li class='video-entry in-active'><a href='javascript:void(0);' data-videoid='" + $(this).find('videoid').text() + "' data-listid='" + $(this).find('id').text().split(':')[3] + "'><h4>" + $(this).find('title:eq(0)').text()  + "</h4><div class='cover'></div><img src='" + $(this).find('thumbnail:eq(2)').attr('url') + "'/></a></li>")
+						$('#videoplaylist ul').append( "<li class='video-entry in-active'><a href='javascript:void(0);' data-videoid='" + vidID + "' data-listid='" + $(this).find('id').text().split(':')[3] + "'><h4>" + $(this).find('title:eq(0)').text()  + "</h4><div class='cover'></div><img src='" + thumbnailURL + "'/></a></li>")
 					}
 
 					$('#videoplaylist ul li').on('click', 'a', function(e) {

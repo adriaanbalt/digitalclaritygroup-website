@@ -457,9 +457,9 @@
 								<div class='inner'>
 									<h2>Sign Up</h2>
 									<p>Subscribe to Digital Clarity Group if you'd like to receive our free content designed to help leaders navigate digital transformation.</p>
-									<form>
-										<input type='text'>
-										<input type="submit" value="Submit">
+									<form action="http://digitalclaritygroup.us6.list-manage.com/subscribe/post?u=869a533e627169dccef8cbbd8&amp;id=d51ee43abb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+										<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+										<input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
 									</form>
 								</div>
 							</section>

@@ -785,7 +785,7 @@ header h1 {
   margin: 0 0 10px 0;
 }
 /* line 638, ../sass/main.scss */
-#contact .newsletter input[type='text'] {
+#contact .newsletter input[type='email'] {
   width: 65%;
 }
 /* line 641, ../sass/main.scss */
