@@ -1,7 +1,7 @@
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
-/* line 9, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/boilerplate.scss */
+/* line 9, ../sass/boilerplate.scss */
 html,
 button,
 input,
@@ -10,25 +10,25 @@ textarea {
   color: #222;
 }
 
-/* line 13, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/boilerplate.scss */
+/* line 13, ../sass/boilerplate.scss */
 body {
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 18, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/boilerplate.scss */
+/* line 18, ../sass/boilerplate.scss */
 ::-moz-selection {
   background: #e35225;
   text-shadow: none;
 }
 
-/* line 23, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/boilerplate.scss */
+/* line 23, ../sass/boilerplate.scss */
 ::selection {
   background: #e35225;
   text-shadow: none;
 }
 
-/* line 28, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/boilerplate.scss */
+/* line 28, ../sass/boilerplate.scss */
 hr {
   display: block;
   height: 1px;
@@ -38,24 +38,24 @@ hr {
   padding: 0;
 }
 
-/* line 37, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/boilerplate.scss */
+/* line 37, ../sass/boilerplate.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 41, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/boilerplate.scss */
+/* line 41, ../sass/boilerplate.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 47, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/boilerplate.scss */
+/* line 47, ../sass/boilerplate.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 51, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/boilerplate.scss */
+/* line 51, ../sass/boilerplate.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -68,71 +68,71 @@ textarea {
  * <!--[if IE]>
  *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  * <![endif]--> */
-/* line 8, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/ie.scss */
+/* line 8, ../sass/ie.scss */
 .ie7 .title {
   padding-top: 20px;
 }
 
-/* line 3, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 3, ../sass/main.scss */
 body {
   font-family: 'Maven Pro';
   position: relative;
   overflow-x: hidden;
 }
 
-/* line 9, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 9, ../sass/main.scss */
 ul, li {
   list-style-type: none;
 }
 
-/* line 13, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 13, ../sass/main.scss */
 h1 {
   margin: 0.5em 0;
 }
 
-/* line 17, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 17, ../sass/main.scss */
 h2 {
   margin: 0.5em 0;
   font-weight: normal;
   font-size: 1.2em;
 }
 
-/* line 23, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 23, ../sass/main.scss */
 a {
   color: #000;
   text-decoration: none;
 }
-/* line 26, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 26, ../sass/main.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 31, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 31, ../sass/main.scss */
 .wrapper {
   width: 1005px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 37, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 37, ../sass/main.scss */
 .wrapper-small {
   width: 950px;
   margin: 0 auto;
 }
 
-/* line 42, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 42, ../sass/main.scss */
 .gray-bg {
   background: #515151;
 }
 
-/* line 47, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 47, ../sass/main.scss */
 .header-container .title {
   background: url("../img/dcg-logo.jpg") 0 0 no-repeat;
   width: 102px;
   height: 102px;
   float: left;
 }
-/* line 53, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 53, ../sass/main.scss */
 .header-container .slogan {
   font-size: 1.3em;
   margin: 1.9em 4% 0 0%;
@@ -141,17 +141,17 @@ a:hover {
   color: #515151;
 }
 
-/* line 62, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 62, ../sass/main.scss */
 .footer-container {
   background: #515151;
   height: 30px;
 }
-/* line 65, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 65, ../sass/main.scss */
 .footer-container footer {
   color: white;
   font-weight: normal;
 }
-/* line 69, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 69, ../sass/main.scss */
 .footer-container h5 {
   padding: 5px;
 }
@@ -159,26 +159,26 @@ a:hover {
 /* ==============
 	MOBILE: Menu
    ============== */
-/* line 77, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 77, ../sass/main.scss */
 nav ul {
   width: 55%;
   float: right;
   margin: 0;
   padding: 0;
 }
-/* line 82, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 82, ../sass/main.scss */
 nav ul li {
   float: left;
   margin: 0 1.7%;
   padding: 25px 2%;
   margin-bottom: 0;
 }
-/* line 87, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 87, ../sass/main.scss */
 nav ul li.last {
   margin: 0 0 0 1.7%;
   padding: 25px 0 25px 2%;
 }
-/* line 93, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 93, ../sass/main.scss */
 nav ul a {
   display: block;
   text-align: center;
@@ -188,7 +188,7 @@ nav ul a {
   background: #fff;
   border-bottom: 1px solid #fff;
 }
-/* line 105, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 105, ../sass/main.scss */
 nav ul a:hover, nav ul a:visited {
   color: #e35225;
 }
@@ -196,22 +196,22 @@ nav ul a:hover, nav ul a:visited {
 /* ==============
 	MOBILE: Main
    ============== */
-/* line 119, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 119, ../sass/main.scss */
 .main-container {
   width: 100%;
 }
 
-/* line 122, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 122, ../sass/main.scss */
 .main {
   padding: 30px 0;
 }
 
-/* line 126, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 126, ../sass/main.scss */
 .main article h1 {
   font-size: 2em;
 }
 
-/* line 130, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 130, ../sass/main.scss */
 header h1 {
   color: #e35225;
 }
@@ -219,7 +219,7 @@ header h1 {
 /* ==================
 	SECTIONS
 	================== */
-/* line 139, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 139, ../sass/main.scss */
 .overlay-container {
   position: absolute;
   z-index: 1000;
@@ -229,14 +229,14 @@ header h1 {
   margin-top: -180px;
 }
 
-/* line 148, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 148, ../sass/main.scss */
 .overlay {
   width: 100%;
   height: 100%;
   display: none;
   position: relative;
 }
-/* line 154, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 154, ../sass/main.scss */
 .overlay .bg {
   background: #000;
   opacity: .8;
@@ -248,7 +248,7 @@ header h1 {
   display: block;
   padding-bottom: 180px;
 }
-/* line 165, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 165, ../sass/main.scss */
 .overlay .content {
   background: #fff;
   width: 75%;
@@ -260,39 +260,39 @@ header h1 {
   left: 50%;
   margin-left: -37.5%;
 }
-/* line 166, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 166, ../sass/main.scss */
 .overlay .content > .inner {
   padding: 20px;
 }
-/* line 169, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 169, ../sass/main.scss */
 .overlay .content h3 {
   color: #e35225;
   font-size: 25px;
   margin: 0;
 }
-/* line 174, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 174, ../sass/main.scss */
 .overlay .content h4 {
   font-size: 20px;
   margin: 0;
 }
-/* line 178, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 178, ../sass/main.scss */
 .overlay .content p {
   font-size: 14px;
 }
-/* line 181, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 181, ../sass/main.scss */
 .overlay .content .email, .overlay .content .info, .overlay .content .twitter {
   color: #e35225;
   margin: 0;
 }
-/* line 184, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 184, ../sass/main.scss */
 .overlay .content .email span, .overlay .content .info span, .overlay .content .twitter span {
   margin: 0px 10px 0px 0px;
 }
-/* line 187, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 187, ../sass/main.scss */
 .overlay .content .email a, .overlay .content .info a, .overlay .content .twitter a {
   color: #e35225;
 }
-/* line 201, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 201, ../sass/main.scss */
 .overlay .close {
   float: right;
   background: url("../img/close-overlay.jpg") 0 0 no-repeat;
@@ -300,17 +300,17 @@ header h1 {
   height: 17px;
   display: block;
 }
-/* line 208, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 208, ../sass/main.scss */
 .overlay hr {
   margin-top: 30px;
   border: 1px dotted #515151;
 }
 
-/* line 214, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 214, ../sass/main.scss */
 #steps {
   color: #fff;
 }
-/* line 216, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 216, ../sass/main.scss */
 #steps section {
   float: left;
   width: 235px;
@@ -319,63 +319,63 @@ header h1 {
   text-align: center;
   overflow: hidden;
 }
-/* line 224, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 224, ../sass/main.scss */
 #steps section h2 {
   color: #bde9f2;
   line-height: 1em;
   font-size: 1.2em;
 }
-/* line 229, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 229, ../sass/main.scss */
 #steps section p {
   color: silver;
   text-align: justify;
 }
-/* line 233, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 233, ../sass/main.scss */
 #steps section > .inner {
   padding: 10px;
 }
-/* line 236, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 236, ../sass/main.scss */
 #steps section.last {
   margin: 0;
 }
-/* line 240, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 240, ../sass/main.scss */
 #steps article {
   padding: 20px 0px 0px 0px;
 }
 
-/* line 245, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 245, ../sass/main.scss */
 #definition {
   text-align: center;
 }
-/* line 248, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 248, ../sass/main.scss */
 #definition article {
   padding: 35px 0px 25px 0px;
 }
-/* line 251, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 251, ../sass/main.scss */
 #definition article header h1 {
   font-size: 2em;
   padding: 0px;
   margin: 0px;
 }
-/* line 257, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 257, ../sass/main.scss */
 #definition article p {
   font-size: 1em;
 }
 
-/* line 263, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 263, ../sass/main.scss */
 #latest {
   background: #e3dfd4;
   border-top: 5px solid #e35225;
 }
-/* line 266, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 266, ../sass/main.scss */
 #latest article {
   padding: 0 0 2% 0;
 }
-/* line 270, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 270, ../sass/main.scss */
 #latest .wrapper > .inner {
   padding: 1% 2%;
 }
-/* line 274, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 274, ../sass/main.scss */
 #latest section {
   overflow: hidden;
   position: relative;
@@ -385,45 +385,45 @@ header h1 {
   min-height: 310px;
   height: 100%;
 }
-/* line 283, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 283, ../sass/main.scss */
 #latest section > .inner {
   padding: 1% 5%;
 }
-/* line 286, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 286, ../sass/main.scss */
 #latest section.last {
   border-right: 0;
   border-bottom: 0;
 }
-/* line 290, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 290, ../sass/main.scss */
 #latest section p {
   margin: 0;
 }
-/* line 293, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 293, ../sass/main.scss */
 #latest section h2 {
   font-weight: bold;
 }
-/* line 296, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 296, ../sass/main.scss */
 #latest section .date {
   font-size: 14px;
   font-weight: bold;
   color: #515151;
 }
-/* line 301, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 301, ../sass/main.scss */
 #latest section .title {
   font-size: 16px;
   color: #515151;
 }
-/* line 305, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 305, ../sass/main.scss */
 #latest section .seeall {
   position: absolute;
   bottom: 0px;
   right: 10px;
 }
-/* line 310, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 310, ../sass/main.scss */
 #latest section li {
   margin-top: 10px;
 }
-/* line 314, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 314, ../sass/main.scss */
 #latest section .pdfIcon {
   background: url(../img/adobe-pdf-logo.png) top left no-repeat;
   width: 30px;
@@ -432,28 +432,28 @@ header h1 {
   margin-right: .5em;
 }
 
-/* line 325, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 325, ../sass/main.scss */
 #thoughts .contain {
   border-bottom: 1px dotted #515151;
 }
-/* line 328, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 328, ../sass/main.scss */
 #thoughts .row {
   border-top: 1px dotted #515151;
   margin: 5px 0 0 0;
   width: 100%;
   position: inherit;
 }
-/* line 333, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 333, ../sass/main.scss */
 #thoughts .row > .inner {
   position: relative;
   padding: 8px 5px 5px 5px;
   width: 100%;
 }
-/* line 340, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 340, ../sass/main.scss */
 #thoughts .wrapper > .inner {
   padding: 1% 2%;
 }
-/* line 344, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 344, ../sass/main.scss */
 #thoughts section {
   position: relative;
   float: left;
@@ -462,108 +462,108 @@ header h1 {
   height: 100%;
   border-right: 1px dotted #515151;
 }
-/* line 353, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 353, ../sass/main.scss */
 #thoughts section.last {
   border-right: 0;
 }
-/* line 356, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 356, ../sass/main.scss */
 #thoughts section > .inner {
   padding: 0px 8px;
 }
-/* line 359, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 359, ../sass/main.scss */
 #thoughts section .blog-btn {
   display: block;
   min-height: 310px;
   height: 100%;
 }
-/* line 364, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 364, ../sass/main.scss */
 #thoughts section .share {
   margin-top: 1em;
 }
-/* line 366, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 366, ../sass/main.scss */
 #thoughts section .share iframe {
   margin: -3px 0 0 0;
 }
-/* line 370, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 370, ../sass/main.scss */
 #thoughts section p {
   margin: 0;
 }
-/* line 372, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 372, ../sass/main.scss */
 #thoughts section p.date {
   font-size: 11px;
   margin-bottom: 5px;
   color: #999;
 }
-/* line 378, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 378, ../sass/main.scss */
 #thoughts section p.title {
   font-size: 16px;
   line-height: 18px;
   height: 55px;
   overflow: hidden;
 }
-/* line 384, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 384, ../sass/main.scss */
 #thoughts section p.continue {
   font-size: 14px;
 }
-/* line 387, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 387, ../sass/main.scss */
 #thoughts section p.author {
   font-size: 11px;
   line-height: 11px;
 }
-/* line 392, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 392, ../sass/main.scss */
 #thoughts section img {
   max-width: 100%;
   margin: .5em 0;
   overflow: hidden;
 }
 
-/* line 401, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 401, ../sass/main.scss */
 #social article {
   padding: 0 0 2em 0;
 }
-/* line 403, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 403, ../sass/main.scss */
 #social article > .inner {
   padding: 1% 2%;
 }
-/* line 407, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 407, ../sass/main.scss */
 #social #videoplayer {
   width: 48.4%;
   border-right: 1px dotted #515151;
   padding: 0 .9em 0 0px;
 }
-/* line 411, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 411, ../sass/main.scss */
 #social #videoplayer > .inner {
   padding: 0px .3em 1em .3em;
   background: #eaeaea;
 }
-/* line 415, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 415, ../sass/main.scss */
 #social #videoplayer #videoLoad {
   display: none;
   visibility: hidden;
 }
-/* line 419, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 419, ../sass/main.scss */
 #social #videoplayer #video {
   padding: 2em 1em 0 0;
 }
-/* line 423, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 423, ../sass/main.scss */
 #social #videoplayer #videofeature h3 {
   max-height: 55px;
   overflow: hidden;
   border-top: 1px dotted black;
   padding: 2% 0px;
 }
-/* line 429, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 429, ../sass/main.scss */
 #social #videoplayer #videofeature iframe {
   width: 100%;
 }
-/* line 433, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 433, ../sass/main.scss */
 #social #videoplayer #videofeature .contain-seeall .seeall {
   padding: 10px 0;
   display: block;
   float: right;
   margin-right: 10px;
 }
-/* line 442, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 442, ../sass/main.scss */
 #social #videoplayer #videoplaylist h4 {
   width: 90px;
   height: 57px;
@@ -571,58 +571,58 @@ header h1 {
   font-size: 13px;
   overflow: hidden;
 }
-/* line 449, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 449, ../sass/main.scss */
 #social #videoplayer #videoplaylist img {
   width: 90px;
 }
-/* line 452, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 452, ../sass/main.scss */
 #social #videoplayer #videoplaylist li {
   display: inline;
   float: left;
   margin: 0px 0px 0px 4.3%;
 }
-/* line 456, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 456, ../sass/main.scss */
 #social #videoplayer #videoplaylist li.active {
   opacity: .3;
   cursor: cursor;
 }
-/* line 460, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 460, ../sass/main.scss */
 #social #videoplayer #videoplaylist li.active a {
   cursor: cursor;
   text-decoration: none;
 }
-/* line 468, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 468, ../sass/main.scss */
 #social #twitter {
   width: 49%;
 }
-/* line 470, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 470, ../sass/main.scss */
 #social #twitter > .inner {
   padding: 10px 20px;
 }
-/* line 473, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 473, ../sass/main.scss */
 #social #twitter .tweet_list {
   margin: 0;
 }
-/* line 475, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 475, ../sass/main.scss */
 #social #twitter .tweet_list li {
   border-bottom: 1px dotted #515151;
   padding: 0px 0px 5px 0px;
   margin: 10px 0px;
   overflow: hidden;
 }
-/* line 481, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 481, ../sass/main.scss */
 #social #twitter .tweet_list li .tweet_time {
   display: block;
 }
-/* line 485, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 485, ../sass/main.scss */
 #social #twitter .tweet_list .tweet_first {
   margin: 0px 0px 10px 0px;
 }
-/* line 488, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 488, ../sass/main.scss */
 #social #twitter .tweet_list .tweet_last {
   border-bottom: 0;
 }
-/* line 491, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 491, ../sass/main.scss */
 #social #twitter .tweet_list .tweet_avatar {
   border: 1px solid #000;
   padding: 3px;
@@ -632,49 +632,49 @@ header h1 {
   float: left;
   margin-right: .75em;
 }
-/* line 500, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 500, ../sass/main.scss */
 #social #twitter .tweet_list .txt {
   margin: 0;
   width: 75%;
   float: left;
 }
-/* line 506, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 506, ../sass/main.scss */
 #social #twitter header {
   border-bottom: 1px dotted #515151;
   margin-bottom: 1em;
 }
-/* line 509, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 509, ../sass/main.scss */
 #social #twitter header h2 {
   float: left;
   margin: 0;
   margin-bottom: .5em;
 }
-/* line 514, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 514, ../sass/main.scss */
 #social #twitter header a {
   margin-top: .5em;
   float: right;
   display: block;
   margin: 5px 10px;
 }
-/* line 522, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 522, ../sass/main.scss */
 #social section {
   float: left;
 }
 
-/* line 527, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 527, ../sass/main.scss */
 #story {
   color: #fff;
 }
-/* line 531, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 531, ../sass/main.scss */
 #story .wrapper > .inner {
   padding: 1% 2%;
 }
-/* line 535, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 535, ../sass/main.scss */
 #story .wrapper section p {
   font-size: 1.2em;
 }
 
-/* line 542, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 542, ../sass/main.scss */
 #team {
   background: #000;
   color: #fff;
@@ -682,7 +682,7 @@ header h1 {
   border-top: 5px solid #e35225;
   border-bottom: 6px solid #e35225;
 }
-/* line 548, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 548, ../sass/main.scss */
 #team section {
   border-right: 1px dotted #fff;
   float: left;
@@ -690,130 +690,130 @@ header h1 {
   text-align: center;
   width: 24.8%;
 }
-/* line 555, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 555, ../sass/main.scss */
 #team section a {
   display: block;
   color: #fff;
   position: relative;
 }
-/* line 559, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 559, ../sass/main.scss */
 #team section a img {
   background: #010101;
   width: 100%;
 }
-/* line 563, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 563, ../sass/main.scss */
 #team section a .info {
   padding: 15px 0px;
 }
-/* line 565, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 565, ../sass/main.scss */
 #team section a .info p {
   margin: 0;
 }
-/* line 571, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 571, ../sass/main.scss */
 #team section.last {
   border-right: 0;
 }
-/* line 575, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 575, ../sass/main.scss */
 #team .row {
   border-bottom: 1px dotted #fff;
 }
-/* line 577, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 577, ../sass/main.scss */
 #team .row.last {
   border-bottom: 0;
 }
-/* line 581, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 581, ../sass/main.scss */
 #team article {
   z-index: 1;
   zoom: 1;
 }
 
-/* line 589, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 589, ../sass/main.scss */
 #contact .wrapper > .inner {
   padding: 1% 2%;
 }
-/* line 593, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 593, ../sass/main.scss */
 #contact section {
   float: left;
   border-right: 1px dotted #515151;
   min-height: 275px;
   height: 100%;
 }
-/* line 599, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 599, ../sass/main.scss */
 #contact section.last {
   border-right: 0;
 }
-/* line 605, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 605, ../sass/main.scss */
 #contact section h4 {
   margin: 0;
   font-size: 18px;
 }
-/* line 609, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 609, ../sass/main.scss */
 #contact section p {
   margin: 0;
   font-size: 14px;
   line-height: 1.5em;
 }
-/* line 615, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 615, ../sass/main.scss */
 #contact .links {
   width: 24%;
 }
-/* line 617, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 617, ../sass/main.scss */
 #contact .links > .inner {
   padding: 0 0 0 1em;
 }
-/* line 620, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 620, ../sass/main.scss */
 #contact .links img {
   margin-top: -7px;
 }
-/* line 623, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 623, ../sass/main.scss */
 #contact .links span {
   margin: 5px;
 }
-/* line 627, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 627, ../sass/main.scss */
 #contact .newsletter {
   width: 51%;
 }
-/* line 629, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 629, ../sass/main.scss */
 #contact .newsletter > .inner {
   padding: 0 1em;
 }
-/* line 632, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 632, ../sass/main.scss */
 #contact .newsletter input {
   border: 1px solid #515151;
   padding: 15px;
   background: white;
   margin: 0 0 10px 0;
 }
-/* line 638, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 638, ../sass/main.scss */
 #contact .newsletter input[type='email'] {
   width: 65%;
 }
-/* line 641, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 641, ../sass/main.scss */
 #contact .newsletter input[type='submit'] {
   background: #638d95;
   font-family: 'Maven Pro';
 }
-/* line 644, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 644, ../sass/main.scss */
 #contact .newsletter input[type='submit']:hover {
   background: #e35225;
 }
-/* line 648, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 648, ../sass/main.scss */
 #contact .newsletter p {
   margin: 0 0 20px 0;
 }
-/* line 652, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 652, ../sass/main.scss */
 #contact .contact {
   width: 24%;
 }
-/* line 654, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 654, ../sass/main.scss */
 #contact .contact > .inner {
   padding: 0 0 0 1em;
 }
-/* line 657, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 657, ../sass/main.scss */
 #contact .contact .role {
   margin-bottom: 15px;
 }
-/* line 660, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/main.scss */
+/* line 660, ../sass/main.scss */
 #contact .contact .email, #contact .contact .phone {
   overflow: hidden;
 }
@@ -822,61 +822,61 @@ header h1 {
 	SMALL SIZE
 */
 @media only screen and (max-width: 560px) {
-  /* line 9, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 9, ../sass/mediaqueries.scss */
   .wrapper {
     width: 100%;
     padding: 0px;
   }
-  /* line 12, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 12, ../sass/mediaqueries.scss */
   .wrapper > .inner {
     padding: 1em 1em 3em 1em;
   }
 
-  /* line 20, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 20, ../sass/mediaqueries.scss */
   .overlay .content .email, .overlay .content .info, .overlay .content .twitter {
     font-size: 68% !important;
   }
 
-  /* line 26, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 26, ../sass/mediaqueries.scss */
   .main {
     padding: 0;
   }
 
-  /* line 30, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 30, ../sass/mediaqueries.scss */
   nav {
     margin-top: 180px;
   }
-  /* line 32, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 32, ../sass/mediaqueries.scss */
   nav ul {
     width: 100% !important;
   }
-  /* line 34, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 34, ../sass/mediaqueries.scss */
   nav ul li {
     width: 100% !important;
     float: none !important;
     margin: 0 !important;
     padding: 0px !important;
   }
-  /* line 39, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 39, ../sass/mediaqueries.scss */
   nav ul li a {
     background: #515151 !important;
     color: #fff !important;
     padding: 12px 25px;
     text-align: left;
   }
-  /* line 45, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 45, ../sass/mediaqueries.scss */
   nav ul li.last {
     margin: 0;
     padding: 0;
   }
 
-  /* line 53, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 53, ../sass/mediaqueries.scss */
   header .title {
     top: -131px;
     left: 13px;
     position: absolute;
   }
-  /* line 58, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 58, ../sass/mediaqueries.scss */
   header .slogan {
     width: 90% !important;
     margin: 0 !important;
@@ -885,24 +885,24 @@ header h1 {
     text-align: center;
   }
 
-  /* line 66, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 66, ../sass/mediaqueries.scss */
   #steps {
     display: none;
     visibility: hidden;
   }
-  /* line 68, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 68, ../sass/mediaqueries.scss */
   #steps section img {
     padding: 10% 2% 6% 2% !important;
     width: 15% !important;
   }
 
-  /* line 76, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 76, ../sass/mediaqueries.scss */
   #definition {
     display: none;
     visibility: hidden;
   }
 
-  /* line 81, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 81, ../sass/mediaqueries.scss */
   #latest section {
     float: none !important;
     width: 100% !important;
@@ -911,83 +911,83 @@ header h1 {
     min-height: 150px !important;
   }
 
-  /* line 90, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 90, ../sass/mediaqueries.scss */
   #thoughts .contain {
     border-bottom: 0 !important;
   }
-  /* line 93, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 93, ../sass/mediaqueries.scss */
   #thoughts .contain .row.first {
     border-top: 0 !important;
   }
-  /* line 96, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 96, ../sass/mediaqueries.scss */
   #thoughts .contain .row > .inner {
     padding: 8px 0px !important;
   }
-  /* line 101, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 101, ../sass/mediaqueries.scss */
   #thoughts section {
     overflow: hidden;
   }
-  /* line 103, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 103, ../sass/mediaqueries.scss */
   #thoughts section > .inner {
     padding: 0px 3% !important;
   }
 
-  /* line 109, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 109, ../sass/mediaqueries.scss */
   #social #videoplayer {
     width: 100% !important;
     border-right: 0;
     padding: 0 !important;
   }
-  /* line 113, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 113, ../sass/mediaqueries.scss */
   #social #videoplayer #videoplaylist li {
     margin: 0px 0px 0px 2px !important;
   }
-  /* line 117, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 117, ../sass/mediaqueries.scss */
   #social #twitter {
     width: 100% !important;
   }
 
-  /* line 122, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 122, ../sass/mediaqueries.scss */
   #team section {
     width: 24.5% !important;
   }
-  /* line 124, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 124, ../sass/mediaqueries.scss */
   #team section a {
     font-size: 75%;
   }
 
-  /* line 130, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 130, ../sass/mediaqueries.scss */
   #contact section {
     float: none !important;
     width: 100% !important;
     border-bottom: 1px dotted #515151 !important;
     border-right: 0 !important;
   }
-  /* line 135, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 135, ../sass/mediaqueries.scss */
   #contact section.last {
     border-bottom: 0 !important;
   }
-  /* line 140, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 140, ../sass/mediaqueries.scss */
   #contact .newsletter input[type='text'] {
     width: 315px;
   }
 
-  /* line 146, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 146, ../sass/mediaqueries.scss */
   nav li:first-child a {
     margin-left: 0;
   }
 
-  /* line 150, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 150, ../sass/mediaqueries.scss */
   nav li:last-child a {
     margin-right: 0;
   }
 
-  /* line 154, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 154, ../sass/mediaqueries.scss */
   nav ul li {
     display: inline;
   }
 
-  /* line 158, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 158, ../sass/mediaqueries.scss */
   .oldie nav a {
     margin: 0 0.7%;
   }
@@ -996,53 +996,53 @@ header h1 {
 	MEDIUM SIZE
 */
 @media only screen and (max-width: 1005px) {
-  /* line 170, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 170, ../sass/mediaqueries.scss */
   .overlay .content {
     top: 0%;
     position: absolute;
     margin-top: 50px;
   }
 
-  /* line 177, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 177, ../sass/mediaqueries.scss */
   .wrapper {
     width: 100%;
     padding: 0px;
   }
-  /* line 180, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 180, ../sass/mediaqueries.scss */
   .wrapper > .inner {
     padding: 1em 1em 3em 1em;
   }
 
-  /* line 184, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 184, ../sass/mediaqueries.scss */
   .wrapper-small {
     width: 90%;
   }
 
-  /* line 189, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 189, ../sass/mediaqueries.scss */
   nav ul {
     width: 570px;
   }
-  /* line 191, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 191, ../sass/mediaqueries.scss */
   nav ul li {
     margin: 0;
     padding: 0px;
   }
-  /* line 194, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 194, ../sass/mediaqueries.scss */
   nav ul li a {
     padding: 32px 21px;
     text-align: left;
   }
-  /* line 198, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 198, ../sass/mediaqueries.scss */
   nav ul li.last {
     margin: 0;
     padding: 0;
   }
 
-  /* line 206, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 206, ../sass/mediaqueries.scss */
   header .title {
     margin: 0 0 0 37px;
   }
-  /* line 209, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 209, ../sass/mediaqueries.scss */
   header .slogan {
     font-size: 16px !important;
     width: 65% !important;
@@ -1051,60 +1051,60 @@ header h1 {
     line-height: 27px;
   }
 
-  /* line 218, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 218, ../sass/mediaqueries.scss */
   #thoughts .row {
     border-top: 1px dotted #515151;
   }
-  /* line 220, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 220, ../sass/mediaqueries.scss */
   #thoughts .row.first {
     border-top: 0;
   }
-  /* line 223, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 223, ../sass/mediaqueries.scss */
   #thoughts .row section {
     border-right: 1px dotted #515151;
   }
-  /* line 225, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 225, ../sass/mediaqueries.scss */
   #thoughts .row section.last {
     border-right: 0;
   }
 
-  /* line 231, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 231, ../sass/mediaqueries.scss */
   #steps {
     padding: 0% 0% 2% 0%;
   }
-  /* line 233, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 233, ../sass/mediaqueries.scss */
   #steps section {
     width: 100% !important;
     text-align: left !important;
     float: none !important;
   }
-  /* line 237, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 237, ../sass/mediaqueries.scss */
   #steps section img {
     float: left;
     padding: 1% 2% 6% 2%;
     width: 10%;
   }
-  /* line 242, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 242, ../sass/mediaqueries.scss */
   #steps section .description {
     float: left;
     width: 75%;
     padding: 0% 3%;
   }
-  /* line 247, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 247, ../sass/mediaqueries.scss */
   #steps section .description h2 {
     margin: 1% 0%;
   }
-  /* line 250, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 250, ../sass/mediaqueries.scss */
   #steps section .description p {
     margin: 1% 0%;
   }
 
-  /* line 257, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 257, ../sass/mediaqueries.scss */
   #thoughts .contain {
     border-bottom: 0;
   }
 
-  /* line 262, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 262, ../sass/mediaqueries.scss */
   #latest section {
     float: none !important;
     width: 90% !important;
@@ -1113,76 +1113,76 @@ header h1 {
     min-height: 150px !important;
     margin: 0 5%;
   }
-  /* line 269, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 269, ../sass/mediaqueries.scss */
   #latest section .seeall {
     padding: 1%;
     position: relative;
     float: right;
   }
-  /* line 274, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 274, ../sass/mediaqueries.scss */
   #latest section > .inner {
     padding: 1% 0% !important;
   }
-  /* line 279, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 279, ../sass/mediaqueries.scss */
   #latest header h1 {
     margin: 10px 1%;
   }
 
-  /* line 285, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 285, ../sass/mediaqueries.scss */
   #social article {
     padding: 0;
   }
-  /* line 288, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 288, ../sass/mediaqueries.scss */
   #social #videoplayer {
     width: 100% !important;
     border-right: 0;
     padding: 0 !important;
   }
-  /* line 292, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 292, ../sass/mediaqueries.scss */
   #social #videoplayer #videoplaylist li {
     margin: 0px 0px 0px 2.5%;
   }
-  /* line 296, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 296, ../sass/mediaqueries.scss */
   #social #twitter {
     width: 100% !important;
   }
 
-  /* line 303, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 303, ../sass/mediaqueries.scss */
   #story .wrapper > .inner {
     padding: 1em 5% 3em 5% !important;
   }
 
-  /* line 310, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 310, ../sass/mediaqueries.scss */
   #team section {
-    width: 24.7%;
+    width: 24.6%;
   }
-  /* line 312, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 312, ../sass/mediaqueries.scss */
   #team section p {
     padding: 0px 10px;
   }
 
-  /* line 320, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 320, ../sass/mediaqueries.scss */
   #contact .wrapper > .inner {
     padding: 2% !important;
   }
-  /* line 325, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 325, ../sass/mediaqueries.scss */
   #contact .links > .inner {
     min-width: 126px !important;
   }
-  /* line 330, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 330, ../sass/mediaqueries.scss */
   #contact .newsletter input[type='text'] {
     width: 65%;
   }
-  /* line 334, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 334, ../sass/mediaqueries.scss */
   #contact .newsletter input[type='submit']:hover {
     background: rgba(227, 82, 37, 0.3);
   }
-  /* line 339, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/mediaqueries.scss */
+  /* line 339, ../sass/mediaqueries.scss */
   #contact section {
     min-height: 175px;
   }
 }
-/* line 1, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/helper.scss */
+/* line 1, ../sass/helper.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -1190,7 +1190,7 @@ header h1 {
   *text-indent: -9999px;
 }
 
-/* line 8, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/helper.scss */
+/* line 8, ../sass/helper.scss */
 .ir:before {
   content: "";
   display: block;
@@ -1198,13 +1198,13 @@ header h1 {
   height: 100%;
 }
 
-/* line 15, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/helper.scss */
+/* line 15, ../sass/helper.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 20, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/helper.scss */
+/* line 20, ../sass/helper.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1216,7 +1216,7 @@ header h1 {
   width: 1px;
 }
 
-/* line 32, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/helper.scss */
+/* line 32, ../sass/helper.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1227,24 +1227,24 @@ header h1 {
   width: auto;
 }
 
-/* line 41, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/helper.scss */
+/* line 41, ../sass/helper.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 46, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/helper.scss */
+/* line 46, ../sass/helper.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 51, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/helper.scss */
+/* line 51, ../sass/helper.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 55, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/helper.scss */
+/* line 55, ../sass/helper.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -1253,7 +1253,7 @@ header h1 {
    Print styles
    ========================================================================== */
 @media print {
-  /* line 7, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 7, ../sass/print.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1262,18 +1262,18 @@ header h1 {
     text-shadow: none !important;
   }
 
-  /* line 15, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 15, ../sass/print.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 19, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 19, ../sass/print.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 23, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 23, ../sass/print.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -1281,33 +1281,33 @@ header h1 {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 33, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 33, ../sass/print.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 38, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 38, ../sass/print.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 43, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 43, ../sass/print.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 48, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 48, ../sass/print.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 52, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 52, ../sass/print.scss */
   img {
     max-width: 100% !important;
   }
@@ -1316,7 +1316,7 @@ header h1 {
     margin: 0.5cm;
 }
 
-  /* line 62, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 62, ../sass/print.scss */
   p,
   h2,
   h3 {
@@ -1324,7 +1324,7 @@ header h1 {
     widows: 3;
   }
 
-  /* line 68, /Users/adriaan.scholvinck/PROJECTS/BALT/digitalclaritygroup-website/SITE/sass/print.scss */
+  /* line 68, ../sass/print.scss */
   h2,
   h3 {
     page-break-after: avoid;
