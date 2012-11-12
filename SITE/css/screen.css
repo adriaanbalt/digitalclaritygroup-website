@@ -253,10 +253,10 @@ header h1 {
   background: #fff;
   width: 75%;
   text-align: left;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   zoom: 1;
-  top: 10%;
+  top: 3850px;
   left: 50%;
   margin-left: -37.5%;
 }
@@ -771,7 +771,7 @@ header h1 {
 }
 /* line 627, ../sass/main.scss */
 #contact .newsletter {
-  width: 51%;
+  width: 48%;
 }
 /* line 629, ../sass/main.scss */
 #contact .newsletter > .inner {
@@ -832,51 +832,55 @@ header h1 {
     padding: 1em 1em 3em 1em;
   }
 
-  /* line 20, ../sass/mediaqueries.scss */
+  /* line 19, ../sass/mediaqueries.scss */
+  .overlay .content {
+    top: 4600px !important;
+  }
+  /* line 21, ../sass/mediaqueries.scss */
   .overlay .content .email, .overlay .content .info, .overlay .content .twitter {
     font-size: 68% !important;
   }
 
-  /* line 26, ../sass/mediaqueries.scss */
+  /* line 27, ../sass/mediaqueries.scss */
   .main {
     padding: 0;
   }
 
-  /* line 30, ../sass/mediaqueries.scss */
+  /* line 31, ../sass/mediaqueries.scss */
   nav {
     margin-top: 180px;
   }
-  /* line 32, ../sass/mediaqueries.scss */
+  /* line 33, ../sass/mediaqueries.scss */
   nav ul {
     width: 100% !important;
   }
-  /* line 34, ../sass/mediaqueries.scss */
+  /* line 35, ../sass/mediaqueries.scss */
   nav ul li {
     width: 100% !important;
     float: none !important;
     margin: 0 !important;
     padding: 0px !important;
   }
-  /* line 39, ../sass/mediaqueries.scss */
+  /* line 40, ../sass/mediaqueries.scss */
   nav ul li a {
     background: #515151 !important;
     color: #fff !important;
     padding: 12px 25px;
     text-align: left;
   }
-  /* line 45, ../sass/mediaqueries.scss */
+  /* line 46, ../sass/mediaqueries.scss */
   nav ul li.last {
     margin: 0;
     padding: 0;
   }
 
-  /* line 53, ../sass/mediaqueries.scss */
+  /* line 54, ../sass/mediaqueries.scss */
   header .title {
     top: -131px;
     left: 13px;
     position: absolute;
   }
-  /* line 58, ../sass/mediaqueries.scss */
+  /* line 59, ../sass/mediaqueries.scss */
   header .slogan {
     width: 90% !important;
     margin: 0 !important;
@@ -885,24 +889,24 @@ header h1 {
     text-align: center;
   }
 
-  /* line 66, ../sass/mediaqueries.scss */
+  /* line 67, ../sass/mediaqueries.scss */
   #steps {
     display: none;
     visibility: hidden;
   }
-  /* line 68, ../sass/mediaqueries.scss */
+  /* line 69, ../sass/mediaqueries.scss */
   #steps section img {
     padding: 10% 2% 6% 2% !important;
     width: 15% !important;
   }
 
-  /* line 76, ../sass/mediaqueries.scss */
+  /* line 77, ../sass/mediaqueries.scss */
   #definition {
     display: none;
     visibility: hidden;
   }
 
-  /* line 81, ../sass/mediaqueries.scss */
+  /* line 82, ../sass/mediaqueries.scss */
   #latest section {
     float: none !important;
     width: 100% !important;
@@ -911,83 +915,83 @@ header h1 {
     min-height: 150px !important;
   }
 
-  /* line 90, ../sass/mediaqueries.scss */
+  /* line 91, ../sass/mediaqueries.scss */
   #thoughts .contain {
     border-bottom: 0 !important;
   }
-  /* line 93, ../sass/mediaqueries.scss */
+  /* line 94, ../sass/mediaqueries.scss */
   #thoughts .contain .row.first {
     border-top: 0 !important;
   }
-  /* line 96, ../sass/mediaqueries.scss */
+  /* line 97, ../sass/mediaqueries.scss */
   #thoughts .contain .row > .inner {
     padding: 8px 0px !important;
   }
-  /* line 101, ../sass/mediaqueries.scss */
+  /* line 102, ../sass/mediaqueries.scss */
   #thoughts section {
     overflow: hidden;
   }
-  /* line 103, ../sass/mediaqueries.scss */
+  /* line 104, ../sass/mediaqueries.scss */
   #thoughts section > .inner {
     padding: 0px 3% !important;
   }
 
-  /* line 109, ../sass/mediaqueries.scss */
+  /* line 110, ../sass/mediaqueries.scss */
   #social #videoplayer {
     width: 100% !important;
     border-right: 0;
     padding: 0 !important;
   }
-  /* line 113, ../sass/mediaqueries.scss */
+  /* line 114, ../sass/mediaqueries.scss */
   #social #videoplayer #videoplaylist li {
     margin: 0px 0px 0px 2px !important;
   }
-  /* line 117, ../sass/mediaqueries.scss */
+  /* line 118, ../sass/mediaqueries.scss */
   #social #twitter {
     width: 100% !important;
   }
 
-  /* line 122, ../sass/mediaqueries.scss */
+  /* line 123, ../sass/mediaqueries.scss */
   #team section {
     width: 24.5% !important;
   }
-  /* line 124, ../sass/mediaqueries.scss */
+  /* line 125, ../sass/mediaqueries.scss */
   #team section a {
     font-size: 75%;
   }
 
-  /* line 130, ../sass/mediaqueries.scss */
+  /* line 131, ../sass/mediaqueries.scss */
   #contact section {
     float: none !important;
     width: 100% !important;
     border-bottom: 1px dotted #515151 !important;
     border-right: 0 !important;
   }
-  /* line 135, ../sass/mediaqueries.scss */
+  /* line 136, ../sass/mediaqueries.scss */
   #contact section.last {
     border-bottom: 0 !important;
   }
-  /* line 140, ../sass/mediaqueries.scss */
+  /* line 141, ../sass/mediaqueries.scss */
   #contact .newsletter input[type='text'] {
     width: 315px;
   }
 
-  /* line 146, ../sass/mediaqueries.scss */
+  /* line 147, ../sass/mediaqueries.scss */
   nav li:first-child a {
     margin-left: 0;
   }
 
-  /* line 150, ../sass/mediaqueries.scss */
+  /* line 151, ../sass/mediaqueries.scss */
   nav li:last-child a {
     margin-right: 0;
   }
 
-  /* line 154, ../sass/mediaqueries.scss */
+  /* line 155, ../sass/mediaqueries.scss */
   nav ul li {
     display: inline;
   }
 
-  /* line 158, ../sass/mediaqueries.scss */
+  /* line 159, ../sass/mediaqueries.scss */
   .oldie nav a {
     margin: 0 0.7%;
   }
@@ -997,25 +1001,23 @@ header h1 {
 */
 @media only screen and (max-width: 1005px) {
   /* line 170, ../sass/mediaqueries.scss */
-  .overlay .content {
-    top: 0%;
-    position: absolute;
-    margin-top: 50px;
-  }
-
-  /* line 177, ../sass/mediaqueries.scss */
   .wrapper {
     width: 100%;
     padding: 0px;
   }
-  /* line 180, ../sass/mediaqueries.scss */
+  /* line 173, ../sass/mediaqueries.scss */
   .wrapper > .inner {
     padding: 1em 1em 3em 1em;
   }
 
-  /* line 184, ../sass/mediaqueries.scss */
+  /* line 177, ../sass/mediaqueries.scss */
   .wrapper-small {
     width: 90%;
+  }
+
+  /* line 182, ../sass/mediaqueries.scss */
+  .overlay .content {
+    top: 5000px;
   }
 
   /* line 189, ../sass/mediaqueries.scss */

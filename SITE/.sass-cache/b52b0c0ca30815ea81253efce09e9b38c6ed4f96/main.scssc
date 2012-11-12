@@ -1,7 +1,7 @@
 3.1.15 (Brainy Betty)
-10cf8fa69d3e23efcd9afe4bb1f71b70dd6ea42c
+b6f2800cd091a310a6138445e73824b817853e9f
 o:Sass::Tree::RootNode
-:@template"»"@import "constants";
+:@template"Á"@import "constants";
 
 body {
   	font-family: 'Maven Pro';
@@ -194,10 +194,10 @@ header h1 {
 		background: #fff;
 		width: 75%;
 		text-align: left;
-		position: fixed;
+		position: absolute;
 		z-index: 1;
 		zoom: 1;
-		top: 10%;
+		top: 3850px;
 		left: 50%;
 		margin-left: -37.5%;
 	}
@@ -628,7 +628,7 @@ header h1 {
 		}
 	}
 	.newsletter {
-		width: 51%;
+		width: 48%;
 		> .inner {
 			padding: 0 1em;
 		}
@@ -858,11 +858,10 @@ color;@;i ;;;o;%	;&"orange_color;"orange-color;@;	i¼;	i¼;
 [ o;;["
 width;@;i ;;;o;;@;"75%;;;	iÀ;
 [ o;;["text-align;@;i ;;;o;;@;"	left;;;	iÁ;
-[ o;;["position;@;i ;;;o;;@;"
-fixed;;;	iÂ;
+[ o;;["position;@;i ;;;o;;@;"absolute;;;	iÂ;
 [ o;;["z-index;@;i ;;;o;;@;"1;;;	iÃ;
 [ o;;["	zoom;@;i ;;;o;;@;"1;;;	iÄ;
-[ o;;["top;@;i ;;;o;;@;"10%;;;	iÅ;
+[ o;;["top;@;i ;;;o;;@;"3850px;;;	iÅ;
 [ o;;["	left;@;i ;;;o;;@;"50%;;;	iÆ;
 [ o;;["margin-left;@;i ;;;o;,;-"-37.5%;@;.[ ;f
 -37.5;	iÇ;/["%;	iÇ;
@@ -1306,7 +1305,7 @@ inner;" ;	ii;@^;	ii;@^;	ii;
 [o;;["margin;@;i ;;;o;;@;"5px;;;	ip;
 [ o;;@;i ;T;[".newsletter;	is;o;;[o;;[o;;[o;$;["newsletter;" ;	is;@;	is;@;	is;
 [o;;["
-width;@;i ;;;o;;@;"51%;;;	it;
+width;@;i ;;;o;;@;"48%;;;	it;
 [ o;;@;i ;T;["> .inner;	iu;o;;[o;;[">o;;[o;$;["
 inner;" ;	iu;@²;	iu;@²;	iu;
 [o;;["padding;@;i ;;;o;;@;"

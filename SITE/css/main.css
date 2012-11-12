@@ -178,10 +178,10 @@ header h1 {
   background: #fff;
   width: 75%;
   text-align: left;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   zoom: 1;
-  top: 10%;
+  top: 3850px;
   left: 50%;
   margin-left: -37.5%;
 }
@@ -696,7 +696,7 @@ header h1 {
 }
 /* line 627, ../sass/main.scss */
 #contact .newsletter {
-  width: 51%;
+  width: 48%;
 }
 /* line 629, ../sass/main.scss */
 #contact .newsletter > .inner {

@@ -30,7 +30,7 @@
 			if ( $i < $limit ) {
 				$title = str_replace(' & ', ' &amp; ', $item['title']);
 				$link = $item['link'];
-				$dateArr = split(' ', $item['date']);
+				$dateArr = explode(' ', $item['date']);
 				$date = $dateArr[2] . ' ' . $dateArr[1] . ', ' . $dateArr[3];
 				$container .=
 				"<li class='". (((($x+1) % 4 == 0)&&($x!=0)) ? 'last' : '') . ($x==0 || $x == $rowLimit ? 'first' : '') ."'>
@@ -52,6 +52,7 @@
 	function thoughtsLoaded( $rss ) {
 		$feed = array();
 		$remove = false;
+		// echo $rss->saveHTML();
 		foreach ($rss->getElementsByTagName('item') as $node) {
 			$img_links = array();
 			$dom = new DOMDocument();
@@ -68,11 +69,11 @@
 					$remove = false;
 				}
 			}
-			
+
 			if ( $remove != true ){
 				if ( $dom->getElementsByTagName('img')->length > 0 ){
-					$linkArr = split('/', $node->getElementsByTagName('comments')->item(0)->nodeValue );
-					$linkT = $linkArr[0] . '//' . $linkArr[2] . '/' . $linkArr[3];
+					$linkArr = explode('/', $node->getElementsByTagName('comments')->item(0)->nodeValue );
+					$linkT = $linkArr[0] . '//' . $linkArr[2] . '/' . $linkArr[3] . '/' . $linkArr[4];;
 					$item = array (
 						'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
 						'link' => $linkT,
@@ -83,8 +84,8 @@
 						'content' => $node->getElementsByTagName( "content:encoded" )->item(0)->nodeValue
 						);
 				} else {
-					$linkArr = split('/', $node->getElementsByTagName('comments')->item(0)->nodeValue );
-					$linkT = $linkArr[0] . '//' . $linkArr[2] . '/' . $linkArr[3];
+					$linkArr = explode('/', $node->getElementsByTagName('comments')->item(0)->nodeValue );
+					$linkT = $linkArr[0] . '//' . $linkArr[2] . '/' . $linkArr[3] . '/' . $linkArr[4];;
 					$item = array (
 						'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
 						'link' => $linkT,
@@ -105,7 +106,7 @@
 		for($x=0;$x<$limit;$x++) {
 			$title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
 			$link = $feed[$x]['link'];
-			$dateArr = split(' ', $feed[$x]['date']);
+			$dateArr = explode(' ', $feed[$x]['date']);
 			$date = $dateArr[2] . ' ' . $dateArr[1] . ', ' . $dateArr[3];
 			$content = $feed[$x]['content'];
 			$image = $feed[$x]['image'];

@@ -17,6 +17,7 @@
 
 	.overlay {
 		.content {
+			top: 4600px !important;
 			.email, .info, .twitter {
 				font-size: 68% !important;
 			}
@@ -166,14 +167,6 @@
 
 @media only screen and (max-width: 1005px) {
 
-	.overlay {
-		.content {
-			top: 0%;
-			position: absolute;
-			margin-top: 50px;
-		}
-	}
-
 	.wrapper {
 		width: 100%;
 		padding: 0px;
@@ -184,6 +177,13 @@
 	.wrapper-small {
 		width: 90%;
 	}
+
+	.overlay {
+		.content {
+			top: 5000px;
+		}
+	}
+
 
 	nav {
 		ul {
