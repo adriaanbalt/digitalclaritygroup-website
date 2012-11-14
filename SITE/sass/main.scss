@@ -71,6 +71,22 @@ a{
 	}
 }
 
+#goToTop {
+	width: 42px;
+	height: 42px;
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	z-index: 100;
+	zoom: 1;
+	a {
+		display: block;
+	}
+	img {
+		width: 100%;
+	}
+}
+
 /* ==============
 	MOBILE: Menu
    ============== */

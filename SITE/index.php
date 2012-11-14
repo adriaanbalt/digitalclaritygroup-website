@@ -10,13 +10,15 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title></title>
-		<meta name="description" content="">
+		<title>Digital Clarity Group (DCG) | Helping leaders navigate digital transformation | Research, Consulting, Events, Advisory Services</title>
+		<meta name="description" content="DCG helps business leaders navigate digital transformation by providing clear, actionable advice across four themes: Consumer Engagement, the Social Enterprise, Innovative Change and Adaptive Technology.">
+		<meta name="keywords" content="technology, selection, cms, wcm, dam, portal, agency selection, content marketing, engagement, digital disruption, industry analyst, social, DCG, technology selection">
 		<meta name="viewport" content="width=device-width">
 
 		<link rel="stylesheet" href="css/normalize.min.css">
 		<link rel="stylesheet" href="css/screen.css">
 		<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="favicon.ico">
 
 		<script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
 	</head>
@@ -33,7 +35,7 @@
 						<a href='#' class='close'></a>
 						<hr>
 						<h3>Scott Liewehr</h3>
-						<h4>President / Principle Analyst</h4>
+						<h4>President / Principal Analyst</h4>
 						<p>The founder of Digital Clarity Group, Scott believes that digital content is transforming the enterprise, and he strives to provide clarity and pragmatic advice to help organizations through this change. With a passion for content management since leading the development of his first large-scale intranet for Starwood Hotels in the late 90′s, Scott has led ECM, WCM and portal engagements for more than 55 Fortune 500′s.</p>
 						<p>Prior to DCG, Scott was the Lead Analyst for the Web Content Management practice at the Gilbane Group and led the professional services teams for several integrators and agencies before that. Outside of DCG but within the digital transformation world, Scott keeps busy as the elected President of the Content Management Professionals association (CM Pros), the host of CMS Connected, and the chair of the Engagement Track at Gilbane conferences.</p>
 						<p>A proud parent, Scott shares his commitment to kids by helping children with autism and autism-spectrum disorders as a member of the Board of Directors for the School for Language and Communication Development in New York. Although Scott lives in New York with his wife and three great kids, he spends his down time enjoying anything to do with Chicago’s zoo of sport franchises – Bears, Cubs, and Bulls.</p>
@@ -50,8 +52,8 @@
 					<div class='inner'>
 						<a href='#' class='close'></a>
 						<hr>
-						<h3>Cathy Mcknight</h3>
-						<h4>Partner / Principle Analyst</h4>
+						<h3>Cathy McKnight</h3>
+						<h4>Partner / Principal Analyst</h4>
 						<p>A founding partner of Digital Clarity Group, Cathy is a strong advocate of the concepts of communities both within and around the enterprise. Cathy works with clients to maximize their engagement, knowledge management, and the opportunity to build relationships with all their customers by finding the right-fit digital content management technology. A hybrid with deep experience in consulting, communications, and project management, Cathy has provided internal web strategies and implementation roadmaps to dozens of companies from Fortune 100 to not-for-profits; helping them implement successful intranet and portal solutions.</p>
 						<p>Prior to DCG, she has held senior and director level consulting roles with IBM, Prescient Digital Media and Aon Hewitt. Cathy has had the opportunity to speak at various communications and web related events on such topics as social media, web governance, and employee engagement.</p>
 						<p>Cathy is a certified Project Manager with the Project Management Institute (PMI), and when not absorbed in tinkering with the latest social channel, she can be found running through whatever city she happens to be in, or enjoying time with her family and two black labs back in Toronto.</p>
@@ -70,7 +72,7 @@
 						<a href='#' class='close'></a>
 						<hr>
 						<h3>Tim Walters</h3>
-						<h4>Partner / Principle Analyst</h4>
+						<h4>Partner / Principal Analyst</h4>
 						<p>A founding partner of Digital Clarity Group, Tim has vast experience helping companies engage with both consumers and employees. An early advocate of personalized and relevant web sites, he is also an expert on intranets and the future of work. His background in research, teaching, and software marketing and strategy makes Tim a valued advisor to enterprises as well as solution providers.</p>
 						<p>Prior to DCG, Tim was a Senior Analyst and Advisor at Forrester Research, where he covered WCM, intranets, the next-generation Information Workplace, portal servers, and translation/globalization practices. He also served as director of international marketing and strategy for FatWire Software, where he was instrumental in charting the transition from WCM to web experience management (WEM). Earlier, Tim was a professor at the University of Rochester and New York University.</p>
 						<p>Tim currently resides in Germany with his wife and son. When not digging into the latest research on digital disruption, he enjoys motor sports and alpine hiking, but not at the same time.</p>
@@ -89,7 +91,7 @@
 						<a href='#' class='close'></a>
 						<hr>
 						<h3>Elise Segar</h3>
-						<h4>Partner / Client Delivery</h4>
+						<h4>Partner / Director of Client Relations</h4>
 						<p>As a partner at Digital Clarity Group, Elise is able to leverage her passion for content management and sales. Elise has more than 11 years in enterprise technology sales, sales management, strategic marketing and lead generation. Working with innovative companies throughout her career, she has seen first hand the transformation of “traditional” to “digital” in the world of sales and marketing.</p>
 						<p>Prior to DCG, Elise was a Senior Sales Strategist with ifridge &amp; Company where she worked with entrepreneurs and companies to take the next step towards successful sales and marketing. Elise got her start in WCM at RedDot Solutions back in 2002 where she successfully built and ran the inside channel sales team for North America.</p>
 						<p>Elise lives in Connecticut with her family who inspire and teach her new things everyday. She is a proud hockey mom and serves on the Board of Directors for the Eastern CT Hockey Organization. When she’s not working or playing taxi driver you’ll find her happily in the kitchen cooking big meals for her family and friends.</p>
@@ -111,7 +113,7 @@
 						<p>As an author, speaker and Senior Analyst with DCG, Robert helps marketers become storytellers. Robert shares his expertise and experience in Content Marketing through thoughtful white papers and research reports. Along side his work with DCG, he is also the Strategist in Residence and brand advisor for the Content Marketing Institute, a featured writer and guest blogger for iMedia Connection, CMSWire and Fierce Content Management.  Robert also maintains his own blog at The Mythic Marketer.</p>
 						<p>A recognized expert in content marketing strategy, digital media, and the social Web, Robert innovates creative and technical strategies for a wide variety of clientele. He’s helped large companies such as PTC, First American Title, Valley Crest, American Camp Association, and Nissan tell their story more effectively through the Web.  He’s worked to strategize digital marketing efforts for entertainment and media brands such as Dwight Yoakam, Nickelodeon, and NBC.</p>
 						<p>Robert lives in Los Angeles, California, with his amazing wife Elizabeth and their golden doodle Daisy.</p>
-						<p class='email'><span>Email:</span><a href='mailto:rrobert@digitalclaritygroup.com'>rrobert@digitalclaritygroup.com</a></p>
+						<p class='email'><span>Email:</span><a href='mailto:rrose@digitalclaritygroup.com'>rrose@digitalclaritygroup.com</a></p>
 						<p class='info'><span>Info:</span><a href='http://www.about.me/robertrose'>about.me/robertrose</a></p>
 						<p class='info'><span>LinkedIn:</span><a href='http://www.linkedin/in/robrose'>Linkedin/in/robrose</a></p>
 						<p class='twitter'><span>Twitter:</span><a href='http://www.twitter.com/Robert_Rose'>@Robert_Rose</a></p>
@@ -144,8 +146,8 @@
 						<a href='#' class='close'></a>
 						<hr>
 						<h3>Tiffany Elliot</h3>
-						<h4>Senior Analyst</h4>
-						<p></p>
+						<h4>Researcher</h4>
+						<p>As an important member of the DCG research team, Tiffany brings exceptional research and process management skills to the team. Her Masters degree in history helped hone her writing and analytical skills.</p><p>Tiffany's previous research experience includes working for a tier one Canadian university, as well as a market research firm where her strong communication skills were exercised daily. Active on Twitter and other social channels, her writing can also be found in the Canadian University Thesis Archives. Tiffany was part of the World Champion 2009 Canadian Synchronized Skating Team, and continues to follow and share her passion by teaching figure skating part-time. She currently resides in Toronto, Canada with her dog Maggie.</p>
 						<p class='email'><span>Email:</span><a href='mailto:telliot@digitalclaritygroup.com'>telliot@digitalclaritygroup.com</a></p>
 						<p class='info'><span>Info:</span><a href='ca.linkedin.com/pub/tiffany-elliot-ma/17/a96/339'>ca.linkedin.com/pub/tiffany-elliot-ma/17/a96/339</a></p>
 						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/macqueens'>@macqueens</a></p>
@@ -154,6 +156,12 @@
 				<a href='#' class='bg'></a>
 			</div>
 
+		</div>
+
+		<div id='goToTop' class='hidden'>
+			<a href='#'>
+				<img src='img/goToTop.png' alt='TOP'/>
+			</a>
 		</div>
 
 		<div class="header-container">
@@ -202,7 +210,7 @@
 									<img src='img/innovation-change.png' alt='Innovation Change'/>
 									<div class='description'>
 										<h2>Innovative Change</h2>
-										<p>Technology powers insight, revealing the need for change - but it doesn’t power change. Enterprises must implement, adopt and manage technology well. DCG helps business leaders to unleash innovative change.</p>
+										<p>Technology powers insight, revealing the need for change, but it doesn’t power change. Enterprises must implement, adopt and manage technology well. DCG helps business leaders to unleash innovative change.</p>
 									</div>
 								</div>
 							</section>
@@ -226,7 +234,7 @@
 								<h1>Because business-as-usual isn’t.</h1>
 							</header>
 							<section>
-								<p>It is in a state of disruption. The combination of the social web, open standards, the cloud, and ubiquitous mobility to name just a few, represent an opportunity to transform, innovate, engage and develop loyal customers and employees like never before. The ultimate destination may yet be undetermined – but your organization may need help in navigating. If it does – you’ll need clear guidance.</p>
+								<p>It is in a state of disruption. The combination of the social web, open standards, the cloud, and ubiquitous mobility to name just a few, represent an opportunity to transform, innovate, engage and develop loyal customers and employees like never before. The ultimate destination may not yet be clear, but your organization may need help navigating. If it does, you’ll need clear guidance.</p>
 								<p>DCG provides both the clarity and the guidance. We provide research, consulting, events and advisory services to help business leaders navigate the digital transformation.</p>
 							</section>
 						</div>
@@ -345,7 +353,7 @@
 								<h1>Our Story</h1>
 							</header>
 							<section>
-								<p>It all started as clear as mud. A group of independent analysts came together, frustrated by the lack of clear direction available to businesses about how to successfully navigate through the digital disruption. Beyond technology vendor grade cards, and esoteric trend papers, these practitioners believed that real clarity was needed. It’s the application of technology that’s important. It’s the real innovative changes that drive success. And, it’s how actual businesses create engagement and governance for both consumers and their teams. Business leaders just needed a little clarity. And the DCG adventure was begun… </p>
+								<p>It all started as clear as mud. A group of independent analysts came together, frustrated by the lack of clear direction available to businesses about how to successfully navigate through the digital disruption. Beyond technology vendor grade cards and esoteric trend papers, these practitioners believed that real clarity was needed. It’s the application of technology that’s important. It’s the real innovative changes that drive success. And, it’s how actual businesses create engagement and governance for both consumers and their teams. Business leaders just needed a little clarity. And the DCG adventure was begun… </p>
 							</section>
 						</div>
 					</article>
@@ -361,7 +369,7 @@
 											<img src='img/headshot-scott.jpg' alt='Scott Liewehr'/>
 											<div class='info'>
 												<h3>Scott</h3>
-												<p class='position'>President / Principle Analyst</p>
+												<p class='position'>President / Principal Analyst</p>
 											</div>
 										</a>
 									</div>
@@ -372,7 +380,7 @@
 											<img src='img/headshot-cathy.jpg' alt='Cathy'/>
 											<div class='info'>
 												<h3>Cathy</h3>
-												<p class='position'>Partner / Principle Analyst</p>
+												<p class='position'>Partner / Principal Analyst</p>
 											</div>
 										</a>
 									</div>
@@ -383,7 +391,7 @@
 											<img src='img/headshot-elise.jpg' alt='Tim'/>
 											<div class='info'>
 												<h3>Elise</h3>
-												<p class='position'>Partner / Client Analyst</p>
+												<p class='position'>Partner / Client Relations</p>
 											</div>
 										</a>
 									</div>
@@ -394,7 +402,7 @@
 											<img src='img/headshot-tim.jpg' alt='Scott'/>
 											<div class='info'>
 												<h3>Tim</h3>
-												<p class='position'>Partner / Principle Analyst</p>
+												<p class='position'>Partner / Principal Analyst</p>
 											</div>
 										</a>
 									</div>
@@ -429,7 +437,7 @@
 											<img src='img/headshot-tiffany.jpg' alt='Scott'/>
 											<div class='info'>
 												<h3>Tiffany</h3>
-												<p class='position'>Senior Analyst</p>
+												<p class='position'>Researcher</p>
 											</div>
 										</a>
 									</div>

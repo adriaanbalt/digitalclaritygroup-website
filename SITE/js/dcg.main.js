@@ -62,13 +62,12 @@
 		// overlay
 
 		var scrolling = function() {
-			// var y = $(window).scrollTop(),
-			// 	showTopNav = ( $('header').height() + parseInt( $('header').css('margin-top').split('px').join('')) );
-			// if( y > showTopNav ) {
-			// 	$('#top-nav').removeClass( 'hidden' );
-			// } else {
-			// 	$('#top-nav').addClass( 'hidden' );
-			// }
+			 var y = $(window).scrollTop();
+			if( y > 300 ) {
+			 	$('#goToTop').removeClass( 'hidden' );
+			} else {
+				$('#goToTop').addClass( 'hidden' );
+			}
 		}
 
 		init();
