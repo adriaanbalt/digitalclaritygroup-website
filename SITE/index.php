@@ -147,7 +147,11 @@
 						<hr>
 						<h3>Tiffany Elliot</h3>
 						<h4>Researcher</h4>
+<<<<<<< HEAD
 						<p>As an important member of the DCG research team, Tiffany brings exceptional research and process management skills to the team. Her Masters degree in history helped hone her writing and analytical skills.</p><p>Tiffany's previous research experience includes working for a tier one Canadian university, as well as a market research firm where her strong communication skills were exercised daily. Active on Twitter and other social channels, her writing can also be found in the Canadian University Thesis Archives. Tiffany was part of the World Champion 2009 Canadian Synchronized Skating Team, and continues to follow and share her passion by teaching figure skating part-time. She currently resides in Toronto, Canada with her dog Maggie.</p>
+=======
+						<p></p>
+>>>>>>> 2e3f8c4a9b58d5ff668aaca3cb2f22ee685669ad
 						<p class='email'><span>Email:</span><a href='mailto:telliot@digitalclaritygroup.com'>telliot@digitalclaritygroup.com</a></p>
 						<p class='info'><span>Info:</span><a href='ca.linkedin.com/pub/tiffany-elliot-ma/17/a96/339'>ca.linkedin.com/pub/tiffany-elliot-ma/17/a96/339</a></p>
 						<p class='twitter'><span>Twitter:</span><a href='www.twitter.com/macqueens'>@macqueens</a></p>
