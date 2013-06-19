@@ -1,0 +1,15 @@
+# eMember Rules BEGIN
+<IfModule mod_rewrite.c>
+ErrorDocument 403 /wp-content/plugins/wp-eMember/emember_folder_protection_download_error.html
+ErrorDocument 401 /wp-content/plugins/wp-eMember/emember_folder_protection_download_error.html
+</IfModule>
+# eMember Rules ENDS
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blog/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+</IfModule>

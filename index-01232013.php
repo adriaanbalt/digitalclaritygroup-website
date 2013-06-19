@@ -11,7 +11,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Digital Clarity Group (DCG) | Helping leaders navigate digital transformation | Research, Consulting, Events, Advisory Services</title>
-		<meta name="description" content="Digital Clarity Group helps business leaders navigate digital transformation by providing clear, actionable advice across four themes: Consumer Engagement, the Social Enterprise, Innovative Change and Adaptive Technology.">
+		<meta name="description" content="DCG helps business leaders navigate digital transformation by providing clear, actionable advice across four themes: Consumer Engagement, the Social Enterprise, Innovative Change and Adaptive Technology.">
 		<meta name="keywords" content="technology selection, cms, wcm, dam, portal, agency selection, content marketing, engagement, digital disruption, industry analyst, social, DCG, technology selection, content management system, web content management system, content management, enterprise search, web cms">
 		<meta name="viewport" content="width=device-width">
 
@@ -116,7 +116,7 @@
 						<p>Robert lives in Los Angeles, California, with his amazing wife Elizabeth and their golden doodle Daisy.</p>
 						<p class='email'><span>Email:</span><a href='mailto:rrose@digitalclaritygroup.com'>rrose@digitalclaritygroup.com</a></p>
 						<p class='info'><span>Info:</span><a href='http://www.about.me/robertrose' target='_blank'>about.me/robertrose</a></p>
-						<p class='info'><span>LinkedIn:</span><a href='http://www.linkedin.com/in/robrose' target='_blank'>linkedin.com/in/robrose</a></p>
+						<p class='info'><span>LinkedIn:</span><a href='http://www.linkedin.com/in/robrose' target='_blank'>linkedin/in/robrose</a></p>
 						<p class='twitter'><span>Twitter:</span><a href='http://www.twitter.com/Robert_Rose' target='_blank'>@robert_rose</a></p>
 					</div>
 				</div>
@@ -147,46 +147,10 @@
 						<a href='#' class='close'></a>
 						<hr>
 						<h3>Tiffany Elliot</h3>
-						<h4>Research Analyst</h4>
+						<h4>Researcher</h4>
 						<p>As an important member of the DCG research team, Tiffany brings exceptional research and process management skills to the team. Her Masters degree in history helped hone her writing and analytical skills.</p><p>Tiffany's previous research experience includes working for a tier one Canadian university, as well as a market research firm where her strong communication skills were exercised daily. Active on Twitter and other social channels, her writing can also be found in the Canadian University Thesis Archives. Tiffany was part of the World Champion 2009 Canadian Synchronized Skating Team, and continues to follow and share her passion by teaching figure skating part-time. She currently resides in Toronto, Canada with her dog Maggie.</p>
 						<p class='email'><span>Email:</span><a href='mailto:telliot@digitalclaritygroup.com'>telliot@digitalclaritygroup.com</a></p>
 						<p class='info'><span>LinkedIn:</span><a href='http://ca.linkedin.com/pub/tiffany-elliot-ma/17/a96/339' target='_blank'>ca.linkedin.com/pub/tiffany-elliot-ma/17/a96/339</a></p>
-					</div>
-				</div>
-				<a href='#' class='bg'></a>
-			</div>
-
-			<div id='allen' class='overlay'>
-				<div class='content'>
-					<div class='inner'>
-						<a href='#' class='close'></a>
-						<hr>
-						<h3>Allen Bonde</h3>
-						<h4>Partner / Principal Analyst</h4>
-						<p>Most recently co-founder of social marketing tools pioneer Offerpop, Allen has spent the past 20+ years as an enterprise software CMO, research analyst, entrepreneur and consultant to top firms and start-ups. Recognized as one of the top voices in CRM and social media, Allen believes in the value of social business, having the right tools, and creating customer solutions, content and playbooks that empower users and get people talking.  Through his journey from corporate R&D to strategic advisor, Allen has worked with global leaders such as O2, Philips and SAP, launched numerous brands and products, and shared his perspectives in media ranging from The New York Times and CNBC to top industry blogs and events.
-</p><p>As Chief Strategist at The Pulse Network, Allen helped to relaunch the Inbound Marketing Summit series and establish TPN as the leader in Enterprise Social TV.  Prior to Offerpop, he was CMO and head of strategy at CRM consultancy eVergance, was part of a team at McKinsey that did key early work developing online advertising models, and ran Yankee Group's second Internet practice.  Named a Top CMO on Twitter and Top 25 Enterprise Software Leader, Allen also has a passion for helping early stage businesses, regularly presents to groups like the MIT Enterprise Forum and advises PowWow, an innovative iPad app start-up.</p><p>Based outside Boston, Allen enjoys suburban life with his amazing wife, 3 teens and poorly behaved Yellow Lab, plays a mean bass guitar, and is a big-time car guy.</p>
-						<p class='email'><span>Email:</span><a href='mailto:abonde@digitalclaritygroup.com'>abonde@digitalclaritygroup.com</a></p>
-						<p class='info'><span>LinkedIn:</span><a href='http://www.linkedin.com/in/allenbonde/' target='_blank'>http://www.linkedin.com/in/allenbonde/</a></p>
-						<p class='twitter'><span>Twitter:</span><a href='http://www.twitter.com/abonde' target='_blank'>@abonde</a></p>
-					</div>
-				</div>
-				<a href='#' class='bg'></a>
-			</div>
-
-			<div id='marianne' class='overlay'>
-				<div class='content'>
-					<div class='inner'>
-						<a href='#' class='close'></a>
-						<hr>
-						<h3>Marianne Kay</h3>
-						<h4>Analyst</h4>
-						<p>Marianne is a Content Management Strategist, Analyst and Consultant helping large organizations choose the right Content Management System for their needs and live with their choice happily ever after.</p>
-						<p>Her knowledge of the industry is based on 7 years experience as an in-house CMS expert in a large financial services organization, plus 5 years experience in a digital marketing agency environment. She speaks at industry events and conferences on subjects such as Web
-Content Management, Digital Agency selection, RFP process and Web Design.</p>
-						<p>Marianne lives with her family in Yorkshire, in the UK. She enjoys spending time with her two beautiful children, playing tennis for the local tennis club and cycling alongside Leeds-Liverpool canal.</p>
-						<p class='email'><span>Email:</span><a href='mailto:mkay@digitalclaritygroup.com'>mkay@digitalclaritygroup.com</a></p>
-						<p class='info'><span>LinkedIn:</span><a href='http://www.linkedin.com/in/mariannekay' target='_blank'>linkedin.com/in/mariannekay</a></p>
-						<p class='twitter'><span>Twitter:</span><a href='http://www.twitter.com/marianne_ua' target='_blank'>@marianne_ua</a></p>
 					</div>
 				</div>
 				<a href='#' class='bg'></a>
@@ -212,7 +176,7 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 				</nav>
 				<div class='clearfix'>
 					<h1 class="title"></h1>
-					<p class='slogan'>Digital Clarity Group helps leaders navigate digital transformation by providing actionable advice across four themes: Consumer Engagement, the Social Enterprise, Innovative Change and Adaptive Technology.</p>
+					<p class='slogan'>DCG helps business leaders navigate digital transformation by providing clear, actionable advice across four themes: Consumer Engagement, the Social Enterprise, Innovative Change and Adaptive Technology.</p>
 				</div>
 			</header>
 		</div>
@@ -287,18 +251,18 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 								<div class='inner clearfix'>
 									<h2>News</h2>
 									<ul>
-										<?php getRSS( 'http://www.digitalclaritygroup.com/blog/category/news/feed/', 'latestLoaded' ); ?>
+										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-news', 'latestLoaded' ); ?>
 									</ul>
-									<a class='seeall' href='http://digitalclaritygroup.com/blog/category/news/' target='_blank'>See All News</a>
+									<a class='seeall' href='http://digitalclaritygroup.com/category/news/' target='_blank'>See All News</a>
 								</div>
 							</section>
 							<section>
 								<div class='inner clearfix'>
 									<h2>Events</h2>
 									<ul>
-										<?php getRSS( 'http://www.digitalclaritygroup.com/blog/category/events/feed/', 'latestLoaded' ); ?>
+										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-events', 'latestLoaded' ); ?>
 									</ul>
-									<a class='seeall' href='http://digitalclaritygroup.com/blog/category/events/' target='_blank'>See All Events</a>
+									<a class='seeall' href='http://digitalclaritygroup.com/category/events/' target='_blank'>See All Events</a>
 								</div>
 							</section>
 							<section>
@@ -307,25 +271,7 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 									<ul>
 										<li>
 											<div class='inner'>
-												<a href='http://digitalclaritygroup.com/blog/research/research-papers/' target='_blank'>
-													<p class='pdfIcon'></p>
-													<p class='title'>Web Ubiquity Calls for an "Experience Tier"</p>
-												</a>
-											</div>
-										</li>
-										
-										<li>
-											<div class='inner'>
-												<a href='http://digitalclaritygroup.com/blog/research/research-papers/' target='_blank'>
-													<p class='pdfIcon'></p>
-													<p class='title'>Managing the New Marketing Complexity</p>
-												</a>
-											</div>
-										</li>
-										
-										<li>
-											<div class='inner'>
-												<a href='http://digitalclaritygroup.com/blog/research/research-papers/' target='_blank'>
+												<a href='http://digitalclaritygroup.com/research/research-papers/' target='_blank'>
 													<p class='pdfIcon'></p>
 													<p class='title'>Understanding the "Mobile Shift"</p>
 												</a>
@@ -334,23 +280,32 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 
 										<li>
 											<div class='inner'>
-												<a href='http://digitalclaritygroup.com/blog/research/research-papers/' target='_blank'>
+												<a href='http://digitalclaritygroup.com/research/research-papers/' target='_blank'>
 													<p class='pdfIcon'></p>
-													<p class='title'>New Models for Managing Engagement</p>
+													<p class='title'>Built To Change – New Models for Managing Consumer Engagement</p>
+												</a>
+											</div>
+										</li>
+
+										<li>
+											<div class='inner'>
+												<a href='http://digitalclaritygroup.com/research/research-papers/' target='_blank'>
+													<p class='pdfIcon'></p>
+													<p class='title'>The Field Guide to Content Marketing</p>
 												</a>
 											</div>
 										</li>
 									</ul>
-									<a class='seeall' href='http://digitalclaritygroup.com/blog/research/research-papers/' target='_blank'>See All Research</a>
+									<a class='seeall' href='http://digitalclaritygroup.com/research/research-papers/' target='_blank'>See All Research</a>
 								</div>
 							</section>
 							<section class='last'>
 								<div class='inner clearfix'>
 									<h2>Thinking</h2>
 									<ul>
-										<?php getRSS( 'http://www.digitalclaritygroup.com/blog/category/thinking/feed/', 'latestLoaded' ); ?>
+										<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup-thinking', 'latestLoaded' ); ?>
 									</ul>
-									<a class='seeall' href='http://digitalclaritygroup.com/blog/category/thinking/' target='_blank'>See All Thinking</a>
+									<a class='seeall' href='http://digitalclaritygroup.com/category/thinking/' target='_blank'>See All Thinking</a>
 								</div>
 							</section>
 						</div>
@@ -364,7 +319,7 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 								<h1>OUR THOUGHTS</h1>
 							</header>
 							<div class='contain clearfix'>
-								<?php getRSS( 'http://www.digitalclaritygroup.com/blog/feed/', 'thoughtsLoaded' ); ?>
+								<?php getRSS( 'http://feeds.feedburner.com/digitalclaritygroup/blog', 'thoughtsLoaded' ); ?>
 							</div>
 						</div>
 					</article>
@@ -462,7 +417,7 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 									</div>
 								</section>
 							</div>
-							<div class='row clearfix first'>
+							<div class='row last clearfix'>
 								<section>
 									<div class='inner'>
 										<a href='#robert'>
@@ -491,44 +446,8 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 											<img src='img/headshot-tiffany.jpg' alt='Tiffany'/>
 											<div class='info'>
 												<h3>Tiffany</h3>
-												<p class='position'>Research Analyst</p>
+												<p class='position'>Researcher</p>
 											</div>
-										</a>
-									</div>
-								</section>
-								<section class='last'>
-									<div class='inner'>
-										<a href='#allen'>
-											<img src='img/headshot-allen.jpg' alt='Allen'/>
-											<div class='info'>
-												<h3>Allen</h3>
-												<p class='position'>Partner / Principal Analyst</p>
-											</div>
-										</a>
-									</div>
-								</section>
-							</div>
-							<div class='row last clearfix'>
-								<section>
-									<div class='inner'>
-										<a href='#marianne'>
-											<img src='img/headshot-marianne.jpg' alt='Marianne'/>
-											<div class='info'>
-												<h3>Marianne</h3>
-												<p class='position'>Analyst</p>
-											</div>
-										</a>
-									</div>
-								</section>
-								<section>
-									<div class='inner'>
-										<a>
-										</a>
-									</div>
-								</section>
-								<section>
-									<div class='inner'>
-										<a>
 										</a>
 									</div>
 								</section>
@@ -564,14 +483,10 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 								<div class='inner'>
 									<h2>Sign Up</h2>
 									<p>Subscribe to Digital Clarity Group if you'd like to receive our free content designed to help leaders navigate digital transformation.</p>
-									
-									<script charset="utf-8" src="//js.hubspot.com/forms/current.js" class="button"></script>
-									<script>
-										  hbspt.forms.create({ 
-									        portalId: '244471',
-										    formId: '802f8016-afd3-4a9a-9d6e-c87b88cc7a6c'
-										  });
-									</script>
+									<form action="http://digitalclaritygroup.us6.list-manage.com/subscribe/post?u=869a533e627169dccef8cbbd8&amp;id=d51ee43abb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+										<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+										<input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
+									</form>
 								</div>
 							</section>
 							<section class='contact last'>
@@ -582,10 +497,10 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 										<p class='email'><a href='mailto:info@digitalclaritygroup.com'>info@digitalclaritygroup.com</a></p>
 									</div>
 									<div class='role'>
-										<h4><a href='http://digitalclaritygroup.com/blog/research/vendor-briefings/' target='_blank'>Vendor Briefings</a></h4>
+										<h4><a href='http://digitalclaritygroup.com/research/vendor-briefings/' target='_blank'>Vendor Briefings</a></h4>
 									</div>
 									<div class='role'>
-										<h4><a href='http://digitalclaritygroup.com/blog/contact/' target='_blank'>Media Resources</a></h4>
+										<h4><a href='http://digitalclaritygroup.com/contact/' target='_blank'>Media Resources</a></h4>
 									</div>
 								</div>
 							</section>
@@ -627,15 +542,5 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 			s.parentNode.insertBefore(g,s)}(document,'script'));
 		</script>
-		<!-- Start of Async HubSpot Analytics Code -->
-		<script type="text/javascript">
-		(function(d,s,i,r) {
-		if (d.getElementById(i)){return;}
-		var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
-		n.id=i;n.src='//js.hubspot.com/analytics/'+(Math.ceil(new Date()/r)*r)+'/244471.js';
-		e.parentNode.insertBefore(n, e);
-		})(document,"script","hs-analytics",300000);
-		</script>
-		<!-- End of Async HubSpot Analytics Code -->
 	</body>
-	</html>
+</html>

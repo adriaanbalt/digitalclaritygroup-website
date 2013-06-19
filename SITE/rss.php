@@ -3,7 +3,7 @@
 //http://digitalclaritygroup.com/feed/
 //http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=Just_Clarity
 
-	//ini_set( "display_errors", 0);
+	ini_set( "display_errors", 0);
 
 	function getRSS( $url, $callback ) {
 		$rss = new DOMDocument();
@@ -56,10 +56,12 @@
 		$remove = false;
 		// echo $rss->saveHTML();
 		foreach ($rss->getElementsByTagName('item') as $node) {
-			//echo $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue;
 			$img_links = array();
 			$dom = new DOMDocument();
 			$dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
+			
+		//	echo $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue;
+			
 			foreach ( $node->getElementsByTagName('category') as $cate ) {
 				if ( $cate->nodeValue == "Events" ) {
 					$remove = true;
