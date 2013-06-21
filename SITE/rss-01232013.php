@@ -25,45 +25,6 @@
 				);
 			array_push($feed, $item);
 		}
-		$limit = 3;
-		$container = '';
-		$i = 0;
-		foreach( $feed as $item ) {
-			if ( $i < $limit ) {
-				$title = str_replace(' & ', ' &amp; ', $item['title']);
-				$link = $item['link'];
-				$dateArr = explode(' ', $item['date']);
-				$date = $dateArr[2] . ' ' . $dateArr[1] . ', ' . $dateArr[3];
-				$container .=
-				"<li class='". (((($x+1) % 4 == 0)&&($x!=0)) ? 'last' : '') . ($x==0 || $x == $rowLimit ? 'first' : '') ."'>
-					<div class='inner'>
-						<a href='".$link."' target='_blank' title='".$title."'>
-							<p class='date'>".$date."</p>
-							<p class='title'>".$title."</p>
-						</a>
-					</div>
-				</li>";
-			} else {
-				break;
-			}
-			$i++;
-		}
-		print $container;
-	}
-
-	function carouselLoaded( $rss ) {
-		$feed = array();
-		foreach ($rss->getElementsByTagName('item') as $node) {
-			// $img_links = array();
-			// $dom = new DOMDocument();
-			// $dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
-			$item = array (
-				'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-				'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-				'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue
-				);
-			array_push($feed, $item);
-		}
 		$limit = 5;
 		$container = '';
 		$i = 0;
@@ -98,15 +59,14 @@
 			$img_links = array();
 			$dom = new DOMDocument();
 			$dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
-			//echo $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue;
+			
+		//	echo $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue;
+			
 			foreach ( $node->getElementsByTagName('category') as $cate ) {
 				if ( $cate->nodeValue == "Events" ) {
 					$remove = true;
 					break;
 				} else if ( $cate->nodeValue == "News" ){
-					$remove = true;
-					break;
-				} else if ( $cate->nodeValue == "Carousel" ){
 					$remove = true;
 					break;
 				} else {
@@ -172,7 +132,7 @@
 						<p class='author'>Posted by ".$author."</p>
 						<div class='share'>
 							<div class='fb-like' data-href='" . $link . "' data-send='false' data-layout='button_count' data-width='100' data-show-faces='false' data-colorscheme='light' data-font='verdana'></div>
-							<a href='https://twitter.com/share' class='twitter-share-button' data-url='" . $link . "' data-text='" . $title . "' data-via='just_clarity' data-related='just_clarity' data-hashtags='justclarity'>Tweet</a>
+							<a href='https://twitter.com/share' class='twitter-share-button' data-url='" . $link . "' data-text='" . $title . "' data-via='justclarity' data-related='justclarity' data-hashtags='justclarity'>Tweet</a>
 
 						</div>
 					</a>
