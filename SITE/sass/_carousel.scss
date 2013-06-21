@@ -1,0 +1,35 @@
+#carousel {
+	li {
+		float: left;
+		display: block;
+		img {
+			// width: 100%;
+			text-align: center;
+		}
+		a {
+			display: block;
+		}
+	}
+	.caroufredsel_wrapper {
+	}
+	.pagination {
+		list-style: none;
+		margin: 1em auto;
+		a {
+			float: left;
+			display: block;
+			padding: 5px;
+			margin: 0 5px;
+			span {
+				@include circle( 10px, $light-gray );
+				display: block;
+				content: none;
+			}
+			&.selected {
+				span {
+					background: $orange-color;
+				}
+			}
+		}
+	}
+}

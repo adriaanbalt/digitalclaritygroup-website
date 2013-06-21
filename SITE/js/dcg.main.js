@@ -174,8 +174,54 @@
 		}; //.bind(plugin);
 	}
 
+	$.carousel = function() {
+		console.log ( "carouse! " , $('#carousel .carousel') );
+
+		var getPagination = function()
+		{
+			if ( $('#carousel .pagination') )
+			{
+				return $('#carousel .pagination');	
+			}
+			else
+			{
+				return '';
+			}
+		};
+
+		$('#carousel .carousel').carouFredSel({
+			direction: 'left',
+			responsive: true, // if the carousel is responsive
+			width: '100%',
+			scroll: {
+				items: 1, // how many items to scroll at once
+				duration: 500, // time it takes to animate
+				timeoutDuration: 103000, // start after 3 seconds
+				pauseOnHover: true
+			},
+			auto: {
+				delay: 2000, // go to next after 2 seconds
+				easing: 'swing',
+				pauseOnEvent: true,
+				pauseOnResize: true
+			},
+			pagination: {
+				container: getPagination(), // retreives where the pagination should exist in the DOM
+				anchorBuilder: function( nr ) {
+					// builds a custom paginatin buttons
+					return '<a href="#'+nr+'"><span></span></a>';
+				}
+			},
+			swipe: {
+				onMouse: true,
+				onTouch: true // enables touch sliding control
+			}
+		});
+	};
+
 	website = new $.website();
 	ytPlayer = new $.youtubeplayer();
 	overlay = new $.overlay();
+	carousel = new $.carousel();
 
 })(jQuery);
