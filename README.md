@@ -1,4 +1,4 @@
-digitalclaritygroup-website
+digitalclaritygroup.com
 ===========================
 
 Digital Clarity Group
