@@ -223,9 +223,10 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 				<div id='carousel'>
 					<article class='wrapper'>
 						<div class='inner clearfix'>
-							<ul>
+							<ul class='carousel'>
 								<?php getRSS( 'http://www.digitalclaritygroup.com/blog/category/carousel/feed/', 'carouselLoaded' ); ?>
 							</ul>
+							<div class='pagination'></div>
 						</div>
 					</article>
 				</div>
@@ -614,6 +615,9 @@ Content Management, Digital Agency selection, RFP process and Web Design.</p>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+
+		<script src="js/vendor/jquery.touchSwipe.min.js"></script>
+		<script src="js/vendor/jquery.carouFredSel-6.2.1-packed.js"></script>
 
 		<script src="js/jquery.tweet.js"></script>
 		<script src="js/dcg.overlay.js"></script>
