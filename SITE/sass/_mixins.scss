@@ -1,0 +1,12 @@
+
+
+// =========================
+// @name   circle($size, $color)
+// @desc   creates a circle
+// =========================
+@mixin circle($size : 10px, $color : #fff ){
+	border-radius: 50%;
+	width: $size;
+	height: $size;
+	background: $color 
+}
