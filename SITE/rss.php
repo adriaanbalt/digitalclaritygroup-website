@@ -51,40 +51,97 @@
 		print $container;
 	}
 
+	function getTextBetweenTags($tag, $html, $strict=0)
+	{
+		/*** a new dom object ***/
+		$dom = new domDocument;
+
+		/*** load the html into the object ***/
+		if($strict==1)
+		{
+			$dom->loadXML($html);
+		}
+		else
+		{
+			$dom->loadHTML($html);
+		}
+
+		/*** discard white space ***/
+		$dom->preserveWhiteSpace = false;
+
+		/*** the tag by its tag name ***/
+		$content = $dom->getElementsByTagname($tag);
+
+		/*** the array to return ***/
+		$out = array();
+		foreach ($content as $item)
+		{
+			/*** add node value to the out array ***/
+			$out[] = $item->nodeValue;
+		}
+		/*** return the results ***/
+		return $out;
+	}
+
+	function getTagPosArrByString( $string, $tag ) {
+		$accum = 0;
+		while( strpos( $string, $tag, $accum ) !== false  ) {
+			$out[] = $accum = strpos( $string, $tag, $accum );
+			$accum++;
+		}
+		return $out;
+	}
+
+	function getTagAttributeByString( $string, $attribute, $pos ) {
+		$attrPosStart = strpos( $string, $attribute, $pos ) + strlen( $attribute ) + 2;
+		$attrPosEnd = strpos( $string, '"', $attrPosStart );
+		$len = $attrPosEnd - $attrPosStart;
+		return substr ( $string , $attrPosStart, $len );
+	}
+
 	function carouselLoaded( $rss ) {
 		$feed = array();
 		foreach ($rss->getElementsByTagName('item') as $node) {
 			// $img_links = array();
 			// $dom = new DOMDocument();
 			// $dom->loadHTML( $node->getElementsByTagNameNS( "*","encoded" )->item(0)->nodeValue );
+			$arr = getTagPosArrByString( $node->nodeValue, 'img' );
 			$item = array (
 				'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
 				'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+				'img' => getTagAttributeByString ( $node->nodeValue, 'src', $arr[1] ),
+				'imgWidth' =>  getTagAttributeByString ( $node->nodeValue, 'width', $arr[1] ),
+				'imgHeight' =>  getTagAttributeByString ( $node->nodeValue, 'height', $arr[1] ),
 				'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue
 				);
+
 			array_push($feed, $item);
 		}
-		$limit = 5;
+		$limit = count($feed);
 		$container = '';
 		$i = 0;
+		$feed = array_reverse ( $feed );
 		foreach( $feed as $item ) {
-			if ( $i < $limit ) {
+			//if ( $i < $limit ) { // dont need this anymore because it's a carousel.  We want to show all items in the CMS, which will handle the show/hide/add/remove of carousel items instead
 				$title = str_replace(' & ', ' &amp; ', $item['title']);
 				$link = $item['link'];
+				$img = $item['img'];
+				$imgWidth = $item['imgWidth'];
+				$imgHeight = $item['imgHeight'];
 				$dateArr = explode(' ', $item['date']);
 				$date = $dateArr[2] . ' ' . $dateArr[1] . ', ' . $dateArr[3];
 				$container .=
-				"<li class='". (((($x+1) % 4 == 0)&&($x!=0)) ? 'last' : '') . ($x==0 || $x == $rowLimit ? 'first' : '') ."'>
+				"<li class='". (((($i+1) % $limit == 0)&&($i!=0)) ? 'last' : '') . ($i==0 || $i == $rowLimit ? 'first' : '') ."'>
 					<div class='inner'>
 						<a href='".$link."' target='_blank' title='".$title."'>
-							<p class='date'>".$date."</p>
+							<img src='".$img."' width='".$imgWidth."' height='".$imgHeight."'/>
 							<p class='title'>".$title."</p>
 						</a>
 					</div>
 				</li>";
-			} else {
-				break;
-			}
+			// } else {
+			// 	break;
+			// }
 			$i++;
 		}
 		print $container;
