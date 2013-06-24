@@ -134,7 +134,9 @@
 				"<li class='". (((($i+1) % $limit == 0)&&($i!=0)) ? 'last' : '') . ($i==0 || $i == $rowLimit ? 'first' : '') ."'>
 					<div class='inner'>
 						<a href='".$link."' target='_blank' title='".$title."'>
-							<img src='".$img."' width='".$imgWidth."' height='".$imgHeight."'/>
+							<div class='img-contain'>
+								<img src='".$img."' style='min-height:".$imgHeight."px;'/>
+							</div>
 							<p class='title'>".$title."</p>
 						</a>
 					</div>
