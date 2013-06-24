@@ -175,47 +175,59 @@
 	}
 
 	$.carousel = function() {
-		console.log ( "carouse! " , $('#carousel .carousel') );
 
-		var getPagination = function()
-		{
-			if ( $('#carousel .pagination') )
-			{
-				return $('#carousel .pagination');	
+		var imageLoaded = function(e){
+			console.log ( 'imageLoaded ', imgLoaded );
+			imgLoaded++;
+			if ( imgLoaded >= $('#carousel img').length ){
+				complete();
 			}
-			else
-			{
-				return '';
-			}
-		};
+		}
 
-		$('#carousel .carousel').carouFredSel({
-			direction: 'left',
-			responsive: true, // if the carousel is responsive
-			width: '100%',
-			scroll: {
-				items: 1, // how many items to scroll at once
-				duration: 500, // time it takes to animate
-				timeoutDuration: 103000, // start after 3 seconds
-				pauseOnHover: true
-			},
-			auto: {
-				delay: 2000, // go to next after 2 seconds
-				easing: 'swing',
-				pauseOnEvent: true,
-				pauseOnResize: true
-			},
-			pagination: {
-				container: getPagination(), // retreives where the pagination should exist in the DOM
-				anchorBuilder: function( nr ) {
-					// builds a custom paginatin buttons
-					return '<a href="#'+nr+'"><span></span></a>';
+		var complete = function() {
+			$('#carousel').css('display','block');
+			$('#carousel .carousel').carouFredSel({
+				direction: 'left',
+				responsive: true, // if the carousel is responsive
+				width: '100%',
+				scroll: {
+					items: 1, // how many items to scroll at once
+					duration: 500, // time it takes to animate
+					timeoutDuration: 3000, // start after 3 seconds
+					pauseOnHover: true
+				},
+				auto: {
+					delay: 2000, // go to next after 2 seconds
+					easing: 'swing',
+					pauseOnEvent: true,
+					pauseOnResize: true
+				},
+				pagination: {
+					container: $('#carousel .pagination'), // retreives where the pagination should exist in the DOM
+					anchorBuilder: function( nr ) {
+						// builds a custom paginatin buttons
+						return '<a href="#'+nr+'"><span></span></a>';
+					}
+				},
+				swipe: {
+					onMouse: true,
+					onTouch: true // enables touch sliding control
 				}
-			},
-			swipe: {
-				onMouse: true,
-				onTouch: true // enables touch sliding control
+			});
+			var wi = $('#carousel .pagination a').length * ( parseInt( $('#carousel .pagination a').width() ) + parseInt( $('#carousel .pagination a').css('margin-right') ) + parseInt( $('#carousel .pagination a').css('margin-left') ) + parseInt( $('#carousel .pagination a').css('padding-right') ) + parseInt( $('#carousel .pagination a').css('padding-left') ) );
+			$('#carousel .pagination').width( wi );
+		}
+
+		var imgLoaded = 0;
+		$('#carousel img').each( function() {
+			// cached image
+			if ( $(this)[0].complete || $(this)[0].readyState == 4 ) {
+				imageLoaded();
+			} else {
+				$(this).load( imageLoaded );
 			}
+			// handles images that throw an error, the load doesn't skip these and proceeds
+			$(this).on( 'error', imageLoaded );
 		});
 	};
 
