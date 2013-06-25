@@ -1,8 +1,6 @@
-digitalclaritygroup.com
-===========================
+## Digital Clarity Group
 
-Digital Clarity Group
-
+### features
 - Responsive website (phone, tablet, computer)
 - SASS
 - Custom Youtube Playlist player
