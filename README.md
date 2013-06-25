@@ -1,4 +1,4 @@
-## Digital Clarity Group
+## Digital Clarity Group - mobile, tablet, desktop responsive website
 
 ### features
 - Responsive website (phone, tablet, computer)
