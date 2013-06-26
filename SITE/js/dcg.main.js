@@ -193,7 +193,7 @@
 				scroll: {
 					items: 1, // how many items to scroll at once
 					duration: 500, // time it takes to animate
-					timeoutDuration: 3000, // start after 3 seconds
+					timeoutDuration: 3001, // start after 3 seconds
 					pauseOnHover: true
 				},
 				auto: {
