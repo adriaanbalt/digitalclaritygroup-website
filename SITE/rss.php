@@ -137,7 +137,6 @@
 							<div class='img-contain'>
 								<img src='".$img."' style='min-height:".$imgHeight."px;'/>
 							</div>
-							<p class='title'>".$title."</p>
 						</a>
 					</div>
 				</li>";
